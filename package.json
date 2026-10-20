@@ -1,0 +1,12 @@
+{
+  "name": "cwa-typhoon-browser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "update": "node scripts/update-data.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
