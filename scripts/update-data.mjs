@@ -28,13 +28,13 @@ export async function fetchCWA(key, fetcher=fetch) {
     'https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/W-C0034-005?downloadType=WEB&format=JSON',
     'https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005?format=JSON'
   ];
-  for (const url of urls) {
+  for (const [endpoint,url] of urls.entries()) {
     for (let attempt=0; attempt<3; attempt++) {
       try {
         const res=await fetcher(url, {headers:{Authorization:key,Accept:'application/json'},
           signal:AbortSignal.timeout(30000),redirect:'error'});
         if (res.status===401 || res.status===403) throw new Error('AUTH');
-        if (!res.ok) throw new Error('HTTP');
+        if (!res.ok) throw new Error(`HTTP_${res.status}`);
         const text=await res.text();
         if(text.length>10000000 || text.includes(key) || /CWA-[A-Za-z0-9]{8}-[A-Za-z0-9-]{20,}/.test(text))
           throw new Error('UNSAFE');
@@ -43,6 +43,11 @@ export async function fetchCWA(key, fetcher=fetch) {
       } catch(e) {
         if(e.message==='AUTH')throw new Error('CWA rejected the API credential. Check CWA_API_KEY.');
         if(e.message==='UNSAFE')throw new Error('Response rejected by credential/size guard.');
+        const safeMessages=['Invalid CWA response','Unrecognized CWA schema','Incomplete cyclone records',
+          'Missing cyclone identity or bulletin time','Invalid cyclone coordinates'];
+        const reason=/^HTTP_\d{3}$/.test(e.message)||safeMessages.includes(e.message)?e.message:
+          e.name==='SyntaxError'?'Response is not valid JSON':e.name==='TimeoutError'?'Request timed out':'Network request failed';
+        console.warn(`CWA endpoint ${endpoint+1}, attempt ${attempt+1}: ${reason}`);
         if(attempt<2)await new Promise(r=>setTimeout(r,1000*(attempt+1)));
       }
     }
