@@ -438,7 +438,7 @@ function showBanner(){
 }
 
 /* ---------- public data only: credentials never reach this page ---------- */
-let loading=false;
+let loading=false, hostedMode=null;
 async function fetchCWA(auto=false){
   if(loading)return; loading=true; $('fetchBtn').disabled=true;
   try{
@@ -446,6 +446,10 @@ async function fetchCWA(auto=false){
     if(!r.ok)throw new Error('data unavailable');
     const data=await r.json();
     if(data.schema!==1||!Array.isArray(data.items))throw new Error('invalid data');
+    if(hostedMode==='sample' && data.mode==='live'){
+      store.length=0;cur=null;curFc=null;selPt=null;
+    }
+    hostedMode=data.mode;
     data.items.forEach(item=>{const t=fromCompact(item);markSaved(t);merge(t)});
     recompute();refreshTySel(cur&&store.includes(cur)?cur:null);
     const sample=data.mode==='sample';
