@@ -175,7 +175,8 @@ tbody tr:hover,tbody tr.on{background:color-mix(in srgb,var(--sel) 12%,transpare
   <p id="dataNotice" role="alert" style="padding:12px;background:#fff1cd;color:#3b2e12;border:1px solid #d9a33b;border-radius:8px">正在確認資料狀態…</p>
   <div class="toolbar">
     <div class="tgroup">
-      <button type="button" class="primary" id="fetchBtn">重新讀取資料</button>
+      <button type="button" class="primary" id="fetchBtn" aria-describedby="refreshResult" title="重新讀取網站已發布的資料；不直接向氣象署發送更新">重新讀取網站資料</button>
+      <span id="refreshResult" role="status" aria-live="polite" style="flex-basis:100%;font-size:13px;color:var(--muted);line-height:1.6">按下後會檢查網站已發布的最新資料；氣象署資料由 GitHub 每小時自動檢查。</span>
     </div>
     <span class="sep"></span>
     <div class="tgroup">
@@ -438,14 +439,18 @@ function showBanner(){
 }
 
 /* ---------- public data only: credentials never reach this page ---------- */
-let loading=false, hostedMode=null;
+let loading=false, hostedMode=null, lastHostedSnapshot=null, lastHostedCheck=null;
 async function fetchCWA(auto=false){
-  if(loading)return; loading=true; $('fetchBtn').disabled=true;
+  if(loading){ if(!auto)$('refreshResult').textContent='正在讀取中，請稍候…'; return; }
+  loading=true; $('fetchBtn').disabled=true; $('fetchBtn').textContent='讀取中…';
+  if(!auto)$('refreshResult').textContent='正在確認 GitHub Pages 最新公開資料…';
   try{
-    const r=await fetch('./data/archive.json',{cache:'no-store'});
+    const r=await fetch('./data/archive.json?refresh='+Date.now(),{cache:'no-store'});
     if(!r.ok)throw new Error('data unavailable');
     const data=await r.json();
     if(data.schema!==1||!Array.isArray(data.items))throw new Error('invalid data');
+    const previousSnapshot=lastHostedSnapshot, previousCheck=lastHostedCheck;
+    const newSnapshot=JSON.stringify({mode:data.mode,sourceSent:data.sourceSent,items:data.items});
     if(hostedMode==='sample' && data.mode==='live'){
       store.length=0;cur=null;curFc=null;selPt=null;
     }
@@ -463,11 +468,22 @@ async function fetchCWA(auto=false){
       (age>3*3600e3?' ⚠ 超過 3 小時未成功檢查，資料可能過期。':'')+
       (active&&oldBulletin?' ⚠ 氣象署資料時間距今超過 12 小時。':'');
     $('nextChk').textContent='網站每小時檢查 · 本頁每 10 分鐘重讀';
-    status(sample?'已載入六版歷史範例。':`已讀取 ${data.items.length} 個颱風的累積紀錄。`,'ok');
+    const changed=previousSnapshot!==null&&previousSnapshot!==newSnapshot;
+    const checkedAgain=previousCheck!==null&&previousCheck!==data.checkedAt;
+    lastHostedSnapshot=newSnapshot;
+    lastHostedCheck=data.checkedAt||null;
+    const outcome=sample?'目前仍是範例資料':
+      previousSnapshot===null?'已載入網站預報資料':
+      changed?'已讀取到不同的預報資料':
+      checkedAgain?'重新讀取成功，網站檢查時間已更新，預報內容未變':'重新讀取成功，目前沒有新預報';
+    const report=`${outcome}。網站最近成功檢查：${checked}；氣象資料時間：${data.sourceSent?data.sourceSent.replace('T',' '):'未提供'}。`;
+    if(!auto||previousSnapshot===null||changed)$('refreshResult').textContent=report;
+    status(report,'ok');
     if(!store.length)setEmpty('目前 API 沒有熱帶氣旋資料。可用「載入檔案」開啟歷史紀錄。');
   }catch(e){status('網站資料讀取失敗，請稍後重試。畫面上的既有資料可能已過期。','err');
+    $('refreshResult').textContent='讀取網站資料失敗；請檢查網路或稍後再試，既有畫面不代表最新預報。';
     $('dataNotice').textContent='⚠ 無法確認更新狀態。請以中央氣象署最新公告為準。';
-  }finally{loading=false;$('fetchBtn').disabled=false}
+  }finally{loading=false;$('fetchBtn').disabled=false;$('fetchBtn').textContent='重新讀取網站資料'}
 }
 $('fetchBtn').onclick=()=>fetchCWA(false);
 setInterval(()=>{if(!document.hidden)fetchCWA(true)},600000);
