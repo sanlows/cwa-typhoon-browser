@@ -15,6 +15,11 @@ export function parseResponse(raw) {
   for (const t of tracks) {
     if (!/^\d{4}$/.test(t.year) || !(t.tyNo || t.tdNo || t.en))
       throw new Error('Missing cyclone identity');
+    if(!t.updated){
+      // Datastore omits Sent. A model cycle is not a publication time.
+      t.updated=[...t.an.map(p=>p.t),...t.fc.map(f=>f.init)].filter(Boolean).sort().at(-1);
+      t.timeBasis='cycle';
+    }else t.timeBasis='publication';
     if(!t.updated)throw new Error('Missing bulletin time');
     for (const p of [...t.an,...t.fc.flatMap(f=>f.fixes)])
       if (!Number.isFinite(p.lon) || !Number.isFinite(p.lat) || Math.abs(p.lat)>90 || Math.abs(p.lon)>180)
@@ -26,7 +31,6 @@ export function parseResponse(raw) {
 export async function fetchCWA(key, fetcher=fetch) {
   // Header authentication avoids credentials in URLs. Redirects are rejected.
   const urls = [
-    'https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/W-C0034-005?downloadType=WEB&format=JSON',
     'https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005?format=JSON'
   ];
   for (const [endpoint,url] of urls.entries()) {
@@ -40,21 +44,7 @@ export async function fetchCWA(key, fetcher=fetch) {
         if(text.length>10000000 || text.includes(key) || /CWA-[A-Za-z0-9]{8}-[A-Za-z0-9-]{20,}/.test(text))
           throw new Error('UNSAFE');
         const raw=JSON.parse(text);
-        try { return {raw, tracks:parseResponse(raw)}; }
-        catch(e){
-          const fields=[];
-          function inspect(o,path=''){
-            if(!o||typeof o!=='object')return;
-            for(const [k,v] of Object.entries(o)){
-              if(fields.length>=25)return;
-              if(typeof v==='string'&&/sent|time|date|identifier/i.test(k)&&/^[0-9TtZz:+ .\/-]+$/.test(v))fields.push([path+k,v]);
-              else if(v&&typeof v==='object')inspect(Array.isArray(v)?v.slice(0,1):v,path+k+'.');
-            }
-          }
-          inspect(raw);
-          console.warn('CWA schema diagnostics: '+JSON.stringify({rootKeys:Object.keys(raw),timestampFields:fields}));
-          throw e;
-        }
+        return {raw, tracks:parseResponse(raw)};
       } catch(e) {
         if(e.message==='AUTH')throw new Error('CWA rejected the API credential. Check CWA_API_KEY.');
         if(e.message==='UNSAFE')throw new Error('Response rejected by credential/size guard.');
@@ -82,6 +72,7 @@ async function main() {
   tracks.forEach(merge);
   const output={schema:1,mode:'live',checkedAt:new Date().toISOString(),
     sourceSent:tracks.map(t=>t.updated).sort().at(-1) || null,
+    sourceTimeBasis:tracks.some(t=>t.timeBasis==='cycle')?'cycle':'publication',
     activeKeys:tracks.map(keyOf),items:store.map(toCompact)};
   if(previous.sourceSent && output.sourceSent && previous.mode==='live' && output.sourceSent<previous.sourceSent)
     throw new Error('CWA bulletin is older than the previous successful fetch. Existing data preserved.');

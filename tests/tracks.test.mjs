@@ -33,6 +33,11 @@ test('new forecast versions accumulate; newer correction replaces the same versi
   assert.equal(store[0].fc.length,2);assert.equal(store[0].fc[1].fixes[0].lon,128);
   const other={...a,year:'2027'};merge(other);assert.equal(store.length,2);
 });
+test('datastore without Sent uses the cycle, never fabricates publication time',()=>{
+  const raw=fixture();delete raw.cwaopendata.Sent;
+  const t=parseResponse(raw)[0];assert.equal(t.updated,'2026-10-19T20:00');
+  assert.equal(t.timeBasis,'cycle');assert.equal(t.fc[0].sent,null);assert.equal(t.an[0].s,null);
+});
 test('credentials are only in request headers; authorization failure is sanitized',async()=>{
   const secret='test-secret-not-a-real-key';
   await assert.rejects(fetchCWA(secret,async(url,options)=>{
