@@ -13,8 +13,9 @@ export function parseResponse(raw) {
   const tracks = parseRaw(raw);
   if (tracks.length !== nodes.length) throw new Error('Incomplete cyclone records');
   for (const t of tracks) {
-    if (!/^\d{4}$/.test(t.year) || !(t.tyNo || t.tdNo || t.en) || !t.updated)
-      throw new Error('Missing cyclone identity or bulletin time');
+    if (!/^\d{4}$/.test(t.year) || !(t.tyNo || t.tdNo || t.en))
+      throw new Error('Missing cyclone identity');
+    if(!t.updated)throw new Error('Missing bulletin time');
     for (const p of [...t.an,...t.fc.flatMap(f=>f.fixes)])
       if (!Number.isFinite(p.lon) || !Number.isFinite(p.lat) || Math.abs(p.lat)>90 || Math.abs(p.lon)>180)
         throw new Error('Invalid cyclone coordinates');
@@ -39,12 +40,26 @@ export async function fetchCWA(key, fetcher=fetch) {
         if(text.length>10000000 || text.includes(key) || /CWA-[A-Za-z0-9]{8}-[A-Za-z0-9-]{20,}/.test(text))
           throw new Error('UNSAFE');
         const raw=JSON.parse(text);
-        return {raw, tracks:parseResponse(raw)};
+        try { return {raw, tracks:parseResponse(raw)}; }
+        catch(e){
+          const fields=[];
+          function inspect(o,path=''){
+            if(!o||typeof o!=='object')return;
+            for(const [k,v] of Object.entries(o)){
+              if(fields.length>=25)return;
+              if(typeof v==='string'&&/sent|time|date|identifier/i.test(k)&&/^[0-9TtZz:+ .\/-]+$/.test(v))fields.push([path+k,v]);
+              else if(v&&typeof v==='object')inspect(Array.isArray(v)?v.slice(0,1):v,path+k+'.');
+            }
+          }
+          inspect(raw);
+          console.warn('CWA schema diagnostics: '+JSON.stringify({rootKeys:Object.keys(raw),timestampFields:fields}));
+          throw e;
+        }
       } catch(e) {
         if(e.message==='AUTH')throw new Error('CWA rejected the API credential. Check CWA_API_KEY.');
         if(e.message==='UNSAFE')throw new Error('Response rejected by credential/size guard.');
         const safeMessages=['Invalid CWA response','Unrecognized CWA schema','Incomplete cyclone records',
-          'Missing cyclone identity or bulletin time','Invalid cyclone coordinates'];
+          'Missing cyclone identity','Missing bulletin time','Invalid cyclone coordinates'];
         const reason=/^HTTP_\d{3}$/.test(e.message)||safeMessages.includes(e.message)?e.message:
           e.name==='SyntaxError'?'Response is not valid JSON':e.name==='TimeoutError'?'Request timed out':'Network request failed';
         console.warn(`CWA endpoint ${endpoint+1}, attempt ${attempt+1}: ${reason}`);
