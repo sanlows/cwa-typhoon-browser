@@ -11,10 +11,9 @@ const fixture=()=>({cwaopendata:{Sent:'2026-10-20T00:00:00+08:00',Dataset:{Tropi
   ForecastData:{Fix:{InitialTime:'2026-10-19T20:00:00+08:00',ForecastHour:'6',CoordinateLongitude:'129',CoordinateLatitude:'21'}}
 }}}}});
 test('supplied six-bulletin sample round-trips and merging is idempotent',async()=>{
-  const data=JSON.parse(await readFile(new URL('../site/data/archive.json',import.meta.url),'utf8'));
-  if(data.mode!=='sample')return;
-  const t=fromCompact(data.items[0]);assert.equal(t.fc.length,6);assert.equal(t.an.length,23);
-  assert.deepEqual(toCompact(t),data.items[0]);store.length=0;merge(t);merge(t);
+  const data=JSON.parse(await readFile(new URL('./fixtures/champi-20261019.json',import.meta.url),'utf8'));
+  const t=fromCompact(data);assert.equal(t.fc.length,6);assert.equal(t.an.length,23);
+  assert.deepEqual(toCompact(t),data);store.length=0;merge(t);merge(t);
   assert.equal(store.length,1);assert.equal(store[0].fc.length,6);
 });
 test('CWA parser converts UTC to Taiwan time and preserves forecast hours',()=>{
