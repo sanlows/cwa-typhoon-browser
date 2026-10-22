@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T17:20:19.902Z",
+  "generatedAt": "2026-10-22T20:31:40.951Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-22T17:20:19.899Z",
-      "attemptedAt": "2026-10-22T17:20:17.889Z",
+      "checkedAt": "2026-10-22T20:31:40.239Z",
+      "attemptedAt": "2026-10-22T20:31:38.718Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-22T17:20:19.902Z",
-      "attemptedAt": "2026-10-22T17:20:17.920Z",
+      "checkedAt": "2026-10-22T20:31:40.951Z",
+      "attemptedAt": "2026-10-22T20:31:38.761Z",
       "data": {
         "items": [
           {
-            "title": "10/23 00:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610230015",
-            "publishedAt": "2026-10-22T16:15:00.000Z",
+            "title": "10/23 04:15 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610230415",
+            "publishedAt": "2026-10-22T20:15:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -830,8 +830,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-22T17:20:19.461Z",
-      "attemptedAt": "2026-10-22T17:20:17.921Z",
+      "checkedAt": "2026-10-22T20:31:39.777Z",
+      "attemptedAt": "2026-10-22T20:31:38.763Z",
       "data": {
         "items": [
           {
@@ -1029,10 +1029,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-22T17:20:19.460Z",
-      "attemptedAt": "2026-10-22T17:20:17.922Z",
+      "checkedAt": "2026-10-22T20:31:39.782Z",
+      "attemptedAt": "2026-10-22T20:31:38.764Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯",
+            "url": "https://www.cna.com.tw/news/ahel/202610230002.aspx",
+            "publishedAt": "2026-10-22T16:24:18.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "高鐵台北站南下人潮擠爆　台鐵緊急加開2列次",
             "url": "https://www.cna.com.tw/news/ahel/202610220438.aspx",
@@ -1169,14 +1177,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "蘇花路廊蘇澳至崇德段　23日上午8時起預警性封閉",
-            "url": "https://www.cna.com.tw/news/ahel/202610220380.aspx",
-            "publishedAt": "2026-10-22T12:10:57.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1184,6 +1184,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-22T17:20:17.889Z"
+    "attemptedAt": "2026-10-22T20:31:38.717Z"
   }
 }
