@@ -1,8 +1,10 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile,writeFile,mkdtemp,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
 import {fromCompact,toCompact,merge,store} from '../scripts/track-core.mjs';
-import {parseResponse,fetchCWA,keyOf} from '../scripts/update-data.mjs';
+import {parseResponse,fetchCWA,keyOf,main} from '../scripts/update-data.mjs';
 
 // Synthetic protocol fixtures used only by tests, never published as weather data.
 const fixture=()=>({cwaopendata:{Sent:'2026-10-20T00:00:00+08:00',Dataset:{TropicalCyclones:{TropicalCyclone:{
@@ -50,4 +52,27 @@ test('server response echoing a credential is blocked before publication',async(
 test('identity keys include year and distinguish numbered typhoons from depressions',()=>{
   assert.equal(keyOf({year:'2026',tyNo:'1'}),'2026:TY1');
   assert.equal(keyOf({year:'2026',tdNo:'1'}),'2026:TD1');
+});
+
+test('successful unchanged checks publish their time, empty response preserves history, auth failure preserves bytes',async()=>{
+  const dir=await mkdtemp(join(tmpdir(),'cwa-update-'));
+  const path=join(dir,'archive.json'),key='test-secret-not-a-real-key';
+  const response=raw=>async()=>({status:200,ok:true,text:async()=>JSON.stringify(raw)});
+  try{
+    await writeFile(path,JSON.stringify({mode:'live',items:[],activeKeys:[],checkedAt:null}));
+    await main({key,path,fetcher:response(fixture())});
+    const first=JSON.parse(await readFile(path,'utf8'));
+    const oldCheck=new Date(Date.now()-1000).toISOString();
+    await writeFile(path,JSON.stringify({...first,checkedAt:oldCheck}));
+    await main({key,path,fetcher:response(fixture())});
+    const next=JSON.parse(await readFile(path,'utf8'));
+    assert.notEqual(next.checkedAt,oldCheck);
+    assert.deepEqual(next.items,first.items);
+    await main({key,path,fetcher:response({records:{TropicalCyclones:{}}})});
+    const empty=JSON.parse(await readFile(path,'utf8'));
+    assert.deepEqual(empty.activeKeys,[]);assert.deepEqual(empty.items,first.items);
+    const before=await readFile(path,'utf8');
+    await assert.rejects(main({key,path,fetcher:async()=>({status:401,ok:false})}),/CWA rejected/);
+    assert.equal(await readFile(path,'utf8'),before);assert.ok(!before.includes(key));
+  }finally{await rm(dir,{recursive:true,force:true})}
 });

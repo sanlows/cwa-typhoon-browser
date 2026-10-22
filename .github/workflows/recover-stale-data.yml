@@ -1,0 +1,45 @@
+name: Recover stale CWA updates
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: cwa-recovery
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/github-script@v8
+        with:
+          script: |
+            const repo = context.repo;
+            const {data: file} = await github.rest.repos.getContent({...repo, path: 'site/data/archive.json', ref: 'main'});
+            const archive = JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'));
+            const checked = Date.parse(archive.checkedAt);
+            const age = Date.now() - checked;
+            let hostedFresh = false;
+            try {
+              const response = await fetch('https://sanlows.github.io/cwa-typhoon-browser/data/archive.json?health=' + Date.now(), {cache: 'no-store', signal: AbortSignal.timeout(20_000)});
+              if (!response.ok) throw new Error('Pages unavailable');
+              const hosted = await response.json();
+              const hostedAge = Date.now() - Date.parse(hosted.checkedAt);
+              hostedFresh = hosted.mode === 'live' && Number.isFinite(hostedAge) && hostedAge >= 0 && hostedAge < 45 * 60_000;
+            } catch {
+              core.warning('Could not confirm fresh Pages data; checking for a recovery run.');
+            }
+            if (archive.mode === 'live' && Number.isFinite(age) && age >= 0 && age < 45 * 60_000 && hostedFresh) {
+              core.notice('Repository and public Pages data are fresh.');
+              return;
+            }
+            const {data: runs} = await github.rest.actions.listWorkflowRuns({...repo, workflow_id: 'update-and-deploy.yml', per_page: 20});
+            if (runs.workflow_runs.some(r => ['queued', 'in_progress', 'waiting', 'pending', 'requested'].includes(r.status))) {
+              core.notice('An update is already pending or running.');
+              return;
+            }
+            await github.rest.actions.createWorkflowDispatch({...repo, workflow_id: 'update-and-deploy.yml', ref: 'main'});
+            core.warning('CWA check is stale; dispatched an update. Check the update and Pages deployment run for completion.');

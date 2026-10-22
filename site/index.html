@@ -176,7 +176,7 @@ tbody tr:hover,tbody tr.on{background:color-mix(in srgb,var(--sel) 12%,transpare
   <div class="toolbar">
     <div class="tgroup">
       <button type="button" class="primary" id="fetchBtn" aria-describedby="refreshResult" title="重新讀取網站已發布的資料；不直接向氣象署發送更新">重新讀取網站資料</button>
-      <span id="refreshResult" role="status" aria-live="polite" style="flex-basis:100%;font-size:13px;color:var(--muted);line-height:1.6">按下後會檢查網站已發布的最新資料；氣象署資料由 GitHub 每小時自動檢查。</span>
+      <span id="refreshResult" role="status" aria-live="polite" style="flex-basis:100%;font-size:13px;color:var(--muted);line-height:1.6">按下後重讀網站資料。後台預計每 15 分鐘抓取；排程可能延遲。</span>
     </div>
     <span class="sep"></span>
     <div class="tgroup">
@@ -462,12 +462,14 @@ async function fetchCWA(auto=false){
     const oldBulletin=data.sourceSent?Date.now()-Date.parse(data.sourceSent+':00+08:00')>12*3600e3:false;
     const checked=data.checkedAt?new Date(data.checkedAt).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false}):'尚未連線';
     const active=data.activeKeys?.length||0;
+    const staleCheck=!Number.isFinite(age)||age<0||age>90*60e3;
     $('dataNotice').textContent=sample?'範例資料：2026/10/19 薔琵六版預報。尚未啟用 API 更新，這不是即時預報。':
       `最近成功檢查：${checked}（臺灣時間）。目前 API 回傳 ${active} 個熱帶氣旋；清單保留歷史紀錄。`+
+      ` 官方資料時間：${data.sourceSent?data.sourceSent.replace('T',' ')+'（臺灣時間）':'未提供'}。`+
       (data.sourceTimeBasis==='cycle'?' API 未提供發布時間，資料時間採用起報／觀測時間。':'')+
-      (age>3*3600e3?' ⚠ 超過 3 小時未成功檢查，資料可能過期。':'')+
+      (staleCheck?' ⚠ 自動更新逾 90 分鐘未確認成功或時間異常；可能是排程、抓取或部署延遲。重新讀取本頁不會觸發後台抓取。':'')+
       (active&&oldBulletin?' ⚠ 氣象署資料時間距今超過 12 小時。':'');
-    $('nextChk').textContent='網站預計每 15 分鐘檢查 · 本頁每 10 分鐘重讀';
+    $('nextChk').textContent='預計每 15 分鐘抓取 · 過期補抓檢查每 30 分鐘 · 本頁每 10 分鐘重讀';
     const changed=previousSnapshot!==null&&previousSnapshot!==newSnapshot;
     const checkedAgain=previousCheck!==null&&previousCheck!==data.checkedAt;
     lastHostedSnapshot=newSnapshot;
@@ -475,10 +477,11 @@ async function fetchCWA(auto=false){
     const outcome=sample?'目前仍是範例資料':
       previousSnapshot===null?'已載入網站預報資料':
       changed?'已讀取到不同的預報資料':
-      checkedAgain?'重新讀取成功，網站檢查時間已更新，預報內容未變':'重新讀取成功，目前沒有新預報';
+      staleCheck?'已重讀網站，但後台檢查時間過期，無法確認官方是否已有新預報':
+      checkedAgain?'重新讀取成功，網站檢查時間已更新，預報內容未變':'網站已發布內容未變，這不代表官方沒有新預報';
     const report=`${outcome}。網站最近成功檢查：${checked}；氣象資料時間：${data.sourceSent?data.sourceSent.replace('T',' '):'未提供'}。`;
-    if(!auto||previousSnapshot===null||changed)$('refreshResult').textContent=report;
-    status(report,'ok');
+    $('refreshResult').textContent=report;
+    status(report,staleCheck?'err':'ok');
     if(!store.length)setEmpty('目前 API 沒有熱帶氣旋資料。可用「載入檔案」開啟歷史紀錄。');
   }catch(e){status('網站資料讀取失敗，請稍後重試。畫面上的既有資料可能已過期。','err');
     $('refreshResult').textContent='讀取網站資料失敗；請檢查網路或稍後再試，既有畫面不代表最新預報。';

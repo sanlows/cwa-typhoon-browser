@@ -6,6 +6,8 @@ on:
   schedule:
     - cron: '11,26,41,56 * * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [cwa-refresh]
 
 permissions:
   contents: read
@@ -21,6 +23,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
@@ -29,12 +33,7 @@ jobs:
       - name: Fetch and accumulate CWA data
         env:
           CWA_API_KEY: ${{ secrets.CWA_API_KEY }}
-        run: |
-          if [ -z "$CWA_API_KEY" ] && [ "${{ github.event_name }}" = "push" ]; then
-            echo '::warning::CWA_API_KEY is missing; publishing the clearly labelled sample.'
-          else
-            node scripts/update-data.mjs
-          fi
+        run: node scripts/update-data.mjs
       - name: Preserve successful data for later runs
         run: |
           if ! git diff --quiet -- site/data/archive.json; then

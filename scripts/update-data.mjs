@@ -60,12 +60,10 @@ export async function fetchCWA(key, fetcher=fetch) {
   throw new Error('CWA fetch or schema validation failed. Existing data was preserved.');
 }
 
-async function main() {
-  const key=process.env.CWA_API_KEY?.trim();
+export async function main({key=process.env.CWA_API_KEY?.trim(),path=resolve('site/data/archive.json'),fetcher=fetch}={}) {
   if(!key)throw new Error('Set repository Actions secret CWA_API_KEY before updating.');
-  const path=resolve('site/data/archive.json');
   const previous=JSON.parse(await readFile(path,'utf8'));
-  const {raw,tracks}=await fetchCWA(key);
+  const {tracks}=await fetchCWA(key,fetcher);
   store.length=0;
   // The supplied sample is only a demo, never silently mixed into verified API history.
   if(previous.mode==='live')previous.items.forEach(t=>merge(fromCompact(t)));
@@ -76,19 +74,8 @@ async function main() {
     activeKeys:tracks.map(keyOf),items:store.map(toCompact)};
   if(previous.sourceSent && output.sourceSent && previous.mode==='live' && output.sourceSent<previous.sourceSent)
     throw new Error('CWA bulletin is older than the previous successful fetch. Existing data preserved.');
-  const sameForecastData=previous.mode==='live' &&
-    previous.sourceSent===output.sourceSent &&
-    previous.sourceTimeBasis===output.sourceTimeBasis &&
-    JSON.stringify(previous.activeKeys)===JSON.stringify(output.activeKeys) &&
-    JSON.stringify(previous.items)===JSON.stringify(output.items);
-  const ageOfPublishedCheck=Date.now()-Date.parse(previous.checkedAt||'');
-  // Keep polling frequently, but avoid a repository commit for each unchanged check.
-  // Real forecast changes always publish immediately; unchanged checks publish hourly.
-  if(sameForecastData && Number.isFinite(ageOfPublishedCheck) &&
-      ageOfPublishedCheck>=0 && ageOfPublishedCheck<55*60*1000){
-    console.log('CWA check successful; no forecast changes and published status still fresh.');
-    return;
-  }
+  // Publish every successful check, including unchanged forecasts. Visitors and
+  // recovery checks must see the actual fetch time, not an hourly approximation.
   const serialized=JSON.stringify(output,null,2)+'\n';
   if(serialized.includes(key))throw new Error('Credential guard blocked publication.');
   await mkdir(resolve('site/data'),{recursive:true});
