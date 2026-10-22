@@ -40,3 +40,4 @@ export function trackPoints(item,forecastIndex=(item?.fc?.length||1)-1){
 }
 export function cycloneKey(t){return `${t.year}:${t.tyNo?'TY'+t.tyNo:t.tdNo?'TD'+t.tdNo:t.en}`}
 export function activeCyclones(archive){return (archive?.items||[]).filter(t=>(archive.activeKeys||[]).includes(cycloneKey(t)))}
+export function featureCyclone(archive){return archive?.mode==='live'&&activeCyclones(archive).length>0}

@@ -1,4 +1,5 @@
-import {COUNTIES,twDate,freshness,validPeriods,newsFor,distance,trackPoints,activeCyclones} from './portal-core.mjs';
+import {COUNTIES,twDate,freshness,validPeriods,newsFor,distance,trackPoints,activeCyclones,featureCyclone} from './portal-core.mjs';
+import {StormVisual} from './storm-visual.mjs';
 const $=id=>document.getElementById(id),el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n};
 const sv=(tag,attrs={},text)=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!=null)n.textContent=text;return n};
 const fmt=(s,full=false)=>{const d=twDate(s);return Number.isFinite(d)?new Date(d).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',...(full?{year:'numeric',second:'2-digit'}:{}),hour12:false}):'尚無成功紀錄'};
@@ -10,10 +11,11 @@ let region='全部',scope='related',category='all',newsLimit=7,portal=null,archi
 function setHealth(id,source){const state=freshness(source);$(id).className='badge '+state;$(id).textContent={fresh:'已成功抓取',stale:'過期／待確認',unavailable:'尚無資料'}[state];return state}
 function source(id){const s=portal?.sources?.[id];return portalFailed&&s?{...s,status:'error'}:s}
 function cycloneSource(){const attempt=portal?.cycloneAttempt;const failed=attempt?.status==='error'&&Date.parse(attempt.attemptedAt)>=Date.parse(archive?.checkedAt||'');return archive?{status:archiveFailed||archive.mode!=='live'||failed?'error':'ok',checkedAt:archive.checkedAt,attemptedAt:attempt?.attemptedAt}:null}
-for(const c of COUNTIES){const o=el('option',null,c.name);o.value=c.name;$('county').append(o)}$('county').value=county;
+for(const c of COUNTIES){for(const id of ['county','storm-county']){const o=el('option',null,c.name);o.value=c.name;$(id).append(o)}}$('county').value=$('storm-county').value=county;
 for(const label of ['全部','北部','中部','南部','東部','離島']){const b=el('button',null,label);b.type='button';b.setAttribute('aria-pressed',label===region);b.onclick=()=>{region=label;for(const n of $('regions').children)n.setAttribute('aria-pressed',n===b);renderCounties()};$('regions').append(b)}
-function selectCounty(name){county=name;$('county').value=name;try{localStorage.setItem('taiwan-daily-county',name)}catch{}newsLimit=7;renderWeather();renderCounties();renderIsland();renderNews();renderTrackPoint()}
+function selectCounty(name){county=name;$('county').value=$('storm-county').value=name;try{localStorage.setItem('taiwan-daily-county',name)}catch{}newsLimit=7;renderWeather();renderCounties();renderIsland();renderNews();renderTrackPoint()}
 $('county').onchange=e=>selectCounty(e.target.value);
+$('storm-county').onchange=e=>selectCounty(e.target.value);
 function forecastFor(name){return source('forecast')?.data?.counties?.find(c=>c.name===name)}
 function renderWeather(){
  const s=source('forecast'),state=setHealth('forecast-health',s),periods=validPeriods(forecastFor(county)),p=periods[0];
@@ -68,30 +70,41 @@ $('news-category').onchange=e=>{category=e.target.value;newsLimit=7;renderNews()
 function stop(){if(timer)clearInterval(timer);timer=null;$('play').textContent='▶ 播放';$('play').setAttribute('aria-label','播放颱風路徑')}
 function renderStorm(reset=true){
  if(reset)stop();const state=setHealth('storm-health',cycloneSource()),active=activeCyclones(archive),items=archive?.items||[];
- $('event-banner').hidden=!active.length;$('event-banner').textContent=active.length?`${state==='fresh'?'熱帶氣旋動態':'上次熱帶氣旋紀錄（更新待確認）'}｜${active.map(t=>t.name||t.en).join('、')}　查看路徑與歷次預報 →`:'';
+ const featured=featureCyclone(archive);$('storm').hidden=false;$('storm').classList.toggle('featured',featured);(featured?$('storm-primary-slot'):$('storm-secondary-slot')).append($('storm'));
+ $('event-banner').hidden=true;
  if(!archive||archive.mode!=='live'){$('storm-state').textContent='尚未取得已驗證的熱帶氣旋資料，無法判定目前活動情形。';$('storm-active').hidden=true;return}
  $('storm-state').textContent=(state==='fresh'?'':'⚠ 本次更新未確認，以下為上次成功紀錄。 ')+(active.length?`氣象署最近回傳 ${active.length} 個熱帶氣旋。`:'氣象署最近一次成功檢查未回傳活動熱帶氣旋。')+` 保留 ${items.length} 個歷史紀錄；成功檢查 ${fmt(archive.checkedAt)}。`;
  $('storm-active').hidden=!items.length;if(!items.length)return;
- if(reset){const prior=$('storm-select').value;let index=items.findIndex(t=>`${t.year}:${t.tyNo}:${t.tdNo}`===prior);if(index<0)index=Math.max(0,items.indexOf(active[0]));stormIndex=index;$('storm-select').replaceChildren();for(const [i,t]of items.entries()){const o=el('option',null,`${t.year} ${t.name||t.en} ${active.includes(t)?'· API 目前回傳':'· 歷史'}`);o.value=`${t.year}:${t.tyNo}:${t.tdNo}`;o.dataset.index=i;$('storm-select').append(o)}$('storm-select').selectedIndex=stormIndex;versionIndex=Math.max(0,(items[stormIndex]?.fc?.length||1)-1);renderVersions()}
+ if(reset){const prior=$('storm-select').value;let index=items.findIndex(t=>`${t.year}:${t.tyNo}:${t.tdNo}`===prior);if(index<0||(featured&&!active.includes(items[index])))index=Math.max(0,items.indexOf(active[0]));stormIndex=index;$('storm-select').replaceChildren();for(const [i,t]of items.entries()){const o=el('option',null,`${t.year} ${t.name||t.en} ${active.includes(t)?'· API 目前回傳':'· 歷史'}`);o.value=`${t.year}:${t.tyNo}:${t.tdNo}`;o.dataset.index=i;$('storm-select').append(o)}$('storm-select').selectedIndex=stormIndex;versionIndex=Math.max(0,(items[stormIndex]?.fc?.length||1)-1);renderVersions()}
 }
-function renderVersions(){stop();const t=archive?.items?.[stormIndex];$('version-select').replaceChildren();for(const [i,f]of (t?.fc||[]).entries()){const o=el('option',null,`${fmt(f.init)} 起報`);o.value=i;$('version-select').append(o)}$('version-select').value=String(versionIndex);points=trackPoints(t,versionIndex);$('timeline').max=Math.max(0,points.length-1);$('timeline').value=Math.max(0,points.findLastIndex(p=>p.kind==='觀測'));$('play').disabled=points.length<2;renderTrackPoint()}
+function renderVersions(){stop();const t=archive?.items?.[stormIndex];$('storm-name').textContent=t?.name||t?.en||'熱帶氣旋';$('storm-en').textContent=t?.en||'';$('storm-identity').textContent=t?`${t.year} · ${t.tyNo?'第 '+t.tyNo+' 號颱風':'熱帶性低氣壓'} · TROPICAL CYCLONE MONITOR`:'TROPICAL CYCLONE MONITOR';$('storm-official-time').textContent=`官方資料 ${fmt(archive?.sourceSent)}`;$('storm-check-time').textContent=`成功抓取 ${fmt(archive?.checkedAt)}`;stormVisual.reset();$('version-select').replaceChildren();for(const [i,f]of (t?.fc||[]).entries()){const o=el('option',null,`${fmt(f.init)} 起報`);o.value=i;$('version-select').append(o)}$('version-select').value=String(versionIndex);points=trackPoints(t,versionIndex);$('timeline').max=Math.max(0,points.length-1);$('timeline').value=Math.max(0,points.findLastIndex(p=>p.kind==='觀測'));$('play').disabled=points.length<2;renderTrackPoint()}
 $('storm-select').onchange=e=>{stormIndex=e.target.selectedIndex;versionIndex=Math.max(0,(archive.items[stormIndex].fc?.length||1)-1);renderVersions()};$('version-select').onchange=e=>{versionIndex=Number(e.target.value);renderVersions()};$('timeline').oninput=()=>{stop();renderTrackPoint()};
 $('play').onclick=()=>{if(timer){stop();return}if(Number($('timeline').value)>=points.length-1)$('timeline').value=0;$('play').textContent='Ⅱ 暫停';$('play').setAttribute('aria-label','暫停颱風路徑');timer=setInterval(()=>{const i=Number($('timeline').value)+1;if(i>=points.length){stop();return}$('timeline').value=i;renderTrackPoint()},1100)};
+const stormVisual=new StormVisual($('storm-map'),index=>pickPoint(index));
+function pickPoint(index){stop();$('timeline').value=Math.max(0,Math.min(points.length-1,index));renderTrackPoint()}
+$('step-back').onclick=()=>pickPoint(Number($('timeline').value)-1);
+$('step-next').onclick=()=>pickPoint(Number($('timeline').value)+1);
+$('track-now').onclick=()=>pickPoint(Math.max(0,points.findLastIndex(p=>p.kind==='觀測')));
+$('storm-zoom-in').onclick=()=>stormVisual.zoom(1.35);
+$('storm-zoom-out').onclick=()=>stormVisual.zoom(1/1.35);
+$('storm-zoom-reset').onclick=()=>stormVisual.reset();
+for(const name of ['flow','wind','cone','forecast'])$('layer-'+name).onchange=e=>{stormVisual.setLayer(name,e.target.checked);if(name==='flow')$('flow-disclaimer').hidden=!e.target.checked};
+$('layer-fulltrack').onchange=()=>{stormVisual.reset();renderTrackPoint()};
+window.addEventListener('resize',()=>{stormVisual.reset();renderTrackPoint()});
 function renderTrackPoint(){
- if(!points.length)return;const point=points[Number($('timeline').value)]||points[0];const svg=$('storm-map');svg.replaceChildren();
- const xs=[119,123,...points.map(p=>p.lon)],ys=[21,26,...points.map(p=>p.lat)];let w=Math.min(...xs)-2,e=Math.max(...xs)+2,s=Math.min(...ys)-2,n=Math.max(...ys)+2;
- const desired=820/440,lonScale=Math.cos((n+s)/2*Math.PI/180);if((e-w)*lonScale/(n-s)<desired){const extra=((n-s)*desired/lonScale-(e-w))/2;w-=extra;e+=extra}else{const extra=((e-w)*lonScale/desired-(n-s))/2;s-=extra;n+=extra}
- const P=([lon,lat])=>[(lon-w)/(e-w)*820,(n-lat)/(n-s)*440];
- for(let x=Math.ceil(w/5)*5;x<e;x+=5){const a=P([x,n]);svg.append(sv('path',{class:'map-grid',d:`M${a[0]} 0V440`}))}for(let y=Math.ceil(s/5)*5;y<n;y+=5){const a=P([w,y]);svg.append(sv('path',{class:'map-grid',d:`M0 ${a[1]}H820`}))}
- for(const ring of land)if(ring.some(([x,y])=>x>w&&x<e&&y>s&&y<n))svg.append(sv('path',{class:'land',d:path(ring,P)}));
- for(const c of COUNTIES.filter(c=>['臺北市','臺中市','高雄市','花蓮縣'].includes(c.name))){const [x,y]=P([c.lon,c.lat]);svg.append(sv('circle',{cx:x,cy:y,r:2,fill:'#9fb3be'}),sv('text',{x:x+5,y:y-5,fill:'#9fb3be','font-size':10},c.name))}
- const drawLine=(ps,color,dash)=>{if(ps.length<2)return;svg.append(sv('path',{d:ps.map((p,i)=>(i?'L':'M')+P([p.lon,p.lat]).join(',')).join(''),fill:'none',stroke:color,'stroke-width':2,'stroke-dasharray':dash||'none'}))};
- const obs=points.filter(p=>p.kind==='觀測'),fc=points.filter(p=>p.kind==='官方預報');drawLine(obs,'#8ce8c5');drawLine([...(obs.length?[obs.at(-1)]:[]),...fc],'#f4c277','6 5');
- for(const p of points){const [x,y]=P([p.lon,p.lat]);svg.append(sv('circle',{cx:x,cy:y,r:2.5,fill:p.kind==='觀測'?'#8ce8c5':'#f4c277'}))}
- const [x,y]=P([point.lon,point.lat]),r=point.c7?.[0];if(Number.isFinite(r)&&r>0)svg.append(sv('ellipse',{cx:x,cy:y,rx:r/(111*Math.cos(point.lat*Math.PI/180))/(e-w)*820,ry:r/111/(n-s)*440,fill:'#f4c27712',stroke:'#f4c277','stroke-width':1.2}));svg.append(sv('circle',{cx:x,cy:y,r:7,fill:'#101f29',stroke:'#fff','stroke-width':2}),sv('text',{x:x+12,y:y-12,fill:'#e9f2f5','font-size':12},fmt(point.t)));
+ if(!points.length)return;const index=Number($('timeline').value),point=points[index]||points[0];
+ stormVisual.draw({points,index,land,counties:COUNTIES,fullTrack:$('layer-fulltrack').checked});
  $('track-time').textContent=`${fmt(point.t)} · ${point.kind}`;$('timeline').setAttribute('aria-valuetext',$('track-time').textContent);
- $('storm-metrics').replaceChildren();const c=COUNTIES.find(c=>c.name===county);for(const [label,value]of [['近中心風速',point.w==null?'未提供':`${point.w} m/s`],['中心氣壓',point.p==null?'未提供':`${point.p} hPa`],[`距${county}代表點`,`${Math.round(distance(point,c))} km`]]){const d=el('div');d.append(el('span',null,label),el('strong',null,value));$('storm-metrics').append(d)}
- $('storm-note').textContent=`資料時間 ${fmt(archive?.sourceSent)}（${archive?.sourceTimeBasis==='publication'?'發布時間':'起報／觀測時間，非發布時間'}）。播放為官方資料逐點切換；連線與七級風圓圈為示意，未進行風場模擬。縣市距離不代表全縣風雨影響。`;
+ $('step-back').disabled=index<=0;$('step-next').disabled=index>=points.length-1;
+ $('storm-point-kind').textContent=point.kind==='觀測'?'OBSERVATION / 觀測':'FORECAST / 官方預報';$('storm-point-time').textContent=fmt(point.t);
+ $('storm-position').textContent=`${point.lat.toFixed(1)}°N / ${point.lon.toFixed(1)}°E`;
+ const dirs={N:'北',NNE:'北北東',NE:'東北',ENE:'東北東',E:'東',ESE:'東南東',SE:'東南',SSE:'南南東',S:'南',SSW:'南南西',SW:'西南',WSW:'西南西',W:'西',WNW:'西北西',NW:'西北',NNW:'北北西'};
+ const direction=point.md?(dirs[point.md]||point.md):'方向見預報箭頭';
+ $('storm-metrics').replaceChildren();
+ const metrics=[['近中心風速',point.w,'m/s'],['中心氣壓',point.p,'hPa'],['瞬間陣風',point.g,'m/s'],['七級風半徑',point.c7?.[0],'km'],['十級風半徑',point.c10?.[0],'km'],['移動方向／速度',point.ms==null?direction:direction+' '+point.ms,'km/h']];
+ for(const [i,[label,value,unit]] of metrics.entries()){const d=el('div',i<2?'primary-metric':'');d.append(el('span',null,label));const v=el('strong',null,value==null?'未提供':String(value));if(value!=null&&!(i===5&&point.ms==null))v.append(el('small',null,unit));d.append(v);$('storm-metrics').append(d)}
+ const c=COUNTIES.find(c=>c.name===county);$('storm-distance').replaceChildren(el('span',null,`距${county}代表位置`),el('strong',null,`${Math.round(distance(point,c))} km`));
+ $('storm-note').textContent=`資料依據：中央氣象署；官方資料時間 ${fmt(archive?.sourceSent)}（${archive?.sourceTimeBasis==='publication'?'發布時間':'起報／觀測時間，非發布時間'}）。路徑箭頭表示官方預報點間的移動走勢。旋流線僅為逆時針環流示意動畫，並非即時風向、雷達或實測風場；暴風圈與機率半徑為示意。縣市距離不代表全縣風雨影響。`;
 }
 function renderSources(){
  $('source-grid').replaceChildren();const entries=[...['forecast','warnings','local','life'].map(id=>[id,source(id)]),['cyclone',{...cycloneSource(),label:'中央氣象署 · 熱帶氣旋',url:'https://opendata.cwa.gov.tw/dataset/warning/W-C0034-005'}]];
