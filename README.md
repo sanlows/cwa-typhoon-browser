@@ -60,7 +60,7 @@ python -m http.server 8080 --directory site
 ## 排程補救與驗證（2026-10-22）
 
 - 主流程 `.github/workflows/update-and-deploy.yml` 保留錯峰的 15 分鐘排程，也接受手動執行與 `repository_dispatch`（事件型別 `cwa-refresh`）。只從 main 抓最新歷史，避免排隊工作取到舊 archive。
-- 補救流程 `.github/workflows/recover-stale-data.yml` 於 UTC 每小時第 7、37 分讀取 main 的 archive；距上次成功檢查超過 45 分鐘時，使用內建 GITHUB_TOKEN 補觸發主流程，無需新增或公開 CWA 金鑰。可在 Actions 手動執行此流程驗證補抓。
+- 補救流程 `.github/workflows/recover-stale-data.yml` 於 UTC 每小時第 7、37 分讀取 main 的 archive；repo 或公開 Pages 超過 45 分鐘未更新（或 Pages 無法確認）時，使用內建 GITHUB_TOKEN 補觸發主流程，無需新增或公開 CWA 金鑰。可在 Actions 手動執行此流程驗證補抓。
 - 兩個流程仍共用 GitHub 排程服務；若服務整體漏觸發，兩者都可能延遲。這是補救機制，不是準時保證。需要獨立排程時，可由外部排程以具 Actions write 權限的專用 GitHub 憑證呼叫 workflow_dispatch；CWA_API_KEY 一律留在 GitHub Actions Secrets。本次未配置第三方服務或外部憑證。
 - 補抓判斷讀取 repo archive；Pages 部署另以主流程 deploy 結果和公開網站 checkedAt 核對。抓取成功不代表部署成功。補救流程會在 Actions 警告中留下補觸發紀錄，請查看後續主流程是否完成。
 - 發布前必須成功抓取；缺少金鑰不再以 push 略過抓取。API 失敗維持既有 archive 和 Pages。
