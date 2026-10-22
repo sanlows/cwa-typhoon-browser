@@ -31,18 +31,27 @@ jobs:
       - name: Verify parser and safety checks
         run: node --test
       - name: Fetch and accumulate CWA data
+        id: cyclone
+        continue-on-error: true
         env:
           CWA_API_KEY: ${{ secrets.CWA_API_KEY }}
         run: node scripts/update-data.mjs
+      - name: Update county weather and news independently
+        env:
+          CWA_API_KEY: ${{ secrets.CWA_API_KEY }}
+        run: node scripts/update-portal.mjs
       - name: Preserve successful data for later runs
         run: |
-          if ! git diff --quiet -- site/data/archive.json; then
+          if ! git diff --quiet -- site/data; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add site/data/archive.json
-            git commit -m 'Update CWA cyclone archive'
+            git add site/data
+            git commit -m 'Update county weather, news and cyclone data'
             git push
           fi
+      - name: Report partial cyclone update
+        if: steps.cyclone.outcome == 'failure'
+        run: echo '::warning::Cyclone fetch failed. Previous history is preserved; other sources are published independently. Check the public source timestamps.'
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

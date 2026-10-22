@@ -22,6 +22,19 @@ jobs:
             const archive = JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'));
             const checked = Date.parse(archive.checkedAt);
             const age = Date.now() - checked;
+            let portalFresh = false;
+            try {
+              const {data: portalFile} = await github.rest.repos.getContent({...repo, path: 'site/data/portal.json', ref: 'main'});
+              const portal = JSON.parse(Buffer.from(portalFile.content, 'base64').toString('utf8'));
+              const portalAge = Date.now() - Date.parse(portal.generatedAt);
+              const hostedResponse = await fetch('https://sanlows.github.io/cwa-typhoon-browser/data/portal.json?health=' + Date.now(), {cache:'no-store', signal:AbortSignal.timeout(20_000)});
+              if (!hostedResponse.ok) throw new Error('Portal unavailable');
+              const hostedPortal = await hostedResponse.json();
+              const hostedPortalAge = Date.now() - Date.parse(hostedPortal.generatedAt);
+              portalFresh = portal.schema === 1 && Number.isFinite(portalAge) && portalAge >= 0 && portalAge < 45 * 60_000 && hostedPortal.schema === 1 && Number.isFinite(hostedPortalAge) && hostedPortalAge >= 0 && hostedPortalAge < 45 * 60_000;
+            } catch {
+              core.warning('Could not confirm the county/news publishing heartbeat.');
+            }
             let hostedFresh = false;
             try {
               const response = await fetch('https://sanlows.github.io/cwa-typhoon-browser/data/archive.json?health=' + Date.now(), {cache: 'no-store', signal: AbortSignal.timeout(20_000)});
@@ -32,7 +45,7 @@ jobs:
             } catch {
               core.warning('Could not confirm fresh Pages data; checking for a recovery run.');
             }
-            if (archive.mode === 'live' && Number.isFinite(age) && age >= 0 && age < 45 * 60_000 && hostedFresh) {
+            if (archive.mode === 'live' && Number.isFinite(age) && age >= 0 && age < 45 * 60_000 && hostedFresh && portalFresh) {
               core.notice('Repository and public Pages data are fresh.');
               return;
             }
