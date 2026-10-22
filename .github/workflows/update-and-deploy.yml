@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths-ignore: ['README.md', 'LICENSE']
   schedule:
-    - cron: '47 * * * *'
+    - cron: '11,26,41,56 * * * *'
   workflow_dispatch:
 
 permissions:

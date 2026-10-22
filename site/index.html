@@ -467,7 +467,7 @@ async function fetchCWA(auto=false){
       (data.sourceTimeBasis==='cycle'?' API 未提供發布時間，資料時間採用起報／觀測時間。':'')+
       (age>3*3600e3?' ⚠ 超過 3 小時未成功檢查，資料可能過期。':'')+
       (active&&oldBulletin?' ⚠ 氣象署資料時間距今超過 12 小時。':'');
-    $('nextChk').textContent='網站每小時檢查 · 本頁每 10 分鐘重讀';
+    $('nextChk').textContent='網站預計每 15 分鐘檢查 · 本頁每 10 分鐘重讀';
     const changed=previousSnapshot!==null&&previousSnapshot!==newSnapshot;
     const checkedAgain=previousCheck!==null&&previousCheck!==data.checkedAt;
     lastHostedSnapshot=newSnapshot;

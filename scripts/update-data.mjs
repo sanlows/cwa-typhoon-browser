@@ -76,6 +76,19 @@ async function main() {
     activeKeys:tracks.map(keyOf),items:store.map(toCompact)};
   if(previous.sourceSent && output.sourceSent && previous.mode==='live' && output.sourceSent<previous.sourceSent)
     throw new Error('CWA bulletin is older than the previous successful fetch. Existing data preserved.');
+  const sameForecastData=previous.mode==='live' &&
+    previous.sourceSent===output.sourceSent &&
+    previous.sourceTimeBasis===output.sourceTimeBasis &&
+    JSON.stringify(previous.activeKeys)===JSON.stringify(output.activeKeys) &&
+    JSON.stringify(previous.items)===JSON.stringify(output.items);
+  const ageOfPublishedCheck=Date.now()-Date.parse(previous.checkedAt||'');
+  // Keep polling frequently, but avoid a repository commit for each unchanged check.
+  // Real forecast changes always publish immediately; unchanged checks publish hourly.
+  if(sameForecastData && Number.isFinite(ageOfPublishedCheck) &&
+      ageOfPublishedCheck>=0 && ageOfPublishedCheck<55*60*1000){
+    console.log('CWA check successful; no forecast changes and published status still fresh.');
+    return;
+  }
   const serialized=JSON.stringify(output,null,2)+'\n';
   if(serialized.includes(key))throw new Error('Credential guard blocked publication.');
   await mkdir(resolve('site/data'),{recursive:true});
