@@ -63,7 +63,7 @@ export async function collectSources(previous,loaders,now){
  }));
  return Object.fromEntries(entries);
 }
-export async function main({path=resolve('site/data/portal.json'),key=process.env.CWA_API_KEY?.trim(),fetcher=fetch}={}){
+export async function main({path=resolve('site/data/portal.json'),key=process.env.CWA_API_KEY?.trim(),fetcher=fetch,cycloneStatus=process.env.CYCLONE_FETCH_STATUS}={}){
  let previous={};try{previous=JSON.parse(await readFile(path,'utf8'))}catch(e){if(e.code!=='ENOENT')throw new Error('Existing portal data is invalid; preserved')}
  const loaders={
   forecast:async()=>{if(!key)throw new Error('Credential unavailable');return parseForecast(JSON.parse(await requestText('https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?format=JSON',{key,fetcher})))},
@@ -71,8 +71,9 @@ export async function main({path=resolve('site/data/portal.json'),key=process.en
   local:async()=>parseFeed(await requestText(SOURCE_CONFIG.local.url,{fetcher}),{kind:'local'}),
   life:async()=>parseFeed(await requestText(SOURCE_CONFIG.life.url,{fetcher}),{kind:'life'})
  };
+ const cycloneAttempt=['success','failure'].includes(cycloneStatus)?{status:cycloneStatus==='success'?'ok':'error',attemptedAt:new Date().toISOString()}:null;
  const sources=await collectSources(previous.sources,loaders);
- const output={schema:1,generatedAt:new Date().toISOString(),sources};
+ const output={schema:1,generatedAt:new Date().toISOString(),sources,cycloneAttempt};
  const serialized=JSON.stringify(output,null,2)+'\n';
  if((key&&serialized.includes(key))||/CWA-[A-Za-z0-9]{8}-[A-Za-z0-9-]{20,}/.test(serialized))throw new Error('Credential guard blocked publication');
  await mkdir(dirname(path),{recursive:true});await writeFile(path+'.tmp',serialized);await rename(path+'.tmp',path);

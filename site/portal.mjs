@@ -9,7 +9,7 @@ let county='臺北市';try{const saved=localStorage.getItem('taiwan-daily-county
 let region='全部',scope='related',category='all',newsLimit=7,portal=null,archive=null,land=[],portalFailed=false,archiveFailed=false,loading=false,stormIndex=0,versionIndex=0,points=[],timer=null;
 function setHealth(id,source){const state=freshness(source);$(id).className='badge '+state;$(id).textContent={fresh:'已成功抓取',stale:'過期／待確認',unavailable:'尚無資料'}[state];return state}
 function source(id){const s=portal?.sources?.[id];return portalFailed&&s?{...s,status:'error'}:s}
-function cycloneSource(){return archive?{status:archiveFailed||archive.mode!=='live'?'error':'ok',checkedAt:archive.checkedAt}:null}
+function cycloneSource(){const attempt=portal?.cycloneAttempt;const failed=attempt?.status==='error'&&Date.parse(attempt.attemptedAt)>=Date.parse(archive?.checkedAt||'');return archive?{status:archiveFailed||archive.mode!=='live'||failed?'error':'ok',checkedAt:archive.checkedAt,attemptedAt:attempt?.attemptedAt}:null}
 for(const c of COUNTIES){const o=el('option',null,c.name);o.value=c.name;$('county').append(o)}$('county').value=county;
 for(const label of ['全部','北部','中部','南部','東部','離島']){const b=el('button',null,label);b.type='button';b.setAttribute('aria-pressed',label===region);b.onclick=()=>{region=label;for(const n of $('regions').children)n.setAttribute('aria-pressed',n===b);renderCounties()};$('regions').append(b)}
 function selectCounty(name){county=name;$('county').value=name;try{localStorage.setItem('taiwan-daily-county',name)}catch{}newsLimit=7;renderWeather();renderCounties();renderIsland();renderNews();renderTrackPoint()}
@@ -24,7 +24,7 @@ function renderWeather(){
  $('forecast-message').textContent=(state==='fresh'?'':s?.data?'⚠ 抓取失敗或逾 90 分鐘未確認更新，以下為上次資料。 ':'⚠ 尚未取得完整縣市預報。 ')+`氣溫為預報範圍，並非即時測站觀測。${s?.checkedAt?'成功抓取 '+fmt(s.checkedAt):''}`;
  $('periods').replaceChildren();
  for(const [i,p] of periods.entries()){
-  const card=el('article','period-card'),top=el('div','period-top');top.append(el('span',null,i===0?'目前／下一期':'接續預報'),el('span',null,`${fmt(p.start)} → ${shortTime(p.end)}`));
+  const card=el('article','period-card'),top=el('div','period-top');top.append(el('span',null,i===0?'目前／下一期':'接續預報'),el('span',null,`${fmt(p.start)} → ${fmt(p.end)}`));
   const bottom=el('div','period-bottom');bottom.append(el('strong',null,`${p.minT}—${p.maxT}°`),el('span',null,`降雨 ${p.pop}%`));card.append(top,el('div','period-condition',`${icon(p)}  ${p.condition}`),bottom);$('periods').append(card);
  }
  if(!periods.length)$('periods').append(el('p','empty','尚無有效預報時段。可前往中央氣象署查詢；網站不以舊預報充當目前天氣。'));
@@ -42,7 +42,7 @@ function renderIsland(){
  const east=COUNTIES.filter(c=>!west.includes(c)).sort((a,b)=>b.lat-a.lat);
  for(const c of COUNTIES){const active=c.name===county,[x,y]=P([c.lon,c.lat]),isWest=west.includes(c),rank=(isWest?west:east).indexOf(c),lx=isWest?58:430,ly=isWest?78+rank*23:70+rank*54;
   const group=sv('g',{role:'button',tabindex:0,'aria-label':`選擇${c.name}`});group.onclick=()=>selectCounty(c.name);group.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectCounty(c.name)}};
-  group.append(sv('path',{d:`M${x} ${y}L${isWest?lx+48:lx-10} ${ly-3}`,fill:'none',stroke:active?'#8ce8c5':'#3b5860','stroke-width':active?1.3:.6}),sv('circle',{cx:x,cy:y,r:active?6:3.5,class:'city-dot'+(active?' selected':'')}),sv('text',{x:lx,y:ly,class:'city-label'+(active?' selected':''),'text-anchor':isWest?'end':'start'},c.name));svg.append(group);
+  group.append(sv('rect',{x:isWest?lx-65:lx-4,y:ly-17,width:70,height:24,fill:'transparent'}),sv('circle',{cx:x,cy:y,r:11,fill:'transparent'}),sv('path',{d:`M${x} ${y}L${isWest?lx+48:lx-10} ${ly-3}`,fill:'none',stroke:active?'#8ce8c5':'#3b5860','stroke-width':active?1.3:.6,'pointer-events':'none'}),sv('circle',{cx:x,cy:y,r:active?6:3.5,class:'city-dot'+(active?' selected':'')}),sv('text',{x:lx,y:ly,class:'city-label'+(active?' selected':''),'text-anchor':isWest?'end':'start'},c.name));svg.append(group);
  }
 }
 function article(item){
@@ -55,7 +55,7 @@ function renderWarnings(){
 }
 function renderNews(){
  const sources=[source('local'),source('life')],states=sources.map(s=>freshness(s));
- const state=states.every(s=>s==='fresh')?'fresh':states.every(s=>s==='unavailable')?'unavailable':'stale';$('news-health').className='badge '+state;$('news-health').textContent=state==='fresh'?'來源已更新':state==='stale'?'部分來源待確認':'尚無資料';
+ const state=states.every(s=>s==='fresh')?'fresh':states.every(s=>s==='unavailable')?'unavailable':'stale';$('news-health').className='badge '+state;$('news-health').textContent=state==='fresh'?'已成功抓取':state==='stale'?'部分來源待確認':'尚無資料';
  const items=[...new Map(sources.flatMap(s=>s?.data?.items||[]).map(i=>[i.url,i])).values()];const filtered=newsFor(items,county,scope).filter(i=>category==='all'||i.category===category);
  $('news-list').replaceChildren();$('news-context').textContent=(scope==='all'?'全台新聞':`${county}相關標題`)+` · ${filtered.length} 則`+(state==='fresh'?'':' · ⚠ 含未確認更新的來源');
  for(const item of filtered.slice(0,newsLimit)){const a=article(item);if(a)$('news-list').append(a)}

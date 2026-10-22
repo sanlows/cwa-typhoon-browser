@@ -39,6 +39,7 @@ jobs:
       - name: Update county weather and news independently
         env:
           CWA_API_KEY: ${{ secrets.CWA_API_KEY }}
+          CYCLONE_FETCH_STATUS: ${{ steps.cyclone.outcome }}
         run: node scripts/update-portal.mjs
       - name: Preserve successful data for later runs
         run: |
