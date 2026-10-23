@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T16:59:03.565Z",
+  "generatedAt": "2026-10-23T17:50:56.797Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-23T16:59:03.565Z",
-      "attemptedAt": "2026-10-23T16:58:58.295Z",
+      "checkedAt": "2026-10-23T17:50:55.161Z",
+      "attemptedAt": "2026-10-23T17:50:54.587Z",
       "data": {
         "counties": [
           {
@@ -787,38 +787,30 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-23T16:59:00.405Z",
-      "attemptedAt": "2026-10-23T16:58:58.340Z",
+      "checkedAt": "2026-10-23T17:50:56.797Z",
+      "attemptedAt": "2026-10-23T17:50:54.615Z",
       "data": {
         "items": [
+          {
+            "title": "10/24 01:30 發布豪雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610240130",
+            "publishedAt": "2026-10-23T17:30:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/24 01:15 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610240115",
+            "publishedAt": "2026-10-23T17:15:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "10/24 00:42 發布高溫資訊",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W29.html?T=202610240042",
             "publishedAt": "2026-10-23T16:42:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/24 00:35 發布豪雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610240035",
-            "publishedAt": "2026-10-23T16:35:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/24 00:24 發布大雷雨即時訊息",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W33.html?T=202610240024",
-            "publishedAt": "2026-10-23T16:24:48.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/24 00:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610240015",
-            "publishedAt": "2026-10-23T16:15:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -838,8 +830,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-23T16:58:59.965Z",
-      "attemptedAt": "2026-10-23T16:58:58.341Z",
+      "checkedAt": "2026-10-23T17:50:54.846Z",
+      "attemptedAt": "2026-10-23T17:50:54.616Z",
       "data": {
         "items": [
           {
@@ -1052,8 +1044,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-23T16:58:59.967Z",
-      "attemptedAt": "2026-10-23T16:58:58.342Z",
+      "checkedAt": "2026-10-23T17:50:54.864Z",
+      "attemptedAt": "2026-10-23T17:50:54.617Z",
       "data": {
         "items": [
           {
@@ -1234,6 +1226,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-23T16:58:58.295Z"
+    "attemptedAt": "2026-10-23T17:50:54.587Z"
   }
 }
