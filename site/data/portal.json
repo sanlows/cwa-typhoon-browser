@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T12:01:45.311Z",
+  "generatedAt": "2026-10-23T12:50:21.139Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-23T12:01:45.311Z",
-      "attemptedAt": "2026-10-23T12:01:44.250Z",
+      "checkedAt": "2026-10-23T12:50:21.139Z",
+      "attemptedAt": "2026-10-23T12:50:20.043Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-23T12:01:45.111Z",
-      "attemptedAt": "2026-10-23T12:01:44.277Z",
+      "checkedAt": "2026-10-23T12:50:21.035Z",
+      "attemptedAt": "2026-10-23T12:50:20.067Z",
       "data": {
         "items": [
           {
-            "title": "10/23 19:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610231915",
-            "publishedAt": "2026-10-23T11:15:00.000Z",
+            "title": "10/23 20:30 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610232030",
+            "publishedAt": "2026-10-23T12:30:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -830,8 +830,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-23T12:01:44.837Z",
-      "attemptedAt": "2026-10-23T12:01:44.277Z",
+      "checkedAt": "2026-10-23T12:50:20.762Z",
+      "attemptedAt": "2026-10-23T12:50:20.068Z",
       "data": {
         "items": [
           {
@@ -1009,10 +1009,50 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-23T12:01:44.906Z",
-      "attemptedAt": "2026-10-23T12:01:44.278Z",
+      "checkedAt": "2026-10-23T12:50:20.763Z",
+      "attemptedAt": "2026-10-23T12:50:20.069Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵影響　24日6航線84航次船班停航",
+            "url": "https://www.cna.com.tw/news/ahel/202610230220.aspx",
+            "publishedAt": "2026-10-23T11:06:24.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "光復連假首日國道交通需求因颱風下降　部分匝道封閉措施取消",
+            "url": "https://www.cna.com.tw/news/ahel/202610230212.aspx",
+            "publishedAt": "2026-10-23T10:47:08.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵致農損  農業部：落花生受害最嚴重",
+            "url": "https://www.cna.com.tw/news/ahel/202610230210.aspx",
+            "publishedAt": "2026-10-23T10:29:03.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵來襲　北捷文湖線、高架路段晚間6時起停駛",
+            "url": "https://www.cna.com.tw/news/ahel/202610230209.aspx",
+            "publishedAt": "2026-10-23T10:28:01.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵估移動速度減慢或打轉　蘭嶼浪高10.6公尺破紀錄",
+            "url": "https://www.cna.com.tw/news/ahel/202610230207.aspx",
+            "publishedAt": "2026-10-23T10:25:57.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "颱風薔琵影響　桃園機場563架次航班取消",
             "url": "https://www.cna.com.tw/news/ahel/202610230202.aspx",
@@ -1122,44 +1162,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "土石流黃色警戒145條  分布宜蘭、新北、桃園、新竹",
-            "url": "https://www.cna.com.tw/news/ahel/202610230112.aspx",
-            "publishedAt": "2026-10-23T05:41:26.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "新北市",
-              "桃園市",
-              "新竹市",
-              "新竹縣",
-              "宜蘭縣"
-            ]
-          },
-          {
-            "title": "西藏那曲地震　觀光署：尚未接獲有旅行團受影響",
-            "url": "https://www.cna.com.tw/news/ahel/202610230109.aspx",
-            "publishedAt": "2026-10-23T05:29:20.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風後慢病藥泡水、健保卡不見　例外就醫補救",
-            "url": "https://www.cna.com.tw/news/ahel/202610230102.aspx",
-            "publishedAt": "2026-10-23T04:56:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵暴風圈正籠罩全台　估登陸機會不高、明晚減至輕颱",
-            "url": "https://www.cna.com.tw/news/ahel/202610230100.aspx",
-            "publishedAt": "2026-10-23T04:53:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1167,6 +1169,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-23T12:01:44.250Z"
+    "attemptedAt": "2026-10-23T12:50:20.043Z"
   }
 }
