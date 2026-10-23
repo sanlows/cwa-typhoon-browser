@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T06:36:41.728Z",
+  "generatedAt": "2026-10-23T07:22:45.942Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-23T06:36:41.728Z",
-      "attemptedAt": "2026-10-23T06:36:38.083Z",
+      "checkedAt": "2026-10-23T07:22:45.349Z",
+      "attemptedAt": "2026-10-23T07:22:43.834Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-23T06:36:39.560Z",
-      "attemptedAt": "2026-10-23T06:36:38.125Z",
+      "checkedAt": "2026-10-23T07:22:45.942Z",
+      "attemptedAt": "2026-10-23T07:22:43.877Z",
       "data": {
         "items": [
           {
@@ -830,8 +830,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-23T06:36:39.477Z",
-      "attemptedAt": "2026-10-23T06:36:38.126Z",
+      "checkedAt": "2026-10-23T07:22:44.912Z",
+      "attemptedAt": "2026-10-23T07:22:43.878Z",
       "data": {
         "items": [
           {
@@ -1000,10 +1000,56 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-23T06:36:39.479Z",
-      "attemptedAt": "2026-10-23T06:36:38.128Z",
+      "checkedAt": "2026-10-23T07:22:45.060Z",
+      "attemptedAt": "2026-10-23T07:22:43.879Z",
       "data": {
         "items": [
+          {
+            "title": "停班課後湧入人潮  高鐵：3小時運量達7.5萬人次",
+            "url": "https://www.cna.com.tw/news/ahel/202610230123.aspx",
+            "publishedAt": "2026-10-23T06:30:53.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "巨浪打上岸沖倒機車　海巡弟兄迅速救援騎士[影]",
+            "url": "https://www.cna.com.tw/news/ahel/202610230121.aspx",
+            "publishedAt": "2026-10-23T06:19:48.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "疑非旅行業違法代購機票消費爭議　觀光署：最高罰200萬",
+            "url": "https://www.cna.com.tw/news/ahel/202610230120.aspx",
+            "publishedAt": "2026-10-23T06:10:44.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "土石流黃色警戒145條  分布宜蘭、新北、桃園、新竹",
+            "url": "https://www.cna.com.tw/news/ahel/202610230112.aspx",
+            "publishedAt": "2026-10-23T05:41:26.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "新北市",
+              "桃園市",
+              "新竹市",
+              "新竹縣",
+              "宜蘭縣"
+            ]
+          },
+          {
+            "title": "西藏那曲地震　觀光署：尚未接獲有旅行團受影響",
+            "url": "https://www.cna.com.tw/news/ahel/202610230109.aspx",
+            "publishedAt": "2026-10-23T05:29:20.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "颱風後慢病藥泡水、健保卡不見　例外就醫補救",
             "url": "https://www.cna.com.tw/news/ahel/202610230102.aspx",
@@ -1117,42 +1163,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "高鐵台北站南下人潮擠爆　台鐵緊急加開2列次",
-            "url": "https://www.cna.com.tw/news/ahel/202610220438.aspx",
-            "publishedAt": "2026-10-22T15:57:11.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "颱風薔琵逼近　省道10路段陸續預警性封閉",
-            "url": "https://www.cna.com.tw/news/ahel/202610220433.aspx",
-            "publishedAt": "2026-10-22T15:04:59.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "北市23日關閉水門　即起開放全市紅黃線有條件停車",
-            "url": "https://www.cna.com.tw/news/ahel/202610220431.aspx",
-            "publishedAt": "2026-10-22T14:34:52.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "疏運投票旅客　台鐵11月27日至30日加開16列次",
-            "url": "https://www.cna.com.tw/news/ahel/202610220429.aspx",
-            "publishedAt": "2026-10-22T14:19:48.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1160,6 +1170,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-23T06:36:38.083Z"
+    "attemptedAt": "2026-10-23T07:22:43.833Z"
   }
 }
