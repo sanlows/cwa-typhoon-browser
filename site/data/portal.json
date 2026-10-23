@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T21:19:35.079Z",
+  "generatedAt": "2026-10-23T23:14:27.665Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-23T21:19:34.888Z",
-      "attemptedAt": "2026-10-23T21:19:33.418Z",
+      "checkedAt": "2026-10-23T23:14:27.381Z",
+      "attemptedAt": "2026-10-23T23:14:25.703Z",
       "data": {
         "counties": [
           {
@@ -787,10 +787,34 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-23T21:19:35.079Z",
-      "attemptedAt": "2026-10-23T21:19:33.459Z",
+      "checkedAt": "2026-10-23T23:14:27.665Z",
+      "attemptedAt": "2026-10-23T23:14:25.733Z",
       "data": {
         "items": [
+          {
+            "title": "10/24 06:15 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610240615",
+            "publishedAt": "2026-10-23T22:15:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/24 05:29 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610240529",
+            "publishedAt": "2026-10-23T21:29:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/24 05:25 發布豪雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610240525",
+            "publishedAt": "2026-10-23T21:25:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "10/24 05:02 發布第 071 號顯著有感地震報告",
             "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115071-1024-045803.html?T=202610240502",
@@ -808,33 +832,9 @@
             "counties": []
           },
           {
-            "title": "10/24 04:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610240415",
-            "publishedAt": "2026-10-23T20:15:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
             "title": "10/24 03:39 發布高溫資訊",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W29.html?T=202610240339",
             "publishedAt": "2026-10-23T19:39:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/24 02:20 發布豪雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610240220",
-            "publishedAt": "2026-10-23T18:20:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/23 23:02 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610232302",
-            "publishedAt": "2026-10-23T15:02:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -846,10 +846,21 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-23T21:19:34.891Z",
-      "attemptedAt": "2026-10-23T21:19:33.461Z",
+      "checkedAt": "2026-10-23T23:14:27.073Z",
+      "attemptedAt": "2026-10-23T23:14:25.734Z",
       "data": {
         "items": [
+          {
+            "title": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級",
+            "url": "https://www.cna.com.tw/news/aloc/202610240013.aspx",
+            "publishedAt": "2026-10-23T21:10:26.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "南投縣",
+              "花蓮縣"
+            ]
+          },
           {
             "title": "颱風薔琵襲台　蔣萬安：北市今晚至明晨風雨最劇",
             "url": "https://www.cna.com.tw/news/aloc/202610230265.aspx",
@@ -1042,16 +1053,6 @@
             "counties": [
               "雲林縣"
             ]
-          },
-          {
-            "title": "颱風薔琵影響　台北路樹傾倒155件",
-            "url": "https://www.cna.com.tw/news/aloc/202610230215.aspx",
-            "publishedAt": "2026-10-23T10:51:15.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -1060,10 +1061,41 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-23T21:19:34.919Z",
-      "attemptedAt": "2026-10-23T21:19:33.462Z",
+      "checkedAt": "2026-10-23T23:14:27.069Z",
+      "attemptedAt": "2026-10-23T23:14:25.735Z",
       "data": {
         "items": [
+          {
+            "title": "氣象署發布豪雨特報　桃園市山區出現大豪雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610240016.aspx",
+            "publishedAt": "2026-10-23T22:05:34.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "桃園市"
+            ]
+          },
+          {
+            "title": "氣象署發布豪雨特報　宜蘭縣山區出現超大豪雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610240015.aspx",
+            "publishedAt": "2026-10-23T21:39:31.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "宜蘭縣"
+            ]
+          },
+          {
+            "title": "台灣東部海域發生規模4.8地震　最大震度花蓮、南投縣3級",
+            "url": "https://www.cna.com.tw/news/aloc/202610240013.aspx",
+            "publishedAt": "2026-10-23T21:10:26.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "南投縣",
+              "花蓮縣"
+            ]
+          },
           {
             "title": "氣象署發布豪雨特報　慎防宜蘭雙北桃竹苗發生豪大雨",
             "url": "https://www.cna.com.tw/news/ahel/202610240008.aspx",
@@ -1207,38 +1239,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風薔琵影響　24日6航線84航次船班停航",
-            "url": "https://www.cna.com.tw/news/ahel/202610230220.aspx",
-            "publishedAt": "2026-10-23T11:06:24.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "光復連假首日國道交通需求因颱風下降　部分匝道封閉措施取消",
-            "url": "https://www.cna.com.tw/news/ahel/202610230212.aspx",
-            "publishedAt": "2026-10-23T10:47:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵致農損  農業部：落花生受害最嚴重",
-            "url": "https://www.cna.com.tw/news/ahel/202610230210.aspx",
-            "publishedAt": "2026-10-23T10:29:03.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵來襲　北捷文湖線、高架路段晚間6時起停駛",
-            "url": "https://www.cna.com.tw/news/ahel/202610230209.aspx",
-            "publishedAt": "2026-10-23T10:28:01.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1246,6 +1246,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-23T21:19:33.418Z"
+    "attemptedAt": "2026-10-23T23:14:25.703Z"
   }
 }
