@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T23:34:34.812Z",
+  "generatedAt": "2026-10-23T01:52:44.286Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-22T23:34:34.340Z",
-      "attemptedAt": "2026-10-22T23:34:32.377Z",
+      "checkedAt": "2026-10-23T01:52:44.286Z",
+      "attemptedAt": "2026-10-23T01:52:41.310Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-22T23:34:34.812Z",
-      "attemptedAt": "2026-10-22T23:34:32.421Z",
+      "checkedAt": "2026-10-23T01:52:43.098Z",
+      "attemptedAt": "2026-10-23T01:52:41.351Z",
       "data": {
         "items": [
           {
-            "title": "10/23 07:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610230715",
-            "publishedAt": "2026-10-22T23:15:00.000Z",
+            "title": "10/23 09:15 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610230915",
+            "publishedAt": "2026-10-23T01:15:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/23 07:34 發布高溫資訊",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W29.html?T=202610230734",
+            "publishedAt": "2026-10-22T23:34:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,14 +822,6 @@
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
-          },
-          {
-            "title": "10/22 17:09 發布高溫資訊",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W29.html?T=202610221709",
-            "publishedAt": "2026-10-22T09:09:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
           }
         ]
       }
@@ -830,10 +830,30 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-22T23:34:33.344Z",
-      "attemptedAt": "2026-10-22T23:34:32.422Z",
+      "checkedAt": "2026-10-23T01:52:42.408Z",
+      "attemptedAt": "2026-10-23T01:52:41.352Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵來襲傳速食店招牌掉落　中市警：AI生成圖片",
+            "url": "https://www.cna.com.tw/news/aloc/202610230030.aspx",
+            "publishedAt": "2026-10-23T01:24:28.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
+          {
+            "title": "台東清晨宣布停班停課　池上秋收稻穗藝術節等活動喊停",
+            "url": "https://www.cna.com.tw/news/aloc/202610230028.aspx",
+            "publishedAt": "2026-10-23T00:46:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺東縣"
+            ]
+          },
           {
             "title": "台東23日停止上班上課",
             "url": "https://www.cna.com.tw/news/aloc/202610230014.aspx",
@@ -1001,26 +1021,6 @@
             "counties": [
               "南投縣"
             ]
-          },
-          {
-            "title": "颱風薔琵侵襲　竹縣23日停止上班上課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220342.aspx",
-            "publishedAt": "2026-10-22T11:11:35.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新竹縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　宜蘭縣23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220341.aspx",
-            "publishedAt": "2026-10-22T11:10:33.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "宜蘭縣"
-            ]
           }
         ]
       }
@@ -1029,10 +1029,34 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-22T23:34:33.342Z",
-      "attemptedAt": "2026-10-22T23:34:32.424Z",
+      "checkedAt": "2026-10-23T01:52:42.410Z",
+      "attemptedAt": "2026-10-23T01:52:41.353Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵仍不排除登陸　吳德榮：須慎防強風豪雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610230023.aspx",
+            "publishedAt": "2026-10-23T00:04:12.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵逼近配合雙鐵聯防　台鐵加開2列次",
+            "url": "https://www.cna.com.tw/news/ahel/202610230020.aspx",
+            "publishedAt": "2026-10-22T23:44:05.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵暴風圈已觸台灣東半部　23日至24日晨降雨最明顯",
+            "url": "https://www.cna.com.tw/news/ahel/202610230018.aspx",
+            "publishedAt": "2026-10-22T23:30:01.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "颱風薔琵強度再減弱　23日晚間至24日清晨降雨明顯",
             "url": "https://www.cna.com.tw/news/ahel/202610230002.aspx",
@@ -1161,22 +1185,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "今彩539第115256期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202610220391.aspx",
-            "publishedAt": "2026-10-22T12:44:21.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "高鐵：23日全線正常行駛　警報期間車票1年內可退",
-            "url": "https://www.cna.com.tw/news/ahel/202610220390.aspx",
-            "publishedAt": "2026-10-22T12:40:18.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1184,6 +1192,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-22T23:34:32.376Z"
+    "attemptedAt": "2026-10-23T01:52:41.309Z"
   }
 }
