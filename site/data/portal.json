@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T03:27:05.348Z",
+  "generatedAt": "2026-10-23T06:36:41.728Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-23T03:27:05.348Z",
-      "attemptedAt": "2026-10-23T03:27:03.522Z",
+      "checkedAt": "2026-10-23T06:36:41.728Z",
+      "attemptedAt": "2026-10-23T06:36:38.083Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-23T03:27:04.610Z",
-      "attemptedAt": "2026-10-23T03:27:03.552Z",
+      "checkedAt": "2026-10-23T06:36:39.560Z",
+      "attemptedAt": "2026-10-23T06:36:38.125Z",
       "data": {
         "items": [
           {
-            "title": "10/23 10:41 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610231041",
-            "publishedAt": "2026-10-23T02:41:00.000Z",
+            "title": "10/23 14:30 發布海上陸上颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610231430",
+            "publishedAt": "2026-10-23T06:30:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "10/23 10:15 發布海上陸上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610231015",
-            "publishedAt": "2026-10-23T02:15:00.000Z",
+            "title": "10/23 10:41 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610231041",
+            "publishedAt": "2026-10-23T02:41:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -830,10 +830,139 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-23T03:27:04.368Z",
-      "attemptedAt": "2026-10-23T03:27:03.553Z",
+      "checkedAt": "2026-10-23T06:36:39.477Z",
+      "attemptedAt": "2026-10-23T06:36:38.126Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵來襲　高雄輕軌211顆樹木傾斜儀監測",
+            "url": "https://www.cna.com.tw/news/aloc/202610230110.aspx",
+            "publishedAt": "2026-10-23T05:35:22.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "颱風薔琵影響淡江大橋下午3時預警封閉　淡海安坑三鶯等3線將停駛",
+            "url": "https://www.cna.com.tw/news/aloc/202610230108.aspx",
+            "publishedAt": "2026-10-23T05:20:18.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "因應颱風薔琵來襲　許淑華：各鄉鎮機具完成整備",
+            "url": "https://www.cna.com.tw/news/aloc/202610230104.aspx",
+            "publishedAt": "2026-10-23T05:08:09.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵來襲　南彰化沿海鄉鎮零星樹倒、遮雨棚掉落",
+            "url": "https://www.cna.com.tw/news/aloc/202610230103.aspx",
+            "publishedAt": "2026-10-23T05:05:07.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "彰化縣"
+            ]
+          },
+          {
+            "title": "吳子嘉涉選罷法案　鄭朝方籲追查幕後涉案人士",
+            "url": "https://www.cna.com.tw/news/aloc/202610230098.aspx",
+            "publishedAt": "2026-10-23T04:43:56.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵來襲台東掀大浪　富岡港口吊車落海、南迴公路多良段路基流失",
+            "url": "https://www.cna.com.tw/news/aloc/202610230094.aspx",
+            "publishedAt": "2026-10-23T04:37:47.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺東縣"
+            ]
+          },
+          {
+            "title": "颱風薔琵逼近嘉義沿海2000多戶停電  台電搶修中",
+            "url": "https://www.cna.com.tw/news/aloc/202610230091.aspx",
+            "publishedAt": "2026-10-23T04:24:41.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "嘉義市",
+              "嘉義縣"
+            ]
+          },
+          {
+            "title": "蘇巧慧談長者健保補助：若是全國一致福利當然接受",
+            "url": "https://www.cna.com.tw/news/aloc/202610230060.aspx",
+            "publishedAt": "2026-10-23T03:20:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵來襲　新北土石流潛勢區撤離1397人",
+            "url": "https://www.cna.com.tw/news/aloc/202610230059.aspx",
+            "publishedAt": "2026-10-23T03:16:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "颱風薔琵逼近　台南市災害應變中心一級開設",
+            "url": "https://www.cna.com.tw/news/aloc/202610230055.aspx",
+            "publishedAt": "2026-10-23T03:09:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
+          {
+            "title": "颱風薔琵風雨達標是否提早宣布放假　蔣萬安：維持晚間8時宣布",
+            "url": "https://www.cna.com.tw/news/ahel/202610230050.aspx",
+            "publishedAt": "2026-10-23T02:48:12.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵來襲　雲林強風吹落電線2975戶停電",
+            "url": "https://www.cna.com.tw/news/aloc/202610230049.aspx",
+            "publishedAt": "2026-10-23T02:44:10.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "雲林縣"
+            ]
+          },
+          {
+            "title": "颱風薔琵來襲  石門水庫啟動阿姆坪防淤隧道沖淤",
+            "url": "https://www.cna.com.tw/news/aloc/202610230048.aspx",
+            "publishedAt": "2026-10-23T02:44:08.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "今晨緊急宣布停班課挨轟　台東縣府：因氣象資料更新",
+            "url": "https://www.cna.com.tw/news/aloc/202610230039.aspx",
+            "publishedAt": "2026-10-23T02:02:48.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺東縣"
+            ]
+          },
           {
             "title": "颱風薔琵來襲傳速食店招牌掉落　中市警：AI生成圖片",
             "url": "https://www.cna.com.tw/news/aloc/202610230030.aspx",
@@ -863,164 +992,6 @@
             "counties": [
               "臺東縣"
             ]
-          },
-          {
-            "title": "北市23日關閉水門　即起開放全市紅黃線有條件停車",
-            "url": "https://www.cna.com.tw/news/ahel/202610220431.aspx",
-            "publishedAt": "2026-10-22T14:34:52.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "颱風來襲新北紅黃線開放停車　捷運23日調整班距",
-            "url": "https://www.cna.com.tw/news/aloc/202610220422.aspx",
-            "publishedAt": "2026-10-22T13:47:30.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　蔣萬安：風勢、雨量預測達停班課標準",
-            "url": "https://www.cna.com.tw/news/aloc/202610220421.aspx",
-            "publishedAt": "2026-10-22T13:46:28.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵侵襲　新北部分醫院開特別診、維持急診",
-            "url": "https://www.cna.com.tw/news/aloc/202610220403.aspx",
-            "publishedAt": "2026-10-22T13:07:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "颱風薔琵侵襲　澎湖全面戒備",
-            "url": "https://www.cna.com.tw/news/aloc/202610220389.aspx",
-            "publishedAt": "2026-10-22T12:40:16.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　桃園市23日停止上班上課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220378.aspx",
-            "publishedAt": "2026-10-22T12:08:52.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "桃園市"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　新北市23日停止上班上課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220377.aspx",
-            "publishedAt": "2026-10-22T12:08:50.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市",
-              "臺北市"
-            ]
-          },
-          {
-            "title": "颱風薔琵侵襲　基隆市23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220376.aspx",
-            "publishedAt": "2026-10-22T12:07:48.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "基隆市"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　台北市23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220375.aspx",
-            "publishedAt": "2026-10-22T12:02:46.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　連江縣23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220372.aspx",
-            "publishedAt": "2026-10-22T12:01:40.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "連江縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵侵襲　澎湖23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220367.aspx",
-            "publishedAt": "2026-10-22T11:44:29.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "曠世智能獲政府投資遭質疑　蘇巧慧：合法不怕查",
-            "url": "https://www.cna.com.tw/news/aloc/202610220361.aspx",
-            "publishedAt": "2026-10-22T11:31:16.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵來襲　花蓮縣23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220357.aspx",
-            "publishedAt": "2026-10-22T11:29:07.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "花蓮縣"
-            ]
-          },
-          {
-            "title": "薔琵颱風逼近　台中23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220346.aspx",
-            "publishedAt": "2026-10-22T11:13:44.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "颱風薔琵來襲　嘉義市23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220345.aspx",
-            "publishedAt": "2026-10-22T11:13:41.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "嘉義市",
-              "嘉義縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵逼近　南投縣23日停班停課",
-            "url": "https://www.cna.com.tw/news/aloc/202610220343.aspx",
-            "publishedAt": "2026-10-22T11:11:37.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
           }
         ]
       }
@@ -1029,10 +1000,42 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-23T03:27:04.364Z",
-      "attemptedAt": "2026-10-23T03:27:03.553Z",
+      "checkedAt": "2026-10-23T06:36:39.479Z",
+      "attemptedAt": "2026-10-23T06:36:38.128Z",
       "data": {
         "items": [
+          {
+            "title": "颱風後慢病藥泡水、健保卡不見　例外就醫補救",
+            "url": "https://www.cna.com.tw/news/ahel/202610230102.aspx",
+            "publishedAt": "2026-10-23T04:56:04.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵暴風圈正籠罩全台　估登陸機會不高、明晚減至輕颱",
+            "url": "https://www.cna.com.tw/news/ahel/202610230100.aspx",
+            "publishedAt": "2026-10-23T04:53:00.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵影響　桃機截至23日9時共596架次航班取消",
+            "url": "https://www.cna.com.tw/news/ahel/202610230079.aspx",
+            "publishedAt": "2026-10-23T03:54:15.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵　雙北宜桃竹苗山區24小時降雨上看400毫米",
+            "url": "https://www.cna.com.tw/news/ahel/202610230054.aspx",
+            "publishedAt": "2026-10-23T03:06:21.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "颱風薔琵影響　航空取消977架次、航運取消96航次",
             "url": "https://www.cna.com.tw/news/ahel/202610230051.aspx",
@@ -1150,48 +1153,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "今彩539第115256期　頭獎4注中獎",
-            "url": "https://www.cna.com.tw/news/ahel/202610220427.aspx",
-            "publishedAt": "2026-10-22T14:06:43.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "北北桃23日停班課　機場捷運取消直達車及加班車",
-            "url": "https://www.cna.com.tw/news/ahel/202610220426.aspx",
-            "publishedAt": "2026-10-22T14:05:41.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "威力彩第115085期　頭獎槓龜",
-            "url": "https://www.cna.com.tw/news/ahel/202610220425.aspx",
-            "publishedAt": "2026-10-22T14:04:39.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵逼近　桃園機場23日共414架次航班取消",
-            "url": "https://www.cna.com.tw/news/ahel/202610220416.aspx",
-            "publishedAt": "2026-10-22T13:37:15.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "桃園市"
-            ]
-          },
-          {
-            "title": "颱風薔琵再減弱　十級風暴風半徑縮小至140公里[影]",
-            "url": "https://www.cna.com.tw/news/ahel/202610220414.aspx",
-            "publishedAt": "2026-10-22T13:32:11.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1199,6 +1160,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-23T03:27:03.522Z"
+    "attemptedAt": "2026-10-23T06:36:38.083Z"
   }
 }
