@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T11:32:53.899Z",
+  "generatedAt": "2026-10-24T13:16:41.904Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-24T11:32:53.899Z",
-      "attemptedAt": "2026-10-24T11:32:51.473Z",
+      "checkedAt": "2026-10-24T13:16:41.904Z",
+      "attemptedAt": "2026-10-24T13:16:39.659Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,30 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-24T11:32:53.129Z",
-      "attemptedAt": "2026-10-24T11:32:51.516Z",
+      "checkedAt": "2026-10-24T13:16:41.443Z",
+      "attemptedAt": "2026-10-24T13:16:39.698Z",
       "data": {
         "items": [
           {
-            "title": "10/24 19:10 發布豪雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610241910",
-            "publishedAt": "2026-10-24T11:10:00.000Z",
+            "title": "10/24 20:42 發布長浪即時訊息",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202610242042",
+            "publishedAt": "2026-10-24T12:42:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "10/24 17:30 發布海上颱風警報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610241730",
-            "publishedAt": "2026-10-24T09:30:00.000Z",
+            "title": "10/24 20:30 發布解除颱風警報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Typhoon/TY_WARN.html?T=202610242030",
+            "publishedAt": "2026-10-24T12:30:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/24 19:25 發布豪雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610241925",
+            "publishedAt": "2026-10-24T11:25:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -822,10 +830,80 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-24T11:32:52.728Z",
-      "attemptedAt": "2026-10-24T11:32:51.518Z",
+      "checkedAt": "2026-10-24T13:16:41.166Z",
+      "attemptedAt": "2026-10-24T13:16:39.699Z",
       "data": {
         "items": [
+          {
+            "title": "颱風薔琵影響新竹縣　尖石道路坍方雙向不通",
+            "url": "https://www.cna.com.tw/news/aloc/202610240192.aspx",
+            "publishedAt": "2026-10-24T11:52:09.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新竹市",
+              "新竹縣"
+            ]
+          },
+          {
+            "title": "淡海輕軌傍晚5時復駛  新北捷運全線恢復服務",
+            "url": "https://www.cna.com.tw/news/aloc/202610240177.aspx",
+            "publishedAt": "2026-10-24T10:36:35.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "2026台南關子嶺溫泉美食節開幕　夜祭巡行入夜登場",
+            "url": "https://www.cna.com.tw/news/aloc/202610240172.aspx",
+            "publishedAt": "2026-10-24T10:10:24.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
+          {
+            "title": "颱風攪局競總成立大會取消  吳大村改祈福、陳紀衡辦茶會",
+            "url": "https://www.cna.com.tw/news/aloc/202610240169.aspx",
+            "publishedAt": "2026-10-24T10:06:18.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "新北坪林區里長災後復原遭樹枝砸傷　侯友宜探視",
+            "url": "https://www.cna.com.tw/news/aloc/202610240163.aspx",
+            "publishedAt": "2026-10-24T09:33:03.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "颱風薔琵減弱　馬祖南北竿船班下午4時起恢復",
+            "url": "https://www.cna.com.tw/news/aloc/202610240159.aspx",
+            "publishedAt": "2026-10-24T09:26:54.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "連江縣"
+            ]
+          },
+          {
+            "title": "從產地走向品牌  2026啡嚐嘉義咖啡節登場",
+            "url": "https://www.cna.com.tw/news/aloc/202610240158.aspx",
+            "publishedAt": "2026-10-24T09:26:52.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "嘉義市",
+              "嘉義縣"
+            ]
+          },
           {
             "title": "新北多數越堤道下午4時開放　淡江大橋5時恢復通行",
             "url": "https://www.cna.com.tw/news/aloc/202610240141.aspx",
@@ -927,74 +1005,6 @@
             "counties": [
               "澎湖縣"
             ]
-          },
-          {
-            "title": "颱風薔琵過境　台南逾3萬戶人家一度停電",
-            "url": "https://www.cna.com.tw/news/aloc/202610240075.aspx",
-            "publishedAt": "2026-10-24T04:43:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "北市陸續開啟水門　紅黃線明中午恢復禁停",
-            "url": "https://www.cna.com.tw/news/ahel/202610240074.aspx",
-            "publishedAt": "2026-10-24T04:40:45.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "強浪衝擊小琉球漁船斷纜破損　海巡設攔油索防油污擴散",
-            "url": "https://www.cna.com.tw/news/aloc/202610240073.aspx",
-            "publishedAt": "2026-10-24T04:31:43.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵遠離 台東縣上午解除山區溪流及海岸管制",
-            "url": "https://www.cna.com.tw/news/aloc/202610240071.aspx",
-            "publishedAt": "2026-10-24T04:27:39.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺東縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵災後復原　新北中午後加班收運垃圾",
-            "url": "https://www.cna.com.tw/news/aloc/202610240068.aspx",
-            "publishedAt": "2026-10-24T03:42:32.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "路樹傾倒影響供電　宜蘭約9000戶待復電",
-            "url": "https://www.cna.com.tw/news/aloc/202610240066.aspx",
-            "publishedAt": "2026-10-24T03:40:27.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "宜蘭縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵釀北市1457件災情、31傷　蔣萬安：全力投入復原",
-            "url": "https://www.cna.com.tw/news/aloc/202610240064.aspx",
-            "publishedAt": "2026-10-24T03:29:23.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -1003,10 +1013,29 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-24T11:32:52.730Z",
-      "attemptedAt": "2026-10-24T11:32:51.519Z",
+      "checkedAt": "2026-10-24T13:16:41.023Z",
+      "attemptedAt": "2026-10-24T13:16:39.701Z",
       "data": {
         "items": [
+          {
+            "title": "北北桃竹苗山區防豪雨  苗栗以北及宜蘭有局部大雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610240185.aspx",
+            "publishedAt": "2026-10-24T11:22:53.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "苗栗縣",
+              "宜蘭縣"
+            ]
+          },
+          {
+            "title": "薔琵遠離仍影響船班　25日7航線18航次停航",
+            "url": "https://www.cna.com.tw/news/ahel/202610240180.aspx",
+            "publishedAt": "2026-10-24T10:51:42.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "連假首日國道行車大致正常　25日估雪隧等路段易塞",
             "url": "https://www.cna.com.tw/news/ahel/202610240178.aspx",
@@ -1132,22 +1161,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風薔琵減弱為輕颱　氣象署下午2時30分解除陸警",
-            "url": "https://www.cna.com.tw/news/ahel/202610240104.aspx",
-            "publishedAt": "2026-10-24T06:39:53.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "交通部擬修正幼童專用車規範　盼吸引更多車廠投入",
-            "url": "https://www.cna.com.tw/news/ahel/202610240101.aspx",
-            "publishedAt": "2026-10-24T06:24:46.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1155,6 +1168,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-24T11:32:51.473Z"
+    "attemptedAt": "2026-10-24T13:16:39.659Z"
   }
 }
