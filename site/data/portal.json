@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-24T13:16:41.904Z",
+  "generatedAt": "2026-10-24T14:50:26.243Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-24T13:16:41.904Z",
-      "attemptedAt": "2026-10-24T13:16:39.659Z",
+      "checkedAt": "2026-10-24T14:50:25.219Z",
+      "attemptedAt": "2026-10-24T14:50:23.801Z",
       "data": {
         "counties": [
           {
@@ -787,10 +787,26 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-24T13:16:41.443Z",
-      "attemptedAt": "2026-10-24T13:16:39.698Z",
+      "checkedAt": "2026-10-24T14:50:26.243Z",
+      "attemptedAt": "2026-10-24T14:50:23.838Z",
       "data": {
         "items": [
+          {
+            "title": "10/24 22:34 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610242234",
+            "publishedAt": "2026-10-24T14:34:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "10/24 22:15 發布大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610242215",
+            "publishedAt": "2026-10-24T14:15:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "10/24 20:42 發布長浪即時訊息",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202610242042",
@@ -806,22 +822,6 @@
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
-          },
-          {
-            "title": "10/24 19:25 發布豪雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202610241925",
-            "publishedAt": "2026-10-24T11:25:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/24 16:40 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610241640",
-            "publishedAt": "2026-10-24T08:40:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
           }
         ]
       }
@@ -830,10 +830,39 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-24T13:16:41.166Z",
-      "attemptedAt": "2026-10-24T13:16:39.699Z",
+      "checkedAt": "2026-10-24T14:50:24.765Z",
+      "attemptedAt": "2026-10-24T14:50:23.840Z",
       "data": {
         "items": [
+          {
+            "title": "北市逾2000件災情路樹傾倒最大宗　蔣萬安：加速復原",
+            "url": "https://www.cna.com.tw/news/aloc/202610240207.aspx",
+            "publishedAt": "2026-10-24T14:05:45.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "小林大武壠族夜祭登場  跨族群展演延續文化復振",
+            "url": "https://www.cna.com.tw/news/aloc/202610240205.aspx",
+            "publishedAt": "2026-10-24T13:48:40.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風薔琵釀新竹逾萬戶停電　台電搶修全數復電",
+            "url": "https://www.cna.com.tw/news/aloc/202610240202.aspx",
+            "publishedAt": "2026-10-24T13:24:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新竹市",
+              "新竹縣"
+            ]
+          },
           {
             "title": "颱風薔琵影響新竹縣　尖石道路坍方雙向不通",
             "url": "https://www.cna.com.tw/news/aloc/202610240192.aspx",
@@ -975,36 +1004,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "颱風薔琵釀農作物損害　雲林擬爭取全品項救助",
-            "url": "https://www.cna.com.tw/news/aloc/202610240083.aspx",
-            "publishedAt": "2026-10-24T05:18:05.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "雲林縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵影響旅客滯留金門　增開加班機疏運上千人",
-            "url": "https://www.cna.com.tw/news/aloc/202610240080.aspx",
-            "publishedAt": "2026-10-24T04:58:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "金門縣"
-            ]
-          },
-          {
-            "title": "颱風薔琵漸遠離　澎湖海空交通加強疏運",
-            "url": "https://www.cna.com.tw/news/aloc/202610240079.aspx",
-            "publishedAt": "2026-10-24T04:58:56.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
           }
         ]
       }
@@ -1013,10 +1012,44 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-24T13:16:41.023Z",
-      "attemptedAt": "2026-10-24T13:16:39.701Z",
+      "checkedAt": "2026-10-24T14:50:24.763Z",
+      "attemptedAt": "2026-10-24T14:50:23.841Z",
       "data": {
         "items": [
+          {
+            "title": "今彩539第115258期開獎",
+            "url": "https://www.cna.com.tw/news/ahel/202610240195.aspx",
+            "publishedAt": "2026-10-24T12:44:16.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風擾國內線航班  民航局：協調放大機型、請軍機支援",
+            "url": "https://www.cna.com.tw/news/ahel/202610240194.aspx",
+            "publishedAt": "2026-10-24T12:10:13.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "光復節連假疏運  台鐵26日加開1列次花蓮到樹林",
+            "url": "https://www.cna.com.tw/news/ahel/202610240189.aspx",
+            "publishedAt": "2026-10-24T11:47:02.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
+          {
+            "title": "颱風外圍環流影響　北北桃竹苗山區防豪雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610240188.aspx",
+            "publishedAt": "2026-10-24T11:40:00.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "北北桃竹苗山區防豪雨  苗栗以北及宜蘭有局部大雨",
             "url": "https://www.cna.com.tw/news/ahel/202610240185.aspx",
@@ -1129,38 +1162,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "氣象署估傍晚至晚間解除颱風薔琵海警　北部雨勢入夜可望趨緩",
-            "url": "https://www.cna.com.tw/news/ahel/202610240127.aspx",
-            "publishedAt": "2026-10-24T07:52:43.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "颱風薔琵陸警解除　疾管署籲清理家園落實防疫3招",
-            "url": "https://www.cna.com.tw/news/ahel/202610240125.aspx",
-            "publishedAt": "2026-10-24T07:43:39.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台電：迄今動員逾1.5萬人次投入搶修　力拚今晚全數復電",
-            "url": "https://www.cna.com.tw/news/ahel/202610240121.aspx",
-            "publishedAt": "2026-10-24T07:31:30.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台水：已啟動19台備用發電機　逾27萬戶免受停水之苦",
-            "url": "https://www.cna.com.tw/news/ahel/202610240109.aspx",
-            "publishedAt": "2026-10-24T07:07:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1168,6 +1169,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-24T13:16:39.659Z"
+    "attemptedAt": "2026-10-24T14:50:23.801Z"
   }
 }
