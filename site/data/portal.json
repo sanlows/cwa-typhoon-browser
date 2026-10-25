@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T09:45:10.967Z",
+  "generatedAt": "2026-10-25T13:58:28.215Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-25T09:45:10.877Z",
-      "attemptedAt": "2026-10-25T09:45:09.663Z",
+      "checkedAt": "2026-10-25T13:58:27.434Z",
+      "attemptedAt": "2026-10-25T13:58:26.347Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-25T09:45:10.967Z",
-      "attemptedAt": "2026-10-25T09:45:09.702Z",
+      "checkedAt": "2026-10-25T13:58:28.215Z",
+      "attemptedAt": "2026-10-25T13:58:26.376Z",
       "data": {
         "items": [
           {
             "title": "10/25 16:35 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610251635",
             "publishedAt": "2026-10-25T08:35:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "10/25 11:40 發布長浪即時訊息",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202610251140",
-            "publishedAt": "2026-10-25T03:40:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +806,58 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-25T09:45:10.437Z",
-      "attemptedAt": "2026-10-25T09:45:09.703Z",
+      "checkedAt": "2026-10-25T13:58:27.170Z",
+      "attemptedAt": "2026-10-25T13:58:26.377Z",
       "data": {
         "items": [
+          {
+            "title": "蔣萬安競總發布颱風大作戰遊戲  籲辨病樹移除保安全",
+            "url": "https://www.cna.com.tw/news/aloc/202610250157.aspx",
+            "publishedAt": "2026-10-25T10:27:58.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "舒華再任桃園觀光大使　帶動國際旅客造訪",
+            "url": "https://www.cna.com.tw/news/aloc/202610250156.aspx",
+            "publishedAt": "2026-10-25T10:17:56.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
+          {
+            "title": "高雄漁船誤捕218公分革龜　吊臂協助野放外海",
+            "url": "https://www.cna.com.tw/news/aloc/202610250125.aspx",
+            "publishedAt": "2026-10-25T08:51:47.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "台鐵台南車站變「音樂廳」　公共鋼琴熱潮吸引大量人潮",
+            "url": "https://www.cna.com.tw/news/aloc/202610250124.aspx",
+            "publishedAt": "2026-10-25T08:50:45.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
+          {
+            "title": "颱風薔琵桃園農損估400萬元　竹圍漁港北堤受損搶修",
+            "url": "https://www.cna.com.tw/news/aloc/202610250118.aspx",
+            "publishedAt": "2026-10-25T08:34:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
           {
             "title": "卓榮泰宜蘭勘災　要求農損補助從優從速從寬3天核撥",
             "url": "https://www.cna.com.tw/news/aloc/202610250108.aspx",
@@ -853,56 +893,6 @@
             "counties": [
               "金門縣"
             ]
-          },
-          {
-            "title": "澎湖南方四島空間構築徵選　首獎10萬元",
-            "url": "https://www.cna.com.tw/news/aloc/202610250086.aspx",
-            "publishedAt": "2026-10-25T06:29:21.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "台南添新國際航線  直飛越南河內開航",
-            "url": "https://www.cna.com.tw/news/aloc/202610250074.aspx",
-            "publishedAt": "2026-10-25T05:34:55.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "颱風薔琵遠離　桃園動員清潔人力復原清運1428噸垃圾",
-            "url": "https://www.cna.com.tw/news/ahel/202610250072.aspx",
-            "publishedAt": "2026-10-25T05:16:50.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "桃園市"
-            ]
-          },
-          {
-            "title": "花蓮食農博覽會  米廠閒置桶倉變身主題展館",
-            "url": "https://www.cna.com.tw/news/aloc/202610250067.aspx",
-            "publishedAt": "2026-10-25T04:46:37.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "花蓮縣"
-            ]
-          },
-          {
-            "title": "張國威競總成立　3競爭對手到場同聲齊喊「翻轉金門」",
-            "url": "https://www.cna.com.tw/news/aloc/202610250060.aspx",
-            "publishedAt": "2026-10-25T04:26:22.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "金門縣"
-            ]
           }
         ]
       }
@@ -911,10 +901,26 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-25T09:45:10.438Z",
-      "attemptedAt": "2026-10-25T09:45:09.704Z",
+      "checkedAt": "2026-10-25T13:58:27.175Z",
+      "attemptedAt": "2026-10-25T13:58:26.378Z",
       "data": {
         "items": [
+          {
+            "title": "光復節連假收假日　國道11路段壅塞、國5北向建議上午9時前出發",
+            "url": "https://www.cna.com.tw/news/ahel/202610250159.aspx",
+            "publishedAt": "2026-10-25T10:39:02.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "未來1週2波東北季風　迎風面短暫雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610250130.aspx",
+            "publishedAt": "2026-10-25T09:10:58.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "颱風薔琵釀137校受災損失逾2千萬元　宜花最嚴重",
             "url": "https://www.cna.com.tw/news/ahel/202610250101.aspx",
@@ -1056,24 +1062,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "光復節連假疏運  台鐵26日加開1列次花蓮到樹林",
-            "url": "https://www.cna.com.tw/news/ahel/202610240189.aspx",
-            "publishedAt": "2026-10-24T11:47:02.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "花蓮縣"
-            ]
-          },
-          {
-            "title": "颱風外圍環流影響　北北桃竹苗山區防豪雨",
-            "url": "https://www.cna.com.tw/news/ahel/202610240188.aspx",
-            "publishedAt": "2026-10-24T11:40:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1081,6 +1069,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-25T09:45:09.662Z"
+    "attemptedAt": "2026-10-25T13:58:26.347Z"
   }
 }
