@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T17:37:06.974Z",
+  "generatedAt": "2026-10-25T19:55:42.153Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-25T17:37:06.122Z",
-      "attemptedAt": "2026-10-25T17:37:04.624Z",
+      "checkedAt": "2026-10-25T19:55:42.153Z",
+      "attemptedAt": "2026-10-25T19:55:39.727Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-25T17:37:06.974Z",
-      "attemptedAt": "2026-10-25T17:37:04.654Z",
+      "checkedAt": "2026-10-25T19:55:40.808Z",
+      "attemptedAt": "2026-10-25T19:55:39.768Z",
       "data": {
         "items": [
           {
@@ -814,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-25T17:37:05.816Z",
-      "attemptedAt": "2026-10-25T17:37:04.655Z",
+      "checkedAt": "2026-10-25T19:55:40.560Z",
+      "attemptedAt": "2026-10-25T19:55:39.769Z",
       "data": {
         "items": [
           {
@@ -907,10 +907,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-25T17:37:05.668Z",
-      "attemptedAt": "2026-10-25T17:37:04.656Z",
+      "checkedAt": "2026-10-25T19:55:40.557Z",
+      "attemptedAt": "2026-10-25T19:55:39.771Z",
       "data": {
         "items": [
+          {
+            "title": "觀光署參與新航旅展　推廣台灣農遊搶攻年底新加坡客源",
+            "url": "https://www.cna.com.tw/news/ahel/202610260006.aspx",
+            "publishedAt": "2026-10-25T18:38:01.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "光復節連假收假日　國道11路段壅塞、國5北向建議上午9時前出發",
             "url": "https://www.cna.com.tw/news/ahel/202610250159.aspx",
@@ -1060,14 +1068,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風擾國內線航班  民航局：協調放大機型、請軍機支援",
-            "url": "https://www.cna.com.tw/news/ahel/202610240194.aspx",
-            "publishedAt": "2026-10-24T12:10:13.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1075,6 +1075,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-25T17:37:04.623Z"
+    "attemptedAt": "2026-10-25T19:55:39.726Z"
   }
 }
