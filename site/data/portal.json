@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T04:59:41.882Z",
+  "generatedAt": "2026-10-26T06:56:22.116Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-26T04:59:41.882Z",
-      "attemptedAt": "2026-10-26T04:59:40.841Z",
+      "checkedAt": "2026-10-26T06:56:21.177Z",
+      "attemptedAt": "2026-10-26T06:56:20.270Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-26T04:59:41.695Z",
-      "attemptedAt": "2026-10-26T04:59:40.881Z",
+      "checkedAt": "2026-10-26T06:56:22.116Z",
+      "attemptedAt": "2026-10-26T06:56:20.312Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,56 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-26T04:59:41.496Z",
-      "attemptedAt": "2026-10-26T04:59:40.882Z",
+      "checkedAt": "2026-10-26T06:56:21.103Z",
+      "attemptedAt": "2026-10-26T06:56:20.314Z",
       "data": {
         "items": [
+          {
+            "title": "恆春文化中心「半島大戲院」　看電影不用百里奔波",
+            "url": "https://www.cna.com.tw/news/aloc/202610260118.aspx",
+            "publishedAt": "2026-10-26T06:21:15.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "桃園中壢餐飲業廚餘倒水溝　環保局開罰2次限期改善",
+            "url": "https://www.cna.com.tw/news/aloc/202610260097.aspx",
+            "publishedAt": "2026-10-26T04:53:27.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
+          {
+            "title": "勘災被問洋流外溢基隆  謝國樑指吊掛鐵皮：以這個優先",
+            "url": "https://www.cna.com.tw/news/aloc/202610260096.aspx",
+            "publishedAt": "2026-10-26T04:52:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "基隆市"
+            ]
+          },
+          {
+            "title": "台灣櫻花鉤吻鮭重返司界蘭溪　調查發現117尾",
+            "url": "https://www.cna.com.tw/news/ahel/202610260093.aspx",
+            "publishedAt": "2026-10-26T04:49:18.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "台南強化家庭教育與學生輔導　新建聯合廳舍動土",
+            "url": "https://www.cna.com.tw/news/aloc/202610260090.aspx",
+            "publishedAt": "2026-10-26T04:22:11.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
           {
             "title": "糖廠倉庫活化  北港1911好庫文化產業園啟用",
             "url": "https://www.cna.com.tw/news/aloc/202610260076.aspx",
@@ -835,52 +881,6 @@
             "counties": [
               "臺中市"
             ]
-          },
-          {
-            "title": "網傳學生為競總大會掃校園　蔣萬安競辦駁斥",
-            "url": "https://www.cna.com.tw/news/aloc/202610250182.aspx",
-            "publishedAt": "2026-10-25T13:22:54.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "蔣萬安競總發布颱風大作戰遊戲  籲辨病樹移除保安全",
-            "url": "https://www.cna.com.tw/news/aloc/202610250157.aspx",
-            "publishedAt": "2026-10-25T10:27:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "舒華再任桃園觀光大使　帶動國際旅客造訪",
-            "url": "https://www.cna.com.tw/news/aloc/202610250156.aspx",
-            "publishedAt": "2026-10-25T10:17:56.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "桃園市"
-            ]
-          },
-          {
-            "title": "高雄漁船誤捕218公分革龜　吊臂協助野放外海",
-            "url": "https://www.cna.com.tw/news/aloc/202610250125.aspx",
-            "publishedAt": "2026-10-25T08:51:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "台鐵台南車站變「音樂廳」　公共鋼琴熱潮吸引大量人潮",
-            "url": "https://www.cna.com.tw/news/aloc/202610250124.aspx",
-            "publishedAt": "2026-10-25T08:50:45.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
           }
         ]
       }
@@ -889,10 +889,28 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-26T04:59:41.506Z",
-      "attemptedAt": "2026-10-26T04:59:40.883Z",
+      "checkedAt": "2026-10-26T06:56:20.888Z",
+      "attemptedAt": "2026-10-26T06:56:20.315Z",
       "data": {
         "items": [
+          {
+            "title": "颱風農損逾2.2億元  農業部公告新北等9縣市納天災救助",
+            "url": "https://www.cna.com.tw/news/ahel/202610260104.aspx",
+            "publishedAt": "2026-10-26T05:15:44.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "台灣櫻花鉤吻鮭重返司界蘭溪　調查發現117尾",
+            "url": "https://www.cna.com.tw/news/ahel/202610260093.aspx",
+            "publishedAt": "2026-10-26T04:49:18.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "光復連假收假午後北返車潮湧現  國道11路段恐壅塞",
             "url": "https://www.cna.com.tw/news/ahel/202610260089.aspx",
@@ -1012,24 +1030,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風影響金門仍逾千人滯留　軍機6架次助疏運",
-            "url": "https://www.cna.com.tw/news/ahel/202610250090.aspx",
-            "publishedAt": "2026-10-25T06:45:30.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "金門縣"
-            ]
-          },
-          {
-            "title": "旅客重視特殊體驗行程  ITF旅展聚焦主題旅行",
-            "url": "https://www.cna.com.tw/news/ahel/202610250080.aspx",
-            "publishedAt": "2026-10-25T06:07:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1037,6 +1037,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-26T04:59:40.841Z"
+    "attemptedAt": "2026-10-26T06:56:20.270Z"
   }
 }
