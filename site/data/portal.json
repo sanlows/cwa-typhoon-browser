@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-27T10:24:51.339Z",
+  "generatedAt": "2026-10-27T11:05:45.224Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-27T10:24:51.339Z",
-      "attemptedAt": "2026-10-27T10:24:50.238Z",
+      "checkedAt": "2026-10-27T11:05:45.224Z",
+      "attemptedAt": "2026-10-27T11:05:43.088Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-27T10:24:51.279Z",
-      "attemptedAt": "2026-10-27T10:24:50.277Z",
+      "checkedAt": "2026-10-27T11:05:44.992Z",
+      "attemptedAt": "2026-10-27T11:05:43.129Z",
       "data": {
         "items": [
           {
@@ -814,14 +814,14 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-27T10:24:51.054Z",
-      "attemptedAt": "2026-10-27T10:24:50.279Z",
+      "checkedAt": "2026-10-27T11:05:44.614Z",
+      "attemptedAt": "2026-10-27T11:05:43.131Z",
       "data": {
         "items": [
           {
-            "title": "鼓勵公托人員長期留任  中市提供獎金最高3.6萬",
-            "url": "https://www.cna.com.tw/news/aloc/202610270133.aspx",
-            "publishedAt": "2026-10-27T05:52:46.000Z",
+            "title": "搖滾台中10/31登場　集結50組國內外樂團演出",
+            "url": "https://www.cna.com.tw/news/aloc/202610270243.aspx",
+            "publishedAt": "2026-10-27T09:27:44.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
@@ -829,48 +829,66 @@
             ]
           },
           {
-            "title": "長者健保免費　陳素月：當選後將以彰化縣長身分推動",
-            "url": "https://www.cna.com.tw/news/aloc/202610270132.aspx",
-            "publishedAt": "2026-10-27T05:46:44.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "新北市議員參選人號次抽籤　有人扮電玩角色春麗現身",
-            "url": "https://www.cna.com.tw/news/aloc/202610270127.aspx",
-            "publishedAt": "2026-10-27T05:40:33.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市",
-              "臺北市"
-            ]
-          },
-          {
-            "title": "沈伯洋推政策白皮書　文庫本「洋流誌」詮釋5主軸",
-            "url": "https://www.cna.com.tw/news/aloc/202610270125.aspx",
-            "publishedAt": "2026-10-27T05:34:29.000Z",
+            "title": "青年代表抽號次、受訪遭批評　蔣萬安：鼓勵代替惡意",
+            "url": "https://www.cna.com.tw/news/aloc/202610270241.aspx",
+            "publishedAt": "2026-10-27T09:26:40.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
           },
           {
-            "title": "稻作收割剩稻稈　南投環保局空拍機嚴抓露天燃燒",
-            "url": "https://www.cna.com.tw/news/aloc/202610270120.aspx",
-            "publishedAt": "2026-10-27T05:28:18.000Z",
+            "title": "流感新冠作伙打　新北長者施打疫苗抽黃金等大獎",
+            "url": "https://www.cna.com.tw/news/aloc/202610270238.aspx",
+            "publishedAt": "2026-10-27T09:24:32.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
-              "南投縣"
+              "新北市"
             ]
           },
           {
-            "title": "人本指台中某國小特教生遭師膠帶綑綁　校方啟動調查",
-            "url": "https://www.cna.com.tw/news/aloc/202610270111.aspx",
-            "publishedAt": "2026-10-27T04:58:56.000Z",
+            "title": "竹縣竹北市長參選人提政見　聚焦公共空間改善",
+            "url": "https://www.cna.com.tw/news/aloc/202610270235.aspx",
+            "publishedAt": "2026-10-27T09:23:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市",
+              "新竹縣"
+            ]
+          },
+          {
+            "title": "澎湖望安野放救傷綠蠵龜　師生見證重返大海",
+            "url": "https://www.cna.com.tw/news/aloc/202610270223.aspx",
+            "publishedAt": "2026-10-27T09:20:00.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "澎湖縣"
+            ]
+          },
+          {
+            "title": "桃園大溪工藝週31日登場　7國際工藝城市齊聚交流",
+            "url": "https://www.cna.com.tw/news/aloc/202610270207.aspx",
+            "publishedAt": "2026-10-27T08:51:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
+          {
+            "title": "太管處與同禮部落協會簽署MOU  共築永續發展新願景",
+            "url": "https://www.cna.com.tw/news/aloc/202610270206.aspx",
+            "publishedAt": "2026-10-27T08:49:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "中市女童疑遭施暴呼巴掌  警察局主動調查",
+            "url": "https://www.cna.com.tw/news/aloc/202610270205.aspx",
+            "publishedAt": "2026-10-27T08:48:21.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
@@ -878,27 +896,9 @@
             ]
           },
           {
-            "title": "中山大學研究：正壓呼吸器窒息感與心理因素有關",
-            "url": "https://www.cna.com.tw/news/aloc/202610270101.aspx",
-            "publishedAt": "2026-10-27T04:39:35.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "台南玉井農產冷鏈物流中心試運轉　助強化外銷量能",
-            "url": "https://www.cna.com.tw/news/aloc/202610270095.aspx",
-            "publishedAt": "2026-10-27T04:25:22.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "竹竹苗縣市長選舉號次抽籤出爐　數字都有好彩頭",
-            "url": "https://www.cna.com.tw/news/aloc/202610270083.aspx",
-            "publishedAt": "2026-10-27T04:13:56.000Z",
+            "title": "苗栗縣總圖書館設計亮相　21億打造山城閱讀新地標",
+            "url": "https://www.cna.com.tw/news/aloc/202610270199.aspx",
+            "publishedAt": "2026-10-27T08:46:08.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
@@ -906,30 +906,29 @@
             ]
           },
           {
-            "title": "基宜縣市長選舉號次抽籤　綠營1號藍軍3號",
-            "url": "https://www.cna.com.tw/news/aloc/202610270082.aspx",
-            "publishedAt": "2026-10-27T04:11:54.000Z",
+            "title": "南投國姓首座公有長照館　結合衛生室護長輩健康",
+            "url": "https://www.cna.com.tw/news/aloc/202610270190.aspx",
+            "publishedAt": "2026-10-27T08:13:49.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
-              "宜蘭縣"
+              "南投縣"
             ]
           },
           {
-            "title": "嘉義縣「雲海季」11月登場  旅遊抽新款Switch",
-            "url": "https://www.cna.com.tw/news/aloc/202610270077.aspx",
-            "publishedAt": "2026-10-27T03:50:43.000Z",
+            "title": "颱風薔琵吹倒霧峰香米　中市府爭取救助",
+            "url": "https://www.cna.com.tw/news/aloc/202610270185.aspx",
+            "publishedAt": "2026-10-27T08:03:38.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
-              "嘉義市",
-              "嘉義縣"
+              "臺中市"
             ]
           },
           {
-            "title": "市長選舉號次青年代表抽中5號　蔣萬安：台北5告讚",
-            "url": "https://www.cna.com.tw/news/aloc/202610270075.aspx",
-            "publishedAt": "2026-10-27T03:45:38.000Z",
+            "title": "北市消防興隆分隊落成啟用　文山區救災救護效能升級",
+            "url": "https://www.cna.com.tw/news/aloc/202610270176.aspx",
+            "publishedAt": "2026-10-27T07:50:18.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
@@ -937,34 +936,13 @@
             ]
           },
           {
-            "title": "離島三縣長號次抽籤　金門23日已先完成抽籤",
-            "url": "https://www.cna.com.tw/news/aloc/202610270054.aspx",
-            "publishedAt": "2026-10-27T03:16:53.000Z",
+            "title": "屏東潮青圖書分館青創空間動土　預計117年完工",
+            "url": "https://www.cna.com.tw/news/aloc/202610270163.aspx",
+            "publishedAt": "2026-10-27T07:20:50.000Z",
             "source": "中央通訊社",
             "category": "地方",
             "counties": [
-              "金門縣"
-            ]
-          },
-          {
-            "title": "2026高雄萬聖節　陳其邁：大南瓜將跟我一起畢業",
-            "url": "https://www.cna.com.tw/news/aloc/202610270053.aspx",
-            "publishedAt": "2026-10-27T03:15:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "彰化南投縣長選舉號次抽籤　參選人各喊口號拚勝選",
-            "url": "https://www.cna.com.tw/news/aloc/202610270052.aspx",
-            "publishedAt": "2026-10-27T03:14:49.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣",
-              "南投縣"
+              "屏東縣"
             ]
           }
         ]
@@ -974,8 +952,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-27T10:24:51.056Z",
-      "attemptedAt": "2026-10-27T10:24:50.280Z",
+      "checkedAt": "2026-10-27T11:05:44.762Z",
+      "attemptedAt": "2026-10-27T11:05:43.132Z",
       "data": {
         "items": [
           {
@@ -1148,6 +1126,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-27T10:24:50.238Z"
+    "attemptedAt": "2026-10-27T11:05:43.088Z"
   }
 }
