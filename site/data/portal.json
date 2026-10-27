@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-27T20:56:08.102Z",
+  "generatedAt": "2026-10-27T23:59:54.919Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-27T20:56:08.074Z",
-      "attemptedAt": "2026-10-27T20:56:06.283Z",
+      "checkedAt": "2026-10-27T23:59:54.919Z",
+      "attemptedAt": "2026-10-27T23:59:53.078Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-27T20:56:08.102Z",
-      "attemptedAt": "2026-10-27T20:56:06.309Z",
+      "checkedAt": "2026-10-27T23:59:54.910Z",
+      "attemptedAt": "2026-10-27T23:59:53.119Z",
       "data": {
         "items": [
           {
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-27T20:56:07.725Z",
-      "attemptedAt": "2026-10-27T20:56:06.310Z",
+      "checkedAt": "2026-10-27T23:59:54.629Z",
+      "attemptedAt": "2026-10-27T23:59:53.121Z",
       "data": {
         "items": [
           {
@@ -914,10 +914,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-27T20:56:07.724Z",
-      "attemptedAt": "2026-10-27T20:56:06.311Z",
+      "checkedAt": "2026-10-27T23:59:54.635Z",
+      "attemptedAt": "2026-10-27T23:59:53.122Z",
       "data": {
         "items": [
+          {
+            "title": "長榮航空運送斑哥條紋羚抵台協助繁殖　預計一個月後對外展示",
+            "url": "https://www.cna.com.tw/news/ahel/202610280011.aspx",
+            "publishedAt": "2026-10-27T21:02:13.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115260期　頭獎2注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202610270313.aspx",
@@ -1025,17 +1033,6 @@
             "counties": [
               "雲林縣"
             ]
-          },
-          {
-            "title": "屏東縣國小教師遭指帶刀入校　縣府：校方調查是否不適任",
-            "url": "https://www.cna.com.tw/news/ahel/202610270182.aspx",
-            "publishedAt": "2026-10-27T07:59:31.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "屏東縣",
-              "臺東縣"
-            ]
           }
         ]
       }
@@ -1043,6 +1040,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-27T20:56:06.282Z"
+    "attemptedAt": "2026-10-27T23:59:53.078Z"
   }
 }
