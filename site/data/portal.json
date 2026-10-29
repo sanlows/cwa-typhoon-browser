@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T21:44:12.264Z",
+  "generatedAt": "2026-10-29T01:18:37.609Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-28T21:44:12.264Z",
-      "attemptedAt": "2026-10-28T21:44:10.055Z",
+      "checkedAt": "2026-10-29T01:18:37.609Z",
+      "attemptedAt": "2026-10-29T01:18:35.772Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-28T21:44:12.167Z",
-      "attemptedAt": "2026-10-28T21:44:10.095Z",
+      "checkedAt": "2026-10-29T01:18:37.577Z",
+      "attemptedAt": "2026-10-29T01:18:35.801Z",
       "data": {
         "items": []
       }
@@ -797,8 +797,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-28T21:44:11.773Z",
-      "attemptedAt": "2026-10-28T21:44:10.096Z",
+      "checkedAt": "2026-10-29T01:18:37.313Z",
+      "attemptedAt": "2026-10-29T01:18:35.802Z",
       "data": {
         "items": [
           {
@@ -968,10 +968,20 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-28T21:44:11.775Z",
-      "attemptedAt": "2026-10-28T21:44:10.097Z",
+      "checkedAt": "2026-10-29T01:18:37.312Z",
+      "attemptedAt": "2026-10-29T01:18:35.803Z",
       "data": {
         "items": [
+          {
+            "title": "東北季風減弱北部氣溫回升　基隆北海岸及東半部有雨",
+            "url": "https://www.cna.com.tw/news/ahel/202610290019.aspx",
+            "publishedAt": "2026-10-29T00:01:23.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "基隆市"
+            ]
+          },
           {
             "title": "今彩539第115261期　頭獎1注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202610280336.aspx",
@@ -1113,16 +1123,6 @@
             "counties": [
               "臺中市"
             ]
-          },
-          {
-            "title": "南鐵永康段地下化環評過關　南市府：將增綠覆面積",
-            "url": "https://www.cna.com.tw/news/ahel/202610280188.aspx",
-            "publishedAt": "2026-10-28T07:53:46.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺南市"
-            ]
           }
         ]
       }
@@ -1130,6 +1130,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-28T21:44:10.054Z"
+    "attemptedAt": "2026-10-29T01:18:35.771Z"
   }
 }
