@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T16:01:45.589Z",
+  "generatedAt": "2026-10-30T18:49:19.150Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-30T16:01:44.462Z",
-      "attemptedAt": "2026-10-30T16:01:43.647Z",
+      "checkedAt": "2026-10-30T18:49:18.888Z",
+      "attemptedAt": "2026-10-30T18:49:17.446Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-30T16:01:45.589Z",
-      "attemptedAt": "2026-10-30T16:01:43.679Z",
+      "checkedAt": "2026-10-30T18:49:19.150Z",
+      "attemptedAt": "2026-10-30T18:49:17.475Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,58 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-30T16:01:44.184Z",
-      "attemptedAt": "2026-10-30T16:01:43.680Z",
+      "checkedAt": "2026-10-30T18:49:18.156Z",
+      "attemptedAt": "2026-10-30T18:49:17.476Z",
       "data": {
         "items": [
+          {
+            "title": "高雄市長選舉辯論　賴瑞隆、柯志恩都讓市民打分數",
+            "url": "https://www.cna.com.tw/news/aloc/202610300339.aspx",
+            "publishedAt": "2026-10-30T15:33:36.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "市長選舉辯論　賴瑞隆：高雄不能走回重北輕南老路",
+            "url": "https://www.cna.com.tw/news/aloc/202610300338.aspx",
+            "publishedAt": "2026-10-30T15:29:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "市長選舉電視辯論　柯志恩指高雄不應遭派系把持",
+            "url": "https://www.cna.com.tw/news/aloc/202610300336.aspx",
+            "publishedAt": "2026-10-30T15:22:30.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "賴瑞隆柯志恩辯論交鋒　205兵工廠、政治獻金成焦點",
+            "url": "https://www.cna.com.tw/news/aloc/202610300335.aspx",
+            "publishedAt": "2026-10-30T15:18:27.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "高雄市長辯論交鋒賴瑞隆籲別用派系框限　柯志恩指守法案底線[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610300334.aspx",
+            "publishedAt": "2026-10-30T14:57:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
           {
             "title": "市長選舉電視辯論　賴瑞隆指柯志恩未為高雄發聲",
             "url": "https://www.cna.com.tw/news/aloc/202610300316.aspx",
@@ -831,7 +879,7 @@
             ]
           },
           {
-            "title": "直播／高雄市長選舉辯論登場　柯志恩、賴瑞隆都說平常心",
+            "title": "高雄市長選舉辯論登場　柯志恩、賴瑞隆都說平常心",
             "url": "https://www.cna.com.tw/news/aloc/202610300291.aspx",
             "publishedAt": "2026-10-30T11:21:43.000Z",
             "source": "中央通訊社",
@@ -915,56 +963,6 @@
             "counties": [
               "臺南市"
             ]
-          },
-          {
-            "title": "新北新莊第一市場伴在地逾50年　7000萬元換裝啟用",
-            "url": "https://www.cna.com.tw/news/aloc/202610300215.aspx",
-            "publishedAt": "2026-10-30T09:02:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "華山屏東竹田站飄滷肉香　「家的味道」憶建站14年",
-            "url": "https://www.cna.com.tw/news/aloc/202610300206.aspx",
-            "publishedAt": "2026-10-30T08:48:38.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "屏東縣"
-            ]
-          },
-          {
-            "title": "彰化八卦山棒球場擴建動土　打造標準場地提升量能",
-            "url": "https://www.cna.com.tw/news/aloc/202610300197.aspx",
-            "publishedAt": "2026-10-30T08:35:19.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "竹市長選戰聚焦交通　3參選人各提政見",
-            "url": "https://www.cna.com.tw/news/aloc/202610300195.aspx",
-            "publishedAt": "2026-10-30T08:30:15.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新竹市"
-            ]
-          },
-          {
-            "title": "無良詐團冒名盜圖行騙　苗栗家扶報警籲認明管道",
-            "url": "https://www.cna.com.tw/news/aloc/202610300193.aspx",
-            "publishedAt": "2026-10-30T08:25:10.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "苗栗縣"
-            ]
           }
         ]
       }
@@ -973,8 +971,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-30T16:01:44.185Z",
-      "attemptedAt": "2026-10-30T16:01:43.680Z",
+      "checkedAt": "2026-10-30T18:49:18.145Z",
+      "attemptedAt": "2026-10-30T18:49:17.476Z",
       "data": {
         "items": [
           {
@@ -1107,6 +1105,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-30T16:01:43.647Z"
+    "attemptedAt": "2026-10-30T18:49:17.446Z"
   }
 }
