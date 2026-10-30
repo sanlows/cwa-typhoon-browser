@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T23:38:57.852Z",
+  "generatedAt": "2026-10-30T02:54:59.804Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-29T23:38:56.933Z",
-      "attemptedAt": "2026-10-29T23:38:56.159Z",
+      "checkedAt": "2026-10-30T02:54:59.804Z",
+      "attemptedAt": "2026-10-30T02:54:57.783Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-29T23:38:57.852Z",
-      "attemptedAt": "2026-10-29T23:38:56.205Z",
+      "checkedAt": "2026-10-30T02:54:59.344Z",
+      "attemptedAt": "2026-10-30T02:54:57.825Z",
       "data": {
         "items": [
           {
-            "title": "10/30 04:40 發布第 074 號顯著有感地震報告",
-            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115074-1030-043743.html?T=202610300440",
-            "publishedAt": "2026-10-29T20:40:25.000Z",
+            "title": "10/30 10:29 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610301029",
+            "publishedAt": "2026-10-30T02:29:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "10/30 04:29 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610300429",
-            "publishedAt": "2026-10-29T20:29:00.000Z",
+            "title": "10/30 04:40 發布第 074 號顯著有感地震報告",
+            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115074-1030-043743.html?T=202610300440",
+            "publishedAt": "2026-10-29T20:40:25.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +814,41 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-29T23:38:56.806Z",
-      "attemptedAt": "2026-10-29T23:38:56.207Z",
+      "checkedAt": "2026-10-30T02:54:59.081Z",
+      "attemptedAt": "2026-10-30T02:54:57.827Z",
       "data": {
         "items": [
+          {
+            "title": "發展地方特色產業  嘉義瑞峰種植台灣原生山茶",
+            "url": "https://www.cna.com.tw/news/aloc/202610300049.aspx",
+            "publishedAt": "2026-10-30T02:31:57.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "嘉義市",
+              "嘉義縣"
+            ]
+          },
+          {
+            "title": "台中海洋館海洋幻術師特展 長枝筐蛇尾、比目魚揭海底變裝術",
+            "url": "https://www.cna.com.tw/news/aloc/202610300046.aspx",
+            "publishedAt": "2026-10-30T02:21:50.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
+          {
+            "title": "台南車站突禁樂器演奏惹議　站方將貼新公告仍禁商業行為",
+            "url": "https://www.cna.com.tw/news/aloc/202610300040.aspx",
+            "publishedAt": "2026-10-30T01:54:37.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
           {
             "title": "颱風薔琵強風鹽霧傷恆春半島農作　徐富癸籲加速救助",
             "url": "https://www.cna.com.tw/news/aloc/202610290339.aspx",
@@ -951,18 +982,6 @@
             "counties": [
               "高雄市"
             ]
-          },
-          {
-            "title": "嘉義閒置半世紀大林文高市地重劃竣工　還地於民",
-            "url": "https://www.cna.com.tw/news/aloc/202610290213.aspx",
-            "publishedAt": "2026-10-29T07:56:25.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "嘉義市",
-              "嘉義縣",
-              "高雄市"
-            ]
           }
         ]
       }
@@ -971,10 +990,50 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-29T23:38:56.809Z",
-      "attemptedAt": "2026-10-29T23:38:56.208Z",
+      "checkedAt": "2026-10-30T02:54:58.963Z",
+      "attemptedAt": "2026-10-30T02:54:57.828Z",
       "data": {
         "items": [
+          {
+            "title": "台電校園節電舞台劇登場　學童化身偵探尋找省電妙招",
+            "url": "https://www.cna.com.tw/news/ahel/202610300045.aspx",
+            "publishedAt": "2026-10-30T02:18:48.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "新版役男體位標準上路　青團籲政府兌現配套承諾",
+            "url": "https://www.cna.com.tw/news/ahel/202610300044.aspx",
+            "publishedAt": "2026-10-30T02:17:46.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "財部：營業用車輛下期使用牌照稅　繳納期限至11/2",
+            "url": "https://www.cna.com.tw/news/ahel/202610300041.aspx",
+            "publishedAt": "2026-10-30T01:57:39.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "華航2027月曆出爐　新世代機隊787內裝搶先看",
+            "url": "https://www.cna.com.tw/news/ahel/202610300025.aspx",
+            "publishedAt": "2026-10-30T00:37:04.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "颱風煙花轉強颱　吳德榮：東部有雨、中南部晴朗上看34度",
+            "url": "https://www.cna.com.tw/news/ahel/202610300021.aspx",
+            "publishedAt": "2026-10-30T00:07:55.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "東部海域地震規模4.4　最大震度宜蘭花蓮3級",
             "url": "https://www.cna.com.tw/news/ahel/202610300011.aspx",
@@ -1059,56 +1118,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "舊衣變暖流　弘道二手精品義賣助獨老過好年",
-            "url": "https://www.cna.com.tw/news/ahel/202610290261.aspx",
-            "publishedAt": "2026-10-29T09:23:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "石崇良：牛奶針治失眠恐涉醫療法不正當行為　不排除全面普查",
-            "url": "https://www.cna.com.tw/news/ahel/202610290260.aspx",
-            "publishedAt": "2026-10-29T09:23:06.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "脂肪肝盛行率30歲後攀升　醫示警忽視恐埋肝癌風險",
-            "url": "https://www.cna.com.tw/news/ahel/202610290253.aspx",
-            "publishedAt": "2026-10-29T09:13:51.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "未來一週3波東北季風接力　30日基隆北海岸、東北部有雨",
-            "url": "https://www.cna.com.tw/news/ahel/202610290245.aspx",
-            "publishedAt": "2026-10-29T08:50:33.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "基隆市"
-            ]
-          },
-          {
-            "title": "健保放寬B肝抗病毒藥給付條件　受惠人數上看3萬人",
-            "url": "https://www.cna.com.tw/news/ahel/202610290230.aspx",
-            "publishedAt": "2026-10-29T08:21:01.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "治療「菜瓜布肺」新曙光　中醫大附醫研究登國際期刊",
-            "url": "https://www.cna.com.tw/news/ahel/202610290215.aspx",
-            "publishedAt": "2026-10-29T07:57:29.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1116,6 +1125,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-29T23:38:56.159Z"
+    "attemptedAt": "2026-10-30T02:54:57.783Z"
   }
 }
