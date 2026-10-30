@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T18:49:19.150Z",
+  "generatedAt": "2026-10-30T20:42:04.928Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-30T18:49:18.888Z",
-      "attemptedAt": "2026-10-30T18:49:17.446Z",
+      "checkedAt": "2026-10-30T20:42:04.928Z",
+      "attemptedAt": "2026-10-30T20:42:03.658Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-30T18:49:19.150Z",
-      "attemptedAt": "2026-10-30T18:49:17.475Z",
+      "checkedAt": "2026-10-30T20:42:04.427Z",
+      "attemptedAt": "2026-10-30T20:42:03.689Z",
       "data": {
         "items": [
           {
-            "title": "10/30 22:29 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610302229",
-            "publishedAt": "2026-10-30T14:29:00.000Z",
+            "title": "10/31 04:29 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610310429",
+            "publishedAt": "2026-10-30T20:29:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-30T18:49:18.156Z",
-      "attemptedAt": "2026-10-30T18:49:17.476Z",
+      "checkedAt": "2026-10-30T20:42:04.151Z",
+      "attemptedAt": "2026-10-30T20:42:03.690Z",
       "data": {
         "items": [
           {
@@ -971,8 +971,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-30T18:49:18.145Z",
-      "attemptedAt": "2026-10-30T18:49:17.476Z",
+      "checkedAt": "2026-10-30T20:42:04.144Z",
+      "attemptedAt": "2026-10-30T20:42:03.691Z",
       "data": {
         "items": [
           {
@@ -1105,6 +1105,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-30T18:49:17.446Z"
+    "attemptedAt": "2026-10-30T20:42:03.657Z"
   }
 }
