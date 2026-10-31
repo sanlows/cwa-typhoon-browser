@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T00:11:01.601Z",
+  "generatedAt": "2026-10-31T02:16:14.780Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-31T00:11:01.601Z",
-      "attemptedAt": "2026-10-31T00:10:58.895Z",
+      "checkedAt": "2026-10-31T02:16:14.232Z",
+      "attemptedAt": "2026-10-31T02:16:13.617Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-31T00:11:00.076Z",
-      "attemptedAt": "2026-10-31T00:10:58.918Z",
+      "checkedAt": "2026-10-31T02:16:14.780Z",
+      "attemptedAt": "2026-10-31T02:16:13.642Z",
       "data": {
         "items": [
           {
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-31T00:10:59.806Z",
-      "attemptedAt": "2026-10-31T00:10:58.918Z",
+      "checkedAt": "2026-10-31T02:16:14.305Z",
+      "attemptedAt": "2026-10-31T02:16:13.643Z",
       "data": {
         "items": [
           {
@@ -971,10 +971,44 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-31T00:10:59.805Z",
-      "attemptedAt": "2026-10-31T00:10:58.919Z",
+      "checkedAt": "2026-10-31T02:16:14.311Z",
+      "attemptedAt": "2026-10-31T02:16:13.643Z",
       "data": {
         "items": [
+          {
+            "title": "台灣水果叩關歐盟市場　公私協力以軟實力拓展新局",
+            "url": "https://www.cna.com.tw/news/ahel/202610310022.aspx",
+            "publishedAt": "2026-10-31T01:11:40.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "教師離線權寫入職場不法侵害指引　全教總籲課責雇主",
+            "url": "https://www.cna.com.tw/news/ahel/202610310017.aspx",
+            "publishedAt": "2026-10-31T00:46:28.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "大家功德會慈善拍賣募逾4千萬　盼挹注弱勢教育助圓夢",
+            "url": "https://www.cna.com.tw/news/ahel/202610310016.aspx",
+            "publishedAt": "2026-10-31T00:44:26.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "東部與大台北東側有雨　吳德榮：下週2波東北季風",
+            "url": "https://www.cna.com.tw/news/ahel/202610310013.aspx",
+            "publishedAt": "2026-10-31T00:40:20.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "今彩539第115263期　頭獎3注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202610300331.aspx",
@@ -1074,30 +1108,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "長榮航空首度參與鴻海科技日　打造專屬貴賓室深化企業合作",
-            "url": "https://www.cna.com.tw/news/ahel/202610300247.aspx",
-            "publishedAt": "2026-10-30T09:32:07.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "高中學習歷程上路7年　學團建議開放重製上傳",
-            "url": "https://www.cna.com.tw/news/ahel/202610300245.aspx",
-            "publishedAt": "2026-10-30T09:31:03.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "未來一週3波東北季風　31日局部低溫探19度、迎風面有雨",
-            "url": "https://www.cna.com.tw/news/ahel/202610300228.aspx",
-            "publishedAt": "2026-10-30T09:11:25.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1105,6 +1115,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-31T00:10:58.894Z"
+    "attemptedAt": "2026-10-31T02:16:13.616Z"
   }
 }
