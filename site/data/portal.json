@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T16:04:05.275Z",
+  "generatedAt": "2026-10-31T19:30:34.548Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-31T16:04:04.899Z",
-      "attemptedAt": "2026-10-31T16:04:04.378Z",
+      "checkedAt": "2026-10-31T19:30:34.407Z",
+      "attemptedAt": "2026-10-31T19:30:33.513Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-31T16:04:05.275Z",
-      "attemptedAt": "2026-10-31T16:04:04.422Z",
+      "checkedAt": "2026-10-31T19:30:34.548Z",
+      "attemptedAt": "2026-10-31T19:30:33.546Z",
       "data": {
         "items": []
       }
@@ -797,10 +797,30 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-31T16:04:04.771Z",
-      "attemptedAt": "2026-10-31T16:04:04.424Z",
+      "checkedAt": "2026-10-31T19:30:34.120Z",
+      "attemptedAt": "2026-10-31T19:30:33.547Z",
       "data": {
         "items": [
+          {
+            "title": "北市動物園112週年慶　迎來雄性山地斑哥條紋羚",
+            "url": "https://www.cna.com.tw/news/aloc/202610310210.aspx",
+            "publishedAt": "2026-10-31T15:46:44.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "洋流車隊進中正萬華鄭麗君送羅盤　盼沈伯洋指引北市未來方向",
+            "url": "https://www.cna.com.tw/news/aloc/202610310207.aspx",
+            "publishedAt": "2026-10-31T14:31:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "白晝之夜登場　首展巴黎藝術家作品、結合那卡西文化",
             "url": "https://www.cna.com.tw/news/aloc/202610310198.aspx",
@@ -906,34 +926,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "出席同志遊行  沈伯洋：推性別有關審計創造友善空間",
-            "url": "https://www.cna.com.tw/news/aloc/202610310136.aspx",
-            "publishedAt": "2026-10-31T08:53:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "南投縣長許淑華拚連任　水里掃街成立北中寮競總",
-            "url": "https://www.cna.com.tw/news/aloc/202610310134.aspx",
-            "publishedAt": "2026-10-31T08:46:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
-          },
-          {
-            "title": "台北市長首場辯論交鋒　蔣萬安、沈伯洋市政議題直球對決[影]",
-            "url": "https://www.cna.com.tw/news/aloc/202610310132.aspx",
-            "publishedAt": "2026-10-31T08:34:43.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -942,8 +934,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-31T16:04:04.768Z",
-      "attemptedAt": "2026-10-31T16:04:04.425Z",
+      "checkedAt": "2026-10-31T19:30:34.121Z",
+      "attemptedAt": "2026-10-31T19:30:33.548Z",
       "data": {
         "items": [
           {
@@ -1082,6 +1074,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-31T16:04:04.378Z"
+    "attemptedAt": "2026-10-31T19:30:33.513Z"
   }
 }
