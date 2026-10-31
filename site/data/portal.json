@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T05:33:42.774Z",
+  "generatedAt": "2026-10-31T08:48:55.495Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-31T05:33:41.758Z",
-      "attemptedAt": "2026-10-31T05:33:40.918Z",
+      "checkedAt": "2026-10-31T08:48:54.532Z",
+      "attemptedAt": "2026-10-31T08:48:53.433Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-31T05:33:42.774Z",
-      "attemptedAt": "2026-10-31T05:33:40.951Z",
+      "checkedAt": "2026-10-31T08:48:55.495Z",
+      "attemptedAt": "2026-10-31T08:48:53.469Z",
       "data": {
         "items": [
           {
-            "title": "10/31 10:36 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610311036",
-            "publishedAt": "2026-10-31T02:36:00.000Z",
+            "title": "10/31 16:31 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202610311631",
+            "publishedAt": "2026-10-31T08:31:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,10 +806,152 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-31T05:33:41.434Z",
-      "attemptedAt": "2026-10-31T05:33:40.952Z",
+      "checkedAt": "2026-10-31T08:48:54.181Z",
+      "attemptedAt": "2026-10-31T08:48:53.470Z",
       "data": {
         "items": [
+          {
+            "title": "蔣萬安盼打造世界AI場域　沈伯洋要翻新都市美感",
+            "url": "https://www.cna.com.tw/news/aloc/202610310116.aspx",
+            "publishedAt": "2026-10-31T07:10:07.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "結辯引蔡康永金句談選舉　沈伯洋：請讓我成為你的市長",
+            "url": "https://www.cna.com.tw/news/aloc/202610310113.aspx",
+            "publishedAt": "2026-10-31T06:46:01.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "媒體問都更　沈伯洋提3作法增韌性、蔣萬安舉都更八箭成果",
+            "url": "https://www.cna.com.tw/news/aloc/202610310112.aspx",
+            "publishedAt": "2026-10-31T06:44:58.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "陳其邁評高雄市長辯論：柯志恩多批對手盼聚焦願景",
+            "url": "https://www.cna.com.tw/news/aloc/202610310111.aspx",
+            "publishedAt": "2026-10-31T06:37:56.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "蔡易餘番路聯合競總成立　吳品叡推AI闖關遊戲互動",
+            "url": "https://www.cna.com.tw/news/aloc/202610310110.aspx",
+            "publishedAt": "2026-10-31T06:35:54.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "沈伯洋質疑誤砍茄苳樹　蔣萬安反指講錯三章一Q[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610310107.aspx",
+            "publishedAt": "2026-10-31T06:27:47.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "沈伯洋問可否加LINE約下次辯論　蔣萬安：雙方團隊可溝通協調",
+            "url": "https://www.cna.com.tw/news/aloc/202610310104.aspx",
+            "publishedAt": "2026-10-31T06:14:41.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "蔣萬安質疑過去言論　沈伯洋：若要談中央事務可回任立委",
+            "url": "https://www.cna.com.tw/news/aloc/202610310102.aspx",
+            "publishedAt": "2026-10-31T06:07:36.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "沈伯洋質疑食安、兒虐議題雙標　蔣萬安反擊不熟市府處理",
+            "url": "https://www.cna.com.tw/news/aloc/202610310101.aspx",
+            "publishedAt": "2026-10-31T06:02:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "蔣萬安問市民大道藝文廊帶　沈伯洋答縫合做人流串接",
+            "url": "https://www.cna.com.tw/news/aloc/202610310099.aspx",
+            "publishedAt": "2026-10-31T05:49:30.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "沈伯洋質疑未出席市府會議　蔣萬安指分層負責分工合作",
+            "url": "https://www.cna.com.tw/news/aloc/202610310098.aspx",
+            "publishedAt": "2026-10-31T05:47:28.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "北市長辯論　蔣萬安批對毒駕態度傲慢　沈伯洋指地方應重預防[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610310095.aspx",
+            "publishedAt": "2026-10-31T05:40:21.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "雲林借鏡日本  設機能型防災教育公園可供水電3天",
+            "url": "https://www.cna.com.tw/news/aloc/202610310093.aspx",
+            "publishedAt": "2026-10-31T05:38:17.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "雲林縣"
+            ]
+          },
+          {
+            "title": "都更議題交鋒　蔣萬安批已讀亂回沈伯洋促強化陪伴機制[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610310088.aspx",
+            "publishedAt": "2026-10-31T05:06:06.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "蔣萬安細數大巨蛋、輝達政績　強調說到做到[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610310085.aspx",
+            "publishedAt": "2026-10-31T05:00:59.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "沈伯洋談若上任重要工作　把樹種回來、解決兒虐並改善營養午餐[影]",
+            "url": "https://www.cna.com.tw/news/aloc/202610310083.aspx",
+            "publishedAt": "2026-10-31T04:56:53.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "吳秀華喊接棒慢經濟　陳瑩邀農業部會勘災農損",
+            "url": "https://www.cna.com.tw/news/aloc/202610310081.aspx",
+            "publishedAt": "2026-10-31T04:51:49.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "北市長辯論會　沈伯洋帶女兒髮圈幸運物、蔣萬安恢復健康元氣滿滿",
             "url": "https://www.cna.com.tw/news/aloc/202610310074.aspx",
@@ -839,144 +981,6 @@
             "counties": [
               "高雄市"
             ]
-          },
-          {
-            "title": "澎湖環保局號召民眾撿垃圾　清除241公斤廢棄物",
-            "url": "https://www.cna.com.tw/news/aloc/202610310064.aspx",
-            "publishedAt": "2026-10-31T03:41:11.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "屏東客青基地動土　1.77億元打造創業與育兒新天地",
-            "url": "https://www.cna.com.tw/news/aloc/202610310053.aspx",
-            "publishedAt": "2026-10-31T03:16:48.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "屏東縣"
-            ]
-          },
-          {
-            "title": "黃偉哲出席日本熊本台灣祭　推廣台南美食特色",
-            "url": "https://www.cna.com.tw/news/aloc/202610310052.aspx",
-            "publishedAt": "2026-10-31T03:15:46.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "AI政見成關鍵　雙北市長參選人搶攻智慧城市治理",
-            "url": "https://www.cna.com.tw/news/aloc/202610310046.aspx",
-            "publishedAt": "2026-10-31T03:02:32.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "台北市長選舉辯論　柯文哲：攻防市政與願景",
-            "url": "https://www.cna.com.tw/news/aloc/202610310042.aspx",
-            "publishedAt": "2026-10-31T02:53:24.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "「洋流」外溢澎湖　吳淑瑾發沈伯洋飄帶掀熱潮",
-            "url": "https://www.cna.com.tw/news/aloc/202610310036.aspx",
-            "publishedAt": "2026-10-31T02:40:11.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "高雄市長選舉辯論　賴瑞隆、柯志恩都讓市民打分數",
-            "url": "https://www.cna.com.tw/news/aloc/202610300339.aspx",
-            "publishedAt": "2026-10-30T15:33:36.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "市長選舉辯論　賴瑞隆：高雄不能走回重北輕南老路",
-            "url": "https://www.cna.com.tw/news/aloc/202610300338.aspx",
-            "publishedAt": "2026-10-30T15:29:34.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "市長選舉電視辯論　柯志恩指高雄不應遭派系把持",
-            "url": "https://www.cna.com.tw/news/aloc/202610300336.aspx",
-            "publishedAt": "2026-10-30T15:22:30.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "賴瑞隆柯志恩辯論交鋒　205兵工廠、政治獻金成焦點[影]",
-            "url": "https://www.cna.com.tw/news/aloc/202610300335.aspx",
-            "publishedAt": "2026-10-30T15:18:27.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "高雄市長辯論交鋒賴瑞隆籲別用派系框限　柯志恩指守法案底線[影]",
-            "url": "https://www.cna.com.tw/news/aloc/202610300334.aspx",
-            "publishedAt": "2026-10-30T14:57:23.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "市長選舉電視辯論　賴瑞隆指柯志恩未為高雄發聲",
-            "url": "https://www.cna.com.tw/news/aloc/202610300316.aspx",
-            "publishedAt": "2026-10-30T13:13:38.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "高雄市長選舉辯論　柯志恩拋設2辦公室、3行動方案",
-            "url": "https://www.cna.com.tw/news/aloc/202610300310.aspx",
-            "publishedAt": "2026-10-30T12:50:25.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "高雄市長選舉辯論登場　柯志恩、賴瑞隆都說平常心",
-            "url": "https://www.cna.com.tw/news/aloc/202610300291.aspx",
-            "publishedAt": "2026-10-30T11:21:43.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
           }
         ]
       }
@@ -985,10 +989,42 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-31T05:33:41.432Z",
-      "attemptedAt": "2026-10-31T05:33:40.953Z",
+      "checkedAt": "2026-10-31T08:48:54.391Z",
+      "attemptedAt": "2026-10-31T08:48:53.472Z",
       "data": {
         "items": [
+          {
+            "title": "同志酒吧執法爭議　同志遊行下午登場估突破15萬人",
+            "url": "https://www.cna.com.tw/news/ahel/202610310096.aspx",
+            "publishedAt": "2026-10-31T05:44:23.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "彭啓明：116年擬提計畫　盼清潔隊員福利更好",
+            "url": "https://www.cna.com.tw/news/ahel/202610310072.aspx",
+            "publishedAt": "2026-10-31T04:18:29.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "調查：小黃駕駛月淨收入增2成　多元化計程車占比增至近4成",
+            "url": "https://www.cna.com.tw/news/ahel/202610310069.aspx",
+            "publishedAt": "2026-10-31T04:07:22.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "雅加達時裝週穿上台灣航空美學　台印跨界探索時尚新可能",
+            "url": "https://www.cna.com.tw/news/ahel/202610310067.aspx",
+            "publishedAt": "2026-10-31T03:52:17.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "平日住宿獎助登記可申請點數　500點雙人玩樂園",
             "url": "https://www.cna.com.tw/news/ahel/202610310037.aspx",
@@ -1098,30 +1134,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風薔琵農損6.6億元　農作物被害面積8867公頃",
-            "url": "https://www.cna.com.tw/news/ahel/202610300280.aspx",
-            "publishedAt": "2026-10-30T10:52:19.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣花卉人均消費約歐美1/3　農糧署首辦賞花玩花互動展",
-            "url": "https://www.cna.com.tw/news/ahel/202610300271.aspx",
-            "publishedAt": "2026-10-30T10:32:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "教育部公布學校職場不法侵害預防指引　明訂教師「離線權」",
-            "url": "https://www.cna.com.tw/news/ahel/202610300269.aspx",
-            "publishedAt": "2026-10-30T10:28:55.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1129,6 +1141,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-31T05:33:40.918Z"
+    "attemptedAt": "2026-10-31T08:48:53.432Z"
   }
 }
