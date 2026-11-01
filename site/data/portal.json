@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T14:59:35.941Z",
+  "generatedAt": "2026-11-01T16:17:13.583Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-01T14:59:35.941Z",
-      "attemptedAt": "2026-11-01T14:59:33.437Z",
+      "checkedAt": "2026-11-01T16:17:13.496Z",
+      "attemptedAt": "2026-11-01T16:17:12.036Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-01T14:59:34.364Z",
-      "attemptedAt": "2026-11-01T14:59:33.477Z",
+      "checkedAt": "2026-11-01T16:17:13.583Z",
+      "attemptedAt": "2026-11-01T16:17:12.077Z",
       "data": {
         "items": [
           {
@@ -822,8 +822,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-01T14:59:34.281Z",
-      "attemptedAt": "2026-11-01T14:59:33.478Z",
+      "checkedAt": "2026-11-01T16:17:13.250Z",
+      "attemptedAt": "2026-11-01T16:17:12.079Z",
       "data": {
         "items": [
           {
@@ -853,26 +853,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "鄭麗文籲支持宜蘭「黃金拍檔」吳宗憲、張勝德",
-            "url": "https://www.cna.com.tw/news/aloc/202611010084.aspx",
-            "publishedAt": "2026-11-01T07:15:04.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "宜蘭縣"
-            ]
-          },
-          {
-            "title": "高雄10/31活動湧人潮　捷運運量創115年新高",
-            "url": "https://www.cna.com.tw/news/aloc/202611010081.aspx",
-            "publishedAt": "2026-11-01T07:07:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
           }
         ]
       }
@@ -881,8 +861,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-01T14:59:34.291Z",
-      "attemptedAt": "2026-11-01T14:59:33.479Z",
+      "checkedAt": "2026-11-01T16:17:13.138Z",
+      "attemptedAt": "2026-11-01T16:17:12.080Z",
       "data": {
         "items": [
           {
@@ -1035,6 +1015,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-01T14:59:33.436Z"
+    "attemptedAt": "2026-11-01T16:17:12.036Z"
   }
 }
