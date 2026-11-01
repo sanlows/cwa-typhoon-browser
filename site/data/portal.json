@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T16:17:13.583Z",
+  "generatedAt": "2026-11-01T19:34:25.493Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-01T16:17:13.496Z",
-      "attemptedAt": "2026-11-01T16:17:12.036Z",
+      "checkedAt": "2026-11-01T19:34:25.493Z",
+      "attemptedAt": "2026-11-01T19:34:22.133Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-01T16:17:13.583Z",
-      "attemptedAt": "2026-11-01T16:17:12.077Z",
+      "checkedAt": "2026-11-01T19:34:24.084Z",
+      "attemptedAt": "2026-11-01T19:34:22.180Z",
       "data": {
         "items": [
           {
@@ -806,14 +806,6 @@
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
-          },
-          {
-            "title": "11/01 16:25 發布第 075 號顯著有感地震報告",
-            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115075-1101-162007.html?T=202611011625",
-            "publishedAt": "2026-11-01T08:25:34.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
           }
         ]
       }
@@ -822,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-01T16:17:13.250Z",
-      "attemptedAt": "2026-11-01T16:17:12.079Z",
+      "checkedAt": "2026-11-01T19:34:23.085Z",
+      "attemptedAt": "2026-11-01T19:34:22.181Z",
       "data": {
         "items": [
           {
@@ -861,8 +853,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-01T16:17:13.138Z",
-      "attemptedAt": "2026-11-01T16:17:12.080Z",
+      "checkedAt": "2026-11-01T19:34:23.084Z",
+      "attemptedAt": "2026-11-01T19:34:22.182Z",
       "data": {
         "items": [
           {
@@ -1015,6 +1007,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-01T16:17:12.036Z"
+    "attemptedAt": "2026-11-01T19:34:22.132Z"
   }
 }
