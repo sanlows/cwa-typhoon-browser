@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T22:54:27.988Z",
+  "generatedAt": "2026-11-01T01:34:51.441Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-10-31T22:54:27.057Z",
-      "attemptedAt": "2026-10-31T22:54:26.118Z",
+      "checkedAt": "2026-11-01T01:34:51.294Z",
+      "attemptedAt": "2026-11-01T01:34:49.674Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-10-31T22:54:27.988Z",
-      "attemptedAt": "2026-10-31T22:54:26.146Z",
+      "checkedAt": "2026-11-01T01:34:51.441Z",
+      "attemptedAt": "2026-11-01T01:34:49.697Z",
       "data": {
         "items": []
       }
@@ -797,10 +797,21 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-10-31T22:54:26.785Z",
-      "attemptedAt": "2026-10-31T22:54:26.147Z",
+      "checkedAt": "2026-11-01T01:34:50.184Z",
+      "attemptedAt": "2026-11-01T01:34:49.698Z",
       "data": {
         "items": [
+          {
+            "title": "台中高雄AI政見交鋒　智慧治理、全齡教育各有藍圖",
+            "url": "https://www.cna.com.tw/news/aloc/202611010013.aspx",
+            "publishedAt": "2026-11-01T00:24:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市",
+              "高雄市"
+            ]
+          },
           {
             "title": "北市動物園112週年慶　迎來雄性山地斑哥條紋羚",
             "url": "https://www.cna.com.tw/news/aloc/202610310210.aspx",
@@ -934,10 +945,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-10-31T22:54:26.754Z",
-      "attemptedAt": "2026-10-31T22:54:26.147Z",
+      "checkedAt": "2026-11-01T01:34:50.220Z",
+      "attemptedAt": "2026-11-01T01:34:49.699Z",
       "data": {
         "items": [
+          {
+            "title": "AI重塑技職價值　全球中央探索教育變革",
+            "url": "https://www.cna.com.tw/news/ahel/202611010012.aspx",
+            "publishedAt": "2026-11-01T00:20:22.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115264期　頭獎4注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202610310202.aspx",
@@ -1059,14 +1078,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "雅加達時裝週穿上台灣航空美學　台印跨界探索時尚新可能",
-            "url": "https://www.cna.com.tw/news/ahel/202610310067.aspx",
-            "publishedAt": "2026-10-31T03:52:17.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1074,6 +1085,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-10-31T22:54:26.118Z"
+    "attemptedAt": "2026-11-01T01:34:49.673Z"
   }
 }
