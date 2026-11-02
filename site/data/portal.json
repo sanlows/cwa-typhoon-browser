@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T16:59:24.838Z",
+  "generatedAt": "2026-11-02T19:47:18.515Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-02T16:59:24.507Z",
-      "attemptedAt": "2026-11-02T16:59:22.489Z",
+      "checkedAt": "2026-11-02T19:47:18.191Z",
+      "attemptedAt": "2026-11-02T19:47:16.820Z",
       "data": {
         "counties": [
           {
@@ -787,30 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-02T16:59:24.838Z",
-      "attemptedAt": "2026-11-02T16:59:22.531Z",
+      "checkedAt": "2026-11-02T19:47:18.515Z",
+      "attemptedAt": "2026-11-02T19:47:16.860Z",
       "data": {
         "items": [
+          {
+            "title": "11/03 02:20 發布大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611030220",
+            "publishedAt": "2026-11-02T18:20:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/02 22:23 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611022223",
             "publishedAt": "2026-11-02T14:23:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "11/02 20:50 發布大雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611022050",
-            "publishedAt": "2026-11-02T12:50:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "11/02 17:21 發布長浪即時訊息",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202611021721",
-            "publishedAt": "2026-11-02T09:21:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -822,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-02T16:59:24.187Z",
-      "attemptedAt": "2026-11-02T16:59:22.532Z",
+      "checkedAt": "2026-11-02T19:47:17.873Z",
+      "attemptedAt": "2026-11-02T19:47:16.862Z",
       "data": {
         "items": [
           {
@@ -919,8 +911,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-02T16:59:24.047Z",
-      "attemptedAt": "2026-11-02T16:59:22.533Z",
+      "checkedAt": "2026-11-02T19:47:17.872Z",
+      "attemptedAt": "2026-11-02T19:47:16.863Z",
       "data": {
         "items": [
           {
@@ -1077,6 +1069,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-02T16:59:22.489Z"
+    "attemptedAt": "2026-11-02T19:47:16.820Z"
   }
 }
