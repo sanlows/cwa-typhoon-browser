@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T00:36:00.842Z",
+  "generatedAt": "2026-11-02T02:23:34.305Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-02T00:36:00.842Z",
-      "attemptedAt": "2026-11-02T00:35:59.024Z",
+      "checkedAt": "2026-11-02T02:23:34.305Z",
+      "attemptedAt": "2026-11-02T02:23:32.553Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-02T00:36:00.227Z",
-      "attemptedAt": "2026-11-02T00:35:59.063Z",
+      "checkedAt": "2026-11-02T02:23:33.882Z",
+      "attemptedAt": "2026-11-02T02:23:32.597Z",
       "data": {
         "items": [
           {
@@ -814,10 +814,20 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-02T00:36:00.047Z",
-      "attemptedAt": "2026-11-02T00:35:59.065Z",
+      "checkedAt": "2026-11-02T02:23:33.596Z",
+      "attemptedAt": "2026-11-02T02:23:32.598Z",
       "data": {
         "items": [
+          {
+            "title": "國1高架南下桃園交流道段2車追撞　無人受傷",
+            "url": "https://www.cna.com.tw/news/aloc/202611020025.aspx",
+            "publishedAt": "2026-11-02T01:34:43.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
           {
             "title": "民進黨高雄市3名議員聯合成立競選總部　力拚議會過半",
             "url": "https://www.cna.com.tw/news/aloc/202611010156.aspx",
@@ -853,10 +863,20 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-02T00:35:59.910Z",
-      "attemptedAt": "2026-11-02T00:35:59.066Z",
+      "checkedAt": "2026-11-02T02:23:33.595Z",
+      "attemptedAt": "2026-11-02T02:23:32.599Z",
       "data": {
         "items": [
+          {
+            "title": "2波東北季風接力北部降溫　大台北、東部入夜轉有雨",
+            "url": "https://www.cna.com.tw/news/ahel/202611020012.aspx",
+            "publishedAt": "2026-11-02T00:15:14.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "東部海域5.6地震　氣象署：一週內防規模4.5至5餘震",
             "url": "https://www.cna.com.tw/news/ahel/202611010125.aspx",
@@ -992,14 +1012,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "華航馬拉松星光夜跑　逾8000跑者共襄盛舉",
-            "url": "https://www.cna.com.tw/news/ahel/202610310193.aspx",
-            "publishedAt": "2026-10-31T13:15:01.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1007,6 +1019,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-02T00:35:59.024Z"
+    "attemptedAt": "2026-11-02T02:23:32.553Z"
   }
 }
