@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T06:34:23.834Z",
+  "generatedAt": "2026-11-03T08:40:15.471Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-03T06:34:23.818Z",
-      "attemptedAt": "2026-11-03T06:34:21.962Z",
+      "checkedAt": "2026-11-03T08:40:14.702Z",
+      "attemptedAt": "2026-11-03T08:40:13.688Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-03T06:34:23.834Z",
-      "attemptedAt": "2026-11-03T06:34:21.989Z",
+      "checkedAt": "2026-11-03T08:40:15.471Z",
+      "attemptedAt": "2026-11-03T08:40:13.729Z",
       "data": {
         "items": [
           {
-            "title": "11/03 10:48 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611031048",
-            "publishedAt": "2026-11-03T02:48:00.000Z",
+            "title": "11/03 16:29 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611031629",
+            "publishedAt": "2026-11-03T08:29:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -822,10 +822,28 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-03T06:34:22.930Z",
-      "attemptedAt": "2026-11-03T06:34:21.990Z",
+      "checkedAt": "2026-11-03T08:40:14.165Z",
+      "attemptedAt": "2026-11-03T08:40:13.731Z",
       "data": {
         "items": [
+          {
+            "title": "寶林茶室案爭議　蔣萬安：第一時間採集生物跡證",
+            "url": "https://www.cna.com.tw/news/aloc/202611030178.aspx",
+            "publishedAt": "2026-11-03T06:56:26.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "福壽油品重新上架　台中食安處抽驗13件合格准售",
+            "url": "https://www.cna.com.tw/news/aloc/202611030177.aspx",
+            "publishedAt": "2026-11-03T06:55:24.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
           {
             "title": "時力提竹科通勤改善3方向　籲竹縣市政府提計畫",
             "url": "https://www.cna.com.tw/news/aloc/202611030162.aspx",
@@ -957,34 +975,6 @@
             "counties": [
               "屏東縣"
             ]
-          },
-          {
-            "title": "北市府干預輝達進駐？李四川：別抹黑攻擊",
-            "url": "https://www.cna.com.tw/news/aloc/202611030101.aspx",
-            "publishedAt": "2026-11-03T04:24:38.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "沈伯洋專訪上線未滿1天破百萬觀看　競辦：戒慎恐懼加強拉票",
-            "url": "https://www.cna.com.tw/news/aloc/202611030100.aspx",
-            "publishedAt": "2026-11-03T04:24:36.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "花蓮衛生局長拒輔選遭拔？游淑貞競辦：不知情、無權干涉",
-            "url": "https://www.cna.com.tw/news/aloc/202611030093.aspx",
-            "publishedAt": "2026-11-03T04:06:21.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "花蓮縣"
-            ]
           }
         ]
       }
@@ -993,10 +983,42 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-03T06:34:23.074Z",
-      "attemptedAt": "2026-11-03T06:34:21.991Z",
+      "checkedAt": "2026-11-03T08:40:14.116Z",
+      "attemptedAt": "2026-11-03T08:40:13.732Z",
       "data": {
         "items": [
+          {
+            "title": "福壽逾千噸油品准重新上架　食藥署：尊重地方權責",
+            "url": "https://www.cna.com.tw/news/ahel/202611030173.aspx",
+            "publishedAt": "2026-11-03T06:42:16.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "民眾反映便當疑有蝸牛殼異物　台鐵致歉退費",
+            "url": "https://www.cna.com.tw/news/ahel/202611030164.aspx",
+            "publishedAt": "2026-11-03T06:22:56.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "環團公布川廢調查  濁水溪川平均每公里361袋廢棄物",
+            "url": "https://www.cna.com.tw/news/ahel/202611030160.aspx",
+            "publishedAt": "2026-11-03T06:09:47.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "長庚大學攜日本突破二維半導體瓶頸　為次世代晶片奠基",
+            "url": "https://www.cna.com.tw/news/ahel/202611030112.aspx",
+            "publishedAt": "2026-11-03T04:40:02.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "便當有紅色塑膠繩　台鐵致歉退費：啟動食材溯源與製程調查",
             "url": "https://www.cna.com.tw/news/ahel/202611030108.aspx",
@@ -1110,48 +1132,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "颱風薔琵農損逾7億元  農作物被害面積9454公頃",
-            "url": "https://www.cna.com.tw/news/ahel/202611020275.aspx",
-            "publishedAt": "2026-11-02T12:12:51.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "環境部提碳費調整3方案  審議委員會未獲共識",
-            "url": "https://www.cna.com.tw/news/ahel/202611020269.aspx",
-            "publishedAt": "2026-11-02T11:58:36.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "陳郁秀赴新加坡演講　以鑽石比喻台灣文化精神",
-            "url": "https://www.cna.com.tw/news/ahel/202611020265.aspx",
-            "publishedAt": "2026-11-02T11:36:27.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台中榮總再傳廠商疑涉代刀手術　醫事司證實接獲檢舉",
-            "url": "https://www.cna.com.tw/news/ahel/202611020251.aspx",
-            "publishedAt": "2026-11-02T11:06:57.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "鋰電池火災3年逾300起  循環管理擬116年啟動",
-            "url": "https://www.cna.com.tw/news/ahel/202611020236.aspx",
-            "publishedAt": "2026-11-02T10:38:25.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1159,6 +1139,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-03T06:34:21.962Z"
+    "attemptedAt": "2026-11-03T08:40:13.687Z"
   }
 }
