@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T14:38:44.514Z",
+  "generatedAt": "2026-11-03T16:30:37.530Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-03T14:38:44.514Z",
-      "attemptedAt": "2026-11-03T14:38:42.632Z",
+      "checkedAt": "2026-11-03T16:30:37.319Z",
+      "attemptedAt": "2026-11-03T16:30:36.412Z",
       "data": {
         "counties": [
           {
@@ -787,10 +787,18 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-03T14:38:43.536Z",
-      "attemptedAt": "2026-11-03T14:38:42.676Z",
+      "checkedAt": "2026-11-03T16:30:37.530Z",
+      "attemptedAt": "2026-11-03T16:30:36.446Z",
       "data": {
         "items": [
+          {
+            "title": "11/03 23:25 發布第 076 號顯著有感地震報告",
+            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115076-1103-232205.html?T=202611032325",
+            "publishedAt": "2026-11-03T15:25:30.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/03 21:10 發布大雨特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611032110",
@@ -814,8 +822,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-03T14:38:43.391Z",
-      "attemptedAt": "2026-11-03T14:38:42.677Z",
+      "checkedAt": "2026-11-03T16:30:36.953Z",
+      "attemptedAt": "2026-11-03T16:30:36.447Z",
       "data": {
         "items": [
           {
@@ -950,10 +958,66 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-03T14:38:43.389Z",
-      "attemptedAt": "2026-11-03T14:38:42.678Z",
+      "checkedAt": "2026-11-03T16:30:36.951Z",
+      "attemptedAt": "2026-11-03T16:30:36.448Z",
       "data": {
         "items": [
+          {
+            "title": "今彩539第115266期　頭獎2注中獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611030342.aspx",
+            "publishedAt": "2026-11-03T14:07:28.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "大樂透第115102期　頭獎槓龜",
+            "url": "https://www.cna.com.tw/news/ahel/202611030340.aspx",
+            "publishedAt": "2026-11-03T14:04:24.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "竹南、頭份自來水土味問題　台水：持續改善供水品質",
+            "url": "https://www.cna.com.tw/news/ahel/202611030335.aspx",
+            "publishedAt": "2026-11-03T13:33:08.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "大樂透第115102期開獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611030324.aspx",
+            "publishedAt": "2026-11-03T12:51:44.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "鄰近學校工業區稽查28處　促使異味年減400噸",
+            "url": "https://www.cna.com.tw/news/ahel/202611030323.aspx",
+            "publishedAt": "2026-11-03T12:49:42.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "空氣品質預報將分上下午呈現　116年增有害空污監測",
+            "url": "https://www.cna.com.tw/news/ahel/202611030322.aspx",
+            "publishedAt": "2026-11-03T12:48:40.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "今彩539第115266期開獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611030320.aspx",
+            "publishedAt": "2026-11-03T12:44:35.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "英國QS亞洲大學排名　台大第23名、成大進步最多",
             "url": "https://www.cna.com.tw/news/ahel/202611030312.aspx",
@@ -1047,72 +1111,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "寶可夢登上郵票　存錢筒、郵差包7款商品4日開放預購",
-            "url": "https://www.cna.com.tw/news/ahel/202611030224.aspx",
-            "publishedAt": "2026-11-03T08:35:06.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台南第16例登革熱境外移入　個案菲律賓經商發病",
-            "url": "https://www.cna.com.tw/news/ahel/202611030222.aspx",
-            "publishedAt": "2026-11-03T08:27:01.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "自然碳匯與多樣性平台  3年串聯50家企業減碳保育",
-            "url": "https://www.cna.com.tw/news/ahel/202611030217.aspx",
-            "publishedAt": "2026-11-03T08:19:51.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "30多歲女染流感3天亡　疾管署估農曆年前恐再迎高峰",
-            "url": "https://www.cna.com.tw/news/ahel/202611030206.aspx",
-            "publishedAt": "2026-11-03T08:03:27.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "國家產學大師揭曉　姚立德、陳政任獲得殊榮",
-            "url": "https://www.cna.com.tw/news/ahel/202611030204.aspx",
-            "publishedAt": "2026-11-03T07:58:23.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "民團估台灣人飲食碳足跡10年增1成　籲推蔬食減碳",
-            "url": "https://www.cna.com.tw/news/ahel/202611030186.aspx",
-            "publishedAt": "2026-11-03T07:13:44.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "旅遊安全從行前做起　觀光署旅展推SMART5撇步",
-            "url": "https://www.cna.com.tw/news/ahel/202611030185.aspx",
-            "publishedAt": "2026-11-03T07:10:42.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "英頂尖大學首訪中研院  擬設「台灣研究講座」",
-            "url": "https://www.cna.com.tw/news/ahel/202611030179.aspx",
-            "publishedAt": "2026-11-03T06:56:29.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1120,6 +1118,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-03T14:38:42.631Z"
+    "attemptedAt": "2026-11-03T16:30:36.412Z"
   }
 }
