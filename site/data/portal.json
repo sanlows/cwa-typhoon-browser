@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T23:51:07.216Z",
+  "generatedAt": "2026-11-03T01:52:24.570Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-02T23:51:07.104Z",
-      "attemptedAt": "2026-11-02T23:51:06.013Z",
+      "checkedAt": "2026-11-03T01:52:23.717Z",
+      "attemptedAt": "2026-11-03T01:52:22.319Z",
       "data": {
         "counties": [
           {
@@ -787,10 +787,18 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-02T23:51:07.216Z",
-      "attemptedAt": "2026-11-02T23:51:06.038Z",
+      "checkedAt": "2026-11-03T01:52:24.570Z",
+      "attemptedAt": "2026-11-03T01:52:22.354Z",
       "data": {
         "items": [
+          {
+            "title": "11/03 08:35 發布長浪即時訊息",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202611030835",
+            "publishedAt": "2026-11-03T00:35:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/03 04:30 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611030430",
@@ -814,8 +822,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-02T23:51:06.821Z",
-      "attemptedAt": "2026-11-02T23:51:06.039Z",
+      "checkedAt": "2026-11-03T01:52:23.264Z",
+      "attemptedAt": "2026-11-03T01:52:22.355Z",
       "data": {
         "items": [
           {
@@ -911,10 +919,28 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-02T23:51:06.832Z",
-      "attemptedAt": "2026-11-02T23:51:06.039Z",
+      "checkedAt": "2026-11-03T01:52:23.265Z",
+      "attemptedAt": "2026-11-03T01:52:22.356Z",
       "data": {
         "items": [
+          {
+            "title": "台灣與巴西藝術展輔大登場　繪畫、陶藝與織品展多元風貌",
+            "url": "https://www.cna.com.tw/news/ahel/202611030030.aspx",
+            "publishedAt": "2026-11-03T01:05:05.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "東北季風影響　吳德榮：大台北、東半部有雨",
+            "url": "https://www.cna.com.tw/news/ahel/202611030019.aspx",
+            "publishedAt": "2026-11-03T00:15:40.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "今彩539第115265期　頭獎1注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202611020307.aspx",
@@ -1044,24 +1070,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "美光與台中工會一般性協議遭反對　勞長：可循訴訟處理",
-            "url": "https://www.cna.com.tw/news/ahel/202611020148.aspx",
-            "publishedAt": "2026-11-02T07:18:12.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "視察婦幼專責醫院育兒諮詢門診　蔣萬安：安定新手爸媽心情",
-            "url": "https://www.cna.com.tw/news/ahel/202611020145.aspx",
-            "publishedAt": "2026-11-02T06:58:05.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1069,6 +1077,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-02T23:51:06.013Z"
+    "attemptedAt": "2026-11-03T01:52:22.319Z"
   }
 }
