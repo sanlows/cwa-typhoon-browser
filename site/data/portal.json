@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T21:56:52.497Z",
+  "generatedAt": "2026-11-04T01:15:01.143Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-03T21:56:52.497Z",
-      "attemptedAt": "2026-11-03T21:56:50.031Z",
+      "checkedAt": "2026-11-04T01:15:00.490Z",
+      "attemptedAt": "2026-11-04T01:14:59.469Z",
       "data": {
         "counties": [
           {
@@ -787,30 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-03T21:56:51.156Z",
-      "attemptedAt": "2026-11-03T21:56:50.073Z",
+      "checkedAt": "2026-11-04T01:15:01.143Z",
+      "attemptedAt": "2026-11-04T01:14:59.509Z",
       "data": {
         "items": [
+          {
+            "title": "11/04 06:02 發布長浪即時訊息",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202611040602",
+            "publishedAt": "2026-11-03T22:02:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/04 03:15 發布解除大雨特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611040315",
             "publishedAt": "2026-11-03T19:15:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "11/03 23:25 發布第 076 號顯著有感地震報告",
-            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115076-1103-232205.html?T=202611032325",
-            "publishedAt": "2026-11-03T15:25:30.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "11/03 20:14 發布長浪即時訊息",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W37.html?T=202611032014",
-            "publishedAt": "2026-11-03T12:14:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -822,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-03T21:56:50.882Z",
-      "attemptedAt": "2026-11-03T21:56:50.074Z",
+      "checkedAt": "2026-11-04T01:14:59.955Z",
+      "attemptedAt": "2026-11-04T01:14:59.510Z",
       "data": {
         "items": [
           {
@@ -958,10 +950,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-03T21:56:50.909Z",
-      "attemptedAt": "2026-11-03T21:56:50.075Z",
+      "checkedAt": "2026-11-04T01:15:00.066Z",
+      "attemptedAt": "2026-11-04T01:14:59.511Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：西晴東雨氣溫升　東北季風6日起接力北台灣降溫",
+            "url": "https://www.cna.com.tw/news/ahel/202611040020.aspx",
+            "publishedAt": "2026-11-04T00:07:50.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "宜蘭近海地震規模4.5　最大震度4級",
             "url": "https://www.cna.com.tw/news/ahel/202611030352.aspx",
@@ -1079,40 +1079,6 @@
             "counties": [
               "花蓮縣"
             ]
-          },
-          {
-            "title": "桃捷公司與京急電鐵簽署友好協定　攜手拓展台日觀光",
-            "url": "https://www.cna.com.tw/news/ahel/202611030265.aspx",
-            "publishedAt": "2026-11-03T09:48:36.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "11/4大致多雲到晴　5日入夜迎東北季風低溫探21度",
-            "url": "https://www.cna.com.tw/news/ahel/202611030245.aspx",
-            "publishedAt": "2026-11-03T09:29:53.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台中榮總再爆醫師手術代刀　院方：相關資料移送檢調",
-            "url": "https://www.cna.com.tw/news/ahel/202611030243.aspx",
-            "publishedAt": "2026-11-03T09:26:49.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "中職聯隊10日赴日本戰亞冠賽　星宇藝術機助陣",
-            "url": "https://www.cna.com.tw/news/ahel/202611030233.aspx",
-            "publishedAt": "2026-11-03T08:56:25.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1120,6 +1086,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-03T21:56:50.031Z"
+    "attemptedAt": "2026-11-04T01:14:59.469Z"
   }
 }
