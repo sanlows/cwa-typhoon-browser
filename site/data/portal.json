@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T16:11:44.459Z",
+  "generatedAt": "2026-11-04T17:29:06.149Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-04T16:11:43.850Z",
-      "attemptedAt": "2026-11-04T16:11:42.706Z",
+      "checkedAt": "2026-11-04T17:29:05.864Z",
+      "attemptedAt": "2026-11-04T17:29:04.227Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-04T16:11:44.459Z",
-      "attemptedAt": "2026-11-04T16:11:42.746Z",
+      "checkedAt": "2026-11-04T17:29:06.149Z",
+      "attemptedAt": "2026-11-04T17:29:04.272Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,18 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-04T16:11:43.440Z",
-      "attemptedAt": "2026-11-04T16:11:42.747Z",
+      "checkedAt": "2026-11-04T17:29:05.349Z",
+      "attemptedAt": "2026-11-04T17:29:04.273Z",
       "data": {
         "items": [
+          {
+            "title": "掃街後訪吳怡萱競總  蔣萬安：藍白合一定更緊密",
+            "url": "https://www.cna.com.tw/news/aloc/202611040371.aspx",
+            "publishedAt": "2026-11-04T14:56:44.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "香鬆1人2公克惹議　北市永安國小：非上限、學生可追加",
             "url": "https://www.cna.com.tw/news/aloc/202611040349.aspx",
@@ -911,8 +919,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-04T16:11:43.439Z",
-      "attemptedAt": "2026-11-04T16:11:42.748Z",
+      "checkedAt": "2026-11-04T17:29:05.215Z",
+      "attemptedAt": "2026-11-04T17:29:04.274Z",
       "data": {
         "items": [
           {
@@ -1089,6 +1097,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-04T16:11:42.705Z"
+    "attemptedAt": "2026-11-04T17:29:04.227Z"
   }
 }
