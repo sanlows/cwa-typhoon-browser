@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T11:26:53.116Z",
+  "generatedAt": "2026-11-06T14:34:00.791Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-06T11:26:52.783Z",
-      "attemptedAt": "2026-11-06T11:26:51.013Z",
+      "checkedAt": "2026-11-06T14:34:00.791Z",
+      "attemptedAt": "2026-11-06T14:33:58.134Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-06T11:26:53.115Z",
-      "attemptedAt": "2026-11-06T11:26:51.044Z",
+      "checkedAt": "2026-11-06T14:33:59.305Z",
+      "attemptedAt": "2026-11-06T14:33:58.160Z",
       "data": {
         "items": [
           {
-            "title": "11/06 16:26 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611061626",
-            "publishedAt": "2026-11-06T08:26:00.000Z",
+            "title": "11/06 22:24 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611062224",
+            "publishedAt": "2026-11-06T14:24:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,14 +806,6 @@
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
-          },
-          {
-            "title": "11/06 12:05 發布第 078 號顯著有感地震報告",
-            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115078-1106-120113.html?T=202611061205",
-            "publishedAt": "2026-11-06T04:05:19.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
           }
         ]
       }
@@ -822,10 +814,84 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-06T11:26:52.295Z",
-      "attemptedAt": "2026-11-06T11:26:51.045Z",
+      "checkedAt": "2026-11-06T14:33:59.006Z",
+      "attemptedAt": "2026-11-06T14:33:58.161Z",
       "data": {
         "items": [
+          {
+            "title": "法國馬約特參訪團蒞澎交流 深化島嶼治理與合作契機",
+            "url": "https://www.cna.com.tw/news/aloc/202611060320.aspx",
+            "publishedAt": "2026-11-06T12:31:52.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "新北樹林2校風雨球場啟用　蘇巧慧：爭取近4千萬經費",
+            "url": "https://www.cna.com.tw/news/aloc/202611060315.aspx",
+            "publishedAt": "2026-11-06T12:03:41.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "赴成淵高中視察營養午餐　蔣萬安：了解重新招標後供餐狀況",
+            "url": "https://www.cna.com.tw/news/aloc/202611060304.aspx",
+            "publishedAt": "2026-11-06T11:22:15.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "向陳健治請益市政　蔣萬安：特別安排時間主動拜訪",
+            "url": "https://www.cna.com.tw/news/aloc/202611060299.aspx",
+            "publishedAt": "2026-11-06T11:10:04.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "花蓮台灣狐蝠數量逾200隻　將爭取保育共生地認證",
+            "url": "https://www.cna.com.tw/news/ahel/202611060289.aspx",
+            "publishedAt": "2026-11-06T10:41:43.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
+          {
+            "title": "苗縣發表2027消防形象月曆　15男女隊員健美代言",
+            "url": "https://www.cna.com.tw/news/aloc/202611060288.aspx",
+            "publishedAt": "2026-11-06T10:38:40.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "苗栗縣"
+            ]
+          },
+          {
+            "title": "新北安芯中心雙應變中心完工　員工憂搬遷交通不便",
+            "url": "https://www.cna.com.tw/news/aloc/202611060284.aspx",
+            "publishedAt": "2026-11-06T10:27:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "連江縣議長結束議員生涯　張永江：退休後暫無規劃",
+            "url": "https://www.cna.com.tw/news/aloc/202611060273.aspx",
+            "publishedAt": "2026-11-06T10:13:08.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "連江縣"
+            ]
+          },
           {
             "title": "金門多元性別平權回顧展　盼撐出島上友善空間",
             "url": "https://www.cna.com.tw/news/aloc/202611060233.aspx",
@@ -897,97 +963,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "新北消防月曆義賣  添購住警器幫獨老",
-            "url": "https://www.cna.com.tw/news/aloc/202611060181.aspx",
-            "publishedAt": "2026-11-06T07:27:49.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "嘉義縣樂齡假牙裝置破2萬人　整體滿意度99%",
-            "url": "https://www.cna.com.tw/news/aloc/202611060174.aspx",
-            "publishedAt": "2026-11-06T07:14:34.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "嘉義市",
-              "嘉義縣"
-            ]
-          },
-          {
-            "title": "台中大里聯合行政中心動土　何欣純、江啟臣出席",
-            "url": "https://www.cna.com.tw/news/aloc/202611060166.aspx",
-            "publishedAt": "2026-11-06T07:01:17.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "竹北市長選戰升溫　參選人提建設政見拚支持",
-            "url": "https://www.cna.com.tw/news/aloc/202611060164.aspx",
-            "publishedAt": "2026-11-06T06:58:13.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "紙風車客家親子劇「燈怪」　彰化即日起連演3場",
-            "url": "https://www.cna.com.tw/news/aloc/202611060160.aspx",
-            "publishedAt": "2026-11-06T06:43:04.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "南投東華醫院導入智慧醫療　減醫護文書作業負擔",
-            "url": "https://www.cna.com.tw/news/aloc/202611060158.aspx",
-            "publishedAt": "2026-11-06T06:37:00.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
-          },
-          {
-            "title": "屏東熱帶農業特色園區啟用　產業加值發展添動能",
-            "url": "https://www.cna.com.tw/news/aloc/202611060156.aspx",
-            "publishedAt": "2026-11-06T06:26:55.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "屏東縣"
-            ]
-          },
-          {
-            "title": "新北國家級重陽實驗室啟用　侯友宜：守護食安須聯合作戰",
-            "url": "https://www.cna.com.tw/news/aloc/202611060151.aspx",
-            "publishedAt": "2026-11-06T06:08:44.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "幫浦高壓水流造成氣管破裂　雲林農民急就醫",
-            "url": "https://www.cna.com.tw/news/aloc/202611060146.aspx",
-            "publishedAt": "2026-11-06T05:56:34.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "雲林縣"
-            ]
           }
         ]
       }
@@ -996,10 +971,44 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-06T11:26:52.302Z",
-      "attemptedAt": "2026-11-06T11:26:51.046Z",
+      "checkedAt": "2026-11-06T14:33:59.005Z",
+      "attemptedAt": "2026-11-06T14:33:58.162Z",
       "data": {
         "items": [
+          {
+            "title": "ITF旅展首日業績旺　千萬刷手現身搶住宿券",
+            "url": "https://www.cna.com.tw/news/ahel/202611060327.aspx",
+            "publishedAt": "2026-11-06T12:48:08.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "今彩539第115269期開獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611060323.aspx",
+            "publishedAt": "2026-11-06T12:43:59.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "政院不副署老人福利法修法 醫界、社福界表支持",
+            "url": "https://www.cna.com.tw/news/ahel/202611060310.aspx",
+            "publishedAt": "2026-11-06T11:38:28.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "花蓮台灣狐蝠數量逾200隻　將爭取保育共生地認證",
+            "url": "https://www.cna.com.tw/news/ahel/202611060289.aspx",
+            "publishedAt": "2026-11-06T10:41:43.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
           {
             "title": "老農津貼三讀提高至1.5萬　農業部：缺完整財源規劃",
             "url": "https://www.cna.com.tw/news/ahel/202611060263.aspx",
@@ -1089,42 +1098,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "台美日澳學者選前齊聚台北大學　倡城市韌性治理",
-            "url": "https://www.cna.com.tw/news/ahel/202611060118.aspx",
-            "publishedAt": "2026-11-06T04:53:31.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "賴總統：3面向拚觀光　2030年千萬國際遊客、產值破兆元",
-            "url": "https://www.cna.com.tw/news/ahel/202611060116.aspx",
-            "publishedAt": "2026-11-06T04:51:27.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "花蓮地震規模4　最大震度3級",
-            "url": "https://www.cna.com.tw/news/ahel/202611060102.aspx",
-            "publishedAt": "2026-11-06T04:10:57.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "花蓮縣"
-            ]
-          },
-          {
-            "title": "美沙冬減害治療10餘年　患者：使用海洛因念頭減少",
-            "url": "https://www.cna.com.tw/news/ahel/202611060099.aspx",
-            "publishedAt": "2026-11-06T04:06:50.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1132,6 +1105,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-06T11:26:51.013Z"
+    "attemptedAt": "2026-11-06T14:33:58.133Z"
   }
 }
