@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T03:37:45.765Z",
+  "generatedAt": "2026-11-06T06:32:56.396Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-06T03:37:45.603Z",
-      "attemptedAt": "2026-11-06T03:37:44.584Z",
+      "checkedAt": "2026-11-06T06:32:55.270Z",
+      "attemptedAt": "2026-11-06T06:32:54.488Z",
       "data": {
         "counties": [
           {
@@ -787,10 +787,18 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-06T03:37:45.765Z",
-      "attemptedAt": "2026-11-06T03:37:44.624Z",
+      "checkedAt": "2026-11-06T06:32:56.396Z",
+      "attemptedAt": "2026-11-06T06:32:54.521Z",
       "data": {
         "items": [
+          {
+            "title": "11/06 12:05 發布第 078 號顯著有感地震報告",
+            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115078-1106-120113.html?T=202611061205",
+            "publishedAt": "2026-11-06T04:05:19.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/06 10:29 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611061029",
@@ -822,8 +830,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-06T03:37:44.961Z",
-      "attemptedAt": "2026-11-06T03:37:44.626Z",
+      "checkedAt": "2026-11-06T06:32:54.865Z",
+      "attemptedAt": "2026-11-06T06:32:54.522Z",
       "data": {
         "items": [
           {
@@ -971,10 +979,62 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-06T03:37:45.106Z",
-      "attemptedAt": "2026-11-06T03:37:44.627Z",
+      "checkedAt": "2026-11-06T06:32:54.863Z",
+      "attemptedAt": "2026-11-06T06:32:54.523Z",
       "data": {
         "items": [
+          {
+            "title": "勞動部、經濟部簽署合作備忘錄　推智慧減災技術",
+            "url": "https://www.cna.com.tw/news/ahel/202611060120.aspx",
+            "publishedAt": "2026-11-06T04:55:36.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "台美日澳學者選前齊聚台北大學　倡城市韌性治理",
+            "url": "https://www.cna.com.tw/news/ahel/202611060118.aspx",
+            "publishedAt": "2026-11-06T04:53:31.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "賴總統：3面向拚觀光　2030年千萬國際遊客、產值破兆元",
+            "url": "https://www.cna.com.tw/news/ahel/202611060116.aspx",
+            "publishedAt": "2026-11-06T04:51:27.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "花蓮地震規模4　最大震度3級",
+            "url": "https://www.cna.com.tw/news/ahel/202611060102.aspx",
+            "publishedAt": "2026-11-06T04:10:57.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
+          {
+            "title": "美沙冬減害治療10餘年　患者：使用海洛因念頭減少",
+            "url": "https://www.cna.com.tw/news/ahel/202611060099.aspx",
+            "publishedAt": "2026-11-06T04:06:50.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "諾獎得主北川進台大演講　反思評鑑制度恐扼殺潛力研究",
+            "url": "https://www.cna.com.tw/news/ahel/202611060095.aspx",
+            "publishedAt": "2026-11-06T04:00:42.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "太麻里地震規模4.4　最大震度台東3級",
             "url": "https://www.cna.com.tw/news/ahel/202611060029.aspx",
@@ -1072,52 +1132,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "苗縣微創精準醫療邁大步　大千啟用達文西手術系統",
-            "url": "https://www.cna.com.tw/news/ahel/202611050219.aspx",
-            "publishedAt": "2026-11-05T08:51:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "苗栗縣"
-            ]
-          },
-          {
-            "title": "COP31將登場　環境部：國家調適計畫呼應強化都市韌性",
-            "url": "https://www.cna.com.tw/news/ahel/202611050215.aspx",
-            "publishedAt": "2026-11-05T08:41:55.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣國際遊艇展13日高雄登場　16國展出78艘船艇",
-            "url": "https://www.cna.com.tw/news/ahel/202611050198.aspx",
-            "publishedAt": "2026-11-05T08:14:19.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "公路局3年將編列1170萬元　增加無人機巡檢公路與橋梁",
-            "url": "https://www.cna.com.tw/news/ahel/202611050191.aspx",
-            "publishedAt": "2026-11-05T07:53:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "馬來西亞包機直飛抵金門　僑親相約返祖籍地尋根",
-            "url": "https://www.cna.com.tw/news/ahel/202611050167.aspx",
-            "publishedAt": "2026-11-05T06:56:12.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "金門縣"
-            ]
           }
         ]
       }
@@ -1125,6 +1139,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-06T03:37:44.583Z"
+    "attemptedAt": "2026-11-06T06:32:54.488Z"
   }
 }
