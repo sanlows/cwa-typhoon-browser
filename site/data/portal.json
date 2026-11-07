@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T00:17:00.376Z",
+  "generatedAt": "2026-11-07T02:55:43.197Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-07T00:16:59.419Z",
-      "attemptedAt": "2026-11-07T00:16:58.512Z",
+      "checkedAt": "2026-11-07T02:55:42.809Z",
+      "attemptedAt": "2026-11-07T02:55:41.219Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-07T00:17:00.376Z",
-      "attemptedAt": "2026-11-07T00:16:58.544Z",
+      "checkedAt": "2026-11-07T02:55:43.197Z",
+      "attemptedAt": "2026-11-07T02:55:41.264Z",
       "data": {
         "items": [
           {
-            "title": "11/07 04:24 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611070424",
-            "publishedAt": "2026-11-06T20:24:00.000Z",
+            "title": "11/07 10:36 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611071036",
+            "publishedAt": "2026-11-07T02:36:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "11/07 00:00 發布大雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611070000",
-            "publishedAt": "2026-11-06T16:00:00.000Z",
+            "title": "11/07 10:10 發布大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611071010",
+            "publishedAt": "2026-11-07T02:10:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +814,40 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-07T00:16:58.954Z",
-      "attemptedAt": "2026-11-07T00:16:58.545Z",
+      "checkedAt": "2026-11-07T02:55:42.215Z",
+      "attemptedAt": "2026-11-07T02:55:41.265Z",
       "data": {
         "items": [
+          {
+            "title": "台南第17例登革熱境外移入　越南旅遊返國發病",
+            "url": "https://www.cna.com.tw/news/aloc/202611070030.aspx",
+            "publishedAt": "2026-11-07T01:51:47.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
+          {
+            "title": "張善政專業無傲氣體貼基層　以理性實績證明桃園進步",
+            "url": "https://www.cna.com.tw/news/aloc/202611070019.aspx",
+            "publishedAt": "2026-11-07T00:28:22.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
+          {
+            "title": "黃世杰漁港出身法律學霸　聰明溫暖拚盼改變桃園",
+            "url": "https://www.cna.com.tw/news/aloc/202611070018.aspx",
+            "publishedAt": "2026-11-07T00:28:20.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
           {
             "title": "馬防部雲台操演模擬敵軍進犯　綿密火網無畏風雨",
             "url": "https://www.cna.com.tw/news/aloc/202611060344.aspx",
@@ -919,24 +949,6 @@
             "counties": [
               "金門縣"
             ]
-          },
-          {
-            "title": "遭羈押何秀綿競總質疑司法介選　苗檢：依證據認定",
-            "url": "https://www.cna.com.tw/news/aloc/202611060224.aspx",
-            "publishedAt": "2026-11-06T09:05:22.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "鄰近烏山頭水庫遭埋廢棄物　台南環警開挖送驗追查",
-            "url": "https://www.cna.com.tw/news/aloc/202611060222.aspx",
-            "publishedAt": "2026-11-06T09:03:17.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
           }
         ]
       }
@@ -945,10 +957,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-07T00:16:59.001Z",
-      "attemptedAt": "2026-11-07T00:16:58.546Z",
+      "checkedAt": "2026-11-07T02:55:42.217Z",
+      "attemptedAt": "2026-11-07T02:55:41.266Z",
       "data": {
         "items": [
+          {
+            "title": "颱風查帕卡最快今生成對台無影響　吳德榮：下週冷空氣低溫探16度",
+            "url": "https://www.cna.com.tw/news/ahel/202611070017.aspx",
+            "publishedAt": "2026-11-07T00:27:17.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115269期　頭獎3注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202611060351.aspx",
@@ -1069,22 +1089,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "ITF旅展高鐵「新車假期」限量發售　大學生搶頭香",
-            "url": "https://www.cna.com.tw/news/ahel/202611060184.aspx",
-            "publishedAt": "2026-11-06T07:41:56.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣與馬來西亞高等教育交流  助人才培育接軌職場",
-            "url": "https://www.cna.com.tw/news/ahel/202611060180.aspx",
-            "publishedAt": "2026-11-06T07:27:47.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1092,6 +1096,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-07T00:16:58.512Z"
+    "attemptedAt": "2026-11-07T02:55:41.218Z"
   }
 }
