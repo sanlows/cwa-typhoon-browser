@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "mode": "live",
-  "checkedAt": "2026-11-07T06:31:13.455Z",
+  "checkedAt": "2026-11-07T09:26:17.453Z",
   "sourceSent": "2026-11-07T14:00",
   "sourceTimeBasis": "cycle",
   "activeKeys": [
@@ -14610,7 +14610,7 @@
           20,
           20,
           28,
-          995,
+          1000,
           28,
           "WNW",
           [
