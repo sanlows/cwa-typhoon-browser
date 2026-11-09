@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-09T03:03:45.216Z",
+  "generatedAt": "2026-11-09T06:05:08.856Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:03:45.114Z",
-      "attemptedAt": "2026-11-09T03:03:43.532Z",
+      "checkedAt": "2026-11-09T06:05:08.733Z",
+      "attemptedAt": "2026-11-09T06:05:07.852Z",
       "data": {
         "counties": [
           {
@@ -751,11 +751,11 @@
               {
                 "start": "2026-11-09 12:00:00",
                 "end": "2026-11-09 18:00:00",
-                "condition": "多雲時晴",
-                "code": "3",
+                "condition": "多雲短暫雨",
+                "code": "8",
                 "minT": 20,
                 "maxT": 21,
-                "pop": 10,
+                "pop": 30,
                 "comfort": "稍有寒意至舒適"
               },
               {
@@ -787,10 +787,18 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:03:45.216Z",
-      "attemptedAt": "2026-11-09T03:03:43.560Z",
+      "checkedAt": "2026-11-09T06:05:08.856Z",
+      "attemptedAt": "2026-11-09T06:05:07.887Z",
       "data": {
         "items": [
+          {
+            "title": "11/09 12:25 發布第 079 號顯著有感地震報告",
+            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115079-1109-122157.html?T=202611091225",
+            "publishedAt": "2026-11-09T04:25:08.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
           {
             "title": "11/09 10:30 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611091030",
@@ -806,10 +814,82 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:03:44.688Z",
-      "attemptedAt": "2026-11-09T03:03:43.561Z",
+      "checkedAt": "2026-11-09T06:05:08.418Z",
+      "attemptedAt": "2026-11-09T06:05:07.888Z",
       "data": {
         "items": [
+          {
+            "title": "魏平政提產業轉型政見　陳素月10日南彰化車隊掃街",
+            "url": "https://www.cna.com.tw/news/aloc/202611090094.aspx",
+            "publishedAt": "2026-11-09T05:41:53.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "彰化縣"
+            ]
+          },
+          {
+            "title": "蘇巧慧談民調小勝續保持　李四川團隊分析稱穩定領先",
+            "url": "https://www.cna.com.tw/news/aloc/202611090089.aspx",
+            "publishedAt": "2026-11-09T05:29:42.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "柯志恩推第2則競選廣告　訴說對高雄「一心一意」",
+            "url": "https://www.cna.com.tw/news/aloc/202611090085.aspx",
+            "publishedAt": "2026-11-09T05:06:33.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "童子瑋、謝國樑10日辯論　聚焦基隆藍圖與規劃",
+            "url": "https://www.cna.com.tw/news/aloc/202611090081.aspx",
+            "publishedAt": "2026-11-09T04:49:24.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "基隆市"
+            ]
+          },
+          {
+            "title": "沈伯洋提文化幣加碼　蔣萬安指沈在立院可趕快推動",
+            "url": "https://www.cna.com.tw/news/aloc/202611090078.aspx",
+            "publishedAt": "2026-11-09T04:46:18.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "張嘉郡政見發表喊漲老農津貼　劉建國質疑建設落後",
+            "url": "https://www.cna.com.tw/news/aloc/202611090076.aspx",
+            "publishedAt": "2026-11-09T04:38:13.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "颱風挹注水庫蓄滿　桃竹水情估維持正常至明年1月",
+            "url": "https://www.cna.com.tw/news/aloc/202611090075.aspx",
+            "publishedAt": "2026-11-09T04:36:11.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "竹北市長選戰　黃國昌：納悶藍綠參選人為何怕辯論",
+            "url": "https://www.cna.com.tw/news/aloc/202611090055.aspx",
+            "publishedAt": "2026-11-09T03:25:27.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "副總統助講挺蘇巧慧　盼繁星與洋流匯聚領航台灣",
             "url": "https://www.cna.com.tw/news/aloc/202611080184.aspx",
@@ -861,34 +941,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "舊宿舍前矮牆崩塌波及3戶　基市擬動用災害準備金復原",
-            "url": "https://www.cna.com.tw/news/aloc/202611080128.aspx",
-            "publishedAt": "2026-11-08T09:20:39.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "王忠銘連江競總成立　李乾龍陳美伶跨海力挺",
-            "url": "https://www.cna.com.tw/news/aloc/202611080122.aspx",
-            "publishedAt": "2026-11-08T08:30:24.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "連江縣"
-            ]
-          },
-          {
-            "title": "屏東三地門鄉馬兒村原保地規畫住宅落成　全國首棟",
-            "url": "https://www.cna.com.tw/news/aloc/202611080120.aspx",
-            "publishedAt": "2026-11-08T08:25:19.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "屏東縣"
-            ]
           }
         ]
       }
@@ -897,10 +949,80 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:03:44.573Z",
-      "attemptedAt": "2026-11-09T03:03:43.562Z",
+      "checkedAt": "2026-11-09T06:05:08.646Z",
+      "attemptedAt": "2026-11-09T06:05:07.888Z",
       "data": {
         "items": [
+          {
+            "title": "雲林古坑地震規模4.2　最大震度嘉義縣4級",
+            "url": "https://www.cna.com.tw/news/ahel/202611090073.aspx",
+            "publishedAt": "2026-11-09T04:32:07.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "雲林縣",
+              "嘉義市",
+              "嘉義縣"
+            ]
+          },
+          {
+            "title": "違反最低工資116年起按次加罰　上市櫃、醫學中心等5萬起跳",
+            "url": "https://www.cna.com.tw/news/ahel/202611090068.aspx",
+            "publishedAt": "2026-11-09T04:13:56.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "綠色和平：宜蘭近海疑似拖網漁船違規　籲強化漁業管理",
+            "url": "https://www.cna.com.tw/news/ahel/202611090061.aspx",
+            "publishedAt": "2026-11-09T03:57:41.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "宜蘭縣"
+            ]
+          },
+          {
+            "title": "陽明交大奈米鑽石當導航　實況轉播抗癌藥動態有助減少動物實驗",
+            "url": "https://www.cna.com.tw/news/ahel/202611090054.aspx",
+            "publishedAt": "2026-11-09T03:24:25.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "眼睛疲勞未必是3C惹禍　44歲男眼瞼老化眉眼沉重",
+            "url": "https://www.cna.com.tw/news/ahel/202611090052.aspx",
+            "publishedAt": "2026-11-09T03:21:21.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "改善漁業勞動權益  第2期計畫10.3億元上路",
+            "url": "https://www.cna.com.tw/news/ahel/202611090039.aspx",
+            "publishedAt": "2026-11-09T03:14:53.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "環團：重啟核電將排擠綠能　拖慢淨零轉型",
+            "url": "https://www.cna.com.tw/news/ahel/202611090037.aspx",
+            "publishedAt": "2026-11-09T03:06:49.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "失智症基本法將逐條審查　民團建議法案納3大保障",
+            "url": "https://www.cna.com.tw/news/ahel/202611090036.aspx",
+            "publishedAt": "2026-11-09T03:05:47.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "鐵路人員升資考試影響　台鐵停駛65列次",
             "url": "https://www.cna.com.tw/news/ahel/202611090023.aspx",
@@ -984,70 +1106,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "養殖漁業放養申報擬採義務制　未報或不實無補助最快116年上路",
-            "url": "https://www.cna.com.tw/news/ahel/202611080061.aspx",
-            "publishedAt": "2026-11-08T04:33:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "桃機行李轉盤遭綁帶捲入　1小時內搶修恢復",
-            "url": "https://www.cna.com.tw/news/ahel/202611080050.aspx",
-            "publishedAt": "2026-11-08T03:46:44.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣麵食、乳酪絲走向美國　加州消費者讚爽口無負擔",
-            "url": "https://www.cna.com.tw/news/ahel/202611080048.aspx",
-            "publishedAt": "2026-11-08T03:33:39.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "從交流升級國際組織領導　台灣藥師接任亞洲藥學會長",
-            "url": "https://www.cna.com.tw/news/ahel/202611080047.aspx",
-            "publishedAt": "2026-11-08T03:32:37.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "日本退稅新制上路　記者實測機台操作不到30秒",
-            "url": "https://www.cna.com.tw/news/ahel/202611080046.aspx",
-            "publishedAt": "2026-11-08T03:31:35.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "非本國籍遊艇來台原則修正　增列所有人地址在大陸者不得申請",
-            "url": "https://www.cna.com.tw/news/ahel/202611080024.aspx",
-            "publishedAt": "2026-11-08T02:22:48.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "COP31將登場　環境部同步啟動論壇掌握資訊",
-            "url": "https://www.cna.com.tw/news/ahel/202611080023.aspx",
-            "publishedAt": "2026-11-08T02:16:45.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "吳德榮：東北季風9日增強　10日清晨北部低溫探15度",
-            "url": "https://www.cna.com.tw/news/ahel/202611080013.aspx",
-            "publishedAt": "2026-11-08T00:28:22.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1055,6 +1113,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-09T03:03:43.532Z"
+    "attemptedAt": "2026-11-09T06:05:07.852Z"
   }
 }
