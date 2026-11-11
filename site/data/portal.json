@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T09:14:32.979Z",
+  "generatedAt": "2026-11-11T10:49:08.841Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-11T09:14:32.979Z",
-      "attemptedAt": "2026-11-11T09:14:30.912Z",
+      "checkedAt": "2026-11-11T10:49:08.841Z",
+      "attemptedAt": "2026-11-11T10:49:06.280Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-11T09:14:32.322Z",
-      "attemptedAt": "2026-11-11T09:14:30.956Z",
+      "checkedAt": "2026-11-11T10:49:08.214Z",
+      "attemptedAt": "2026-11-11T10:49:06.323Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,48 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-11T09:14:32.277Z",
-      "attemptedAt": "2026-11-11T09:14:30.957Z",
+      "checkedAt": "2026-11-11T10:49:07.644Z",
+      "attemptedAt": "2026-11-11T10:49:06.325Z",
       "data": {
         "items": [
+          {
+            "title": "百貨年末搶攻節慶商機　精品、耶誕造景與動漫IP吸客",
+            "url": "https://www.cna.com.tw/news/ahel/202611110262.aspx",
+            "publishedAt": "2026-11-11T09:28:57.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "花蓮縣長選情升溫  4參選人辦活動、政見會爭取支持",
+            "url": "https://www.cna.com.tw/news/aloc/202611110250.aspx",
+            "publishedAt": "2026-11-11T09:21:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
+          {
+            "title": "新北耶誕城13日開城　消防演練防大量傷患救援",
+            "url": "https://www.cna.com.tw/news/aloc/202611110243.aspx",
+            "publishedAt": "2026-11-11T09:09:17.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "青年論壇台北場取消　沈伯洋競辦：持續與青年對話",
+            "url": "https://www.cna.com.tw/news/ahel/202611110233.aspx",
+            "publishedAt": "2026-11-11T08:50:54.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "台中水湳自動駕駛巴士　11/18起3個月免費試乘",
             "url": "https://www.cna.com.tw/news/aloc/202611110225.aspx",
@@ -911,27 +949,6 @@
             "counties": [
               "臺北市"
             ]
-          },
-          {
-            "title": "彰化海線宗教新地標　伸港福安宮新建媽祖園區落成",
-            "url": "https://www.cna.com.tw/news/aloc/202611110148.aspx",
-            "publishedAt": "2026-11-11T06:20:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "南投雲林深化合作　擴大草嶺石壁觀光地區效益",
-            "url": "https://www.cna.com.tw/news/aloc/202611110146.aspx",
-            "publishedAt": "2026-11-11T06:19:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣",
-              "雲林縣"
-            ]
           }
         ]
       }
@@ -940,10 +957,38 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-11T09:14:32.275Z",
-      "attemptedAt": "2026-11-11T09:14:30.959Z",
+      "checkedAt": "2026-11-11T10:49:07.641Z",
+      "attemptedAt": "2026-11-11T10:49:06.326Z",
       "data": {
         "items": [
+          {
+            "title": "百貨年末搶攻節慶商機　精品、耶誕造景與動漫IP吸客",
+            "url": "https://www.cna.com.tw/news/ahel/202611110262.aspx",
+            "publishedAt": "2026-11-11T09:28:57.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "心靈影展台中登場　聚焦三大面向盼提倡永續共好",
+            "url": "https://www.cna.com.tw/news/ahel/202611110235.aspx",
+            "publishedAt": "2026-11-11T08:57:58.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺中市"
+            ]
+          },
+          {
+            "title": "青年論壇台北場取消　沈伯洋競辦：持續與青年對話",
+            "url": "https://www.cna.com.tw/news/ahel/202611110233.aspx",
+            "publishedAt": "2026-11-11T08:50:54.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "食藥署冰品稽查  台糖等多家業者違規、開罰共45萬元",
             "url": "https://www.cna.com.tw/news/ahel/202611110221.aspx",
@@ -1075,32 +1120,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "青年論壇台北場停辦　主辦單位：蔣萬安、沈伯洋婉拒出席",
-            "url": "https://www.cna.com.tw/news/ahel/202611110107.aspx",
-            "publishedAt": "2026-11-11T04:39:20.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "國際線航空燃油附加費連4漲　民航局：維持現有機制",
-            "url": "https://www.cna.com.tw/news/ahel/202611110102.aspx",
-            "publishedAt": "2026-11-11T04:33:10.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "重啟北高航線　陳世凱：尚未有業者申請",
-            "url": "https://www.cna.com.tw/news/ahel/202611110100.aspx",
-            "publishedAt": "2026-11-11T04:31:05.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1108,6 +1127,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-11T09:14:30.912Z"
+    "attemptedAt": "2026-11-11T10:49:06.280Z"
   }
 }
