@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T07:00:11.438Z",
+  "generatedAt": "2026-11-12T07:39:46.960Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-12T07:00:11.438Z",
-      "attemptedAt": "2026-11-12T07:00:09.460Z",
+      "checkedAt": "2026-11-12T07:39:46.818Z",
+      "attemptedAt": "2026-11-12T07:39:45.571Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-12T07:00:10.525Z",
-      "attemptedAt": "2026-11-12T07:00:09.491Z",
+      "checkedAt": "2026-11-12T07:39:46.960Z",
+      "attemptedAt": "2026-11-12T07:39:45.616Z",
       "data": {
         "items": []
       }
@@ -797,10 +797,40 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-12T07:00:09.677Z",
-      "attemptedAt": "2026-11-12T07:00:09.492Z",
+      "checkedAt": "2026-11-12T07:39:46.156Z",
+      "attemptedAt": "2026-11-12T07:39:45.617Z",
       "data": {
         "items": [
+          {
+            "title": "連江縣吳姓議員參選人涉違反政治獻金法　裁定羈押",
+            "url": "https://www.cna.com.tw/news/aloc/202611120201.aspx",
+            "publishedAt": "2026-11-12T07:04:42.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "連江縣"
+            ]
+          },
+          {
+            "title": "南投市長參選人關注文化路改善　公所：完工增安全",
+            "url": "https://www.cna.com.tw/news/aloc/202611120183.aspx",
+            "publishedAt": "2026-11-12T06:29:04.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "南投縣"
+            ]
+          },
+          {
+            "title": "高雄3天大火奪5命　議員籲市府正視違建、消防人力問題",
+            "url": "https://www.cna.com.tw/news/aloc/202611120180.aspx",
+            "publishedAt": "2026-11-12T06:20:58.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
           {
             "title": "無人機物流跨海飛小琉球可行　商轉待法規制定",
             "url": "https://www.cna.com.tw/news/ahel/202611120173.aspx",
@@ -931,44 +961,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "「安心大遊行」14日舉行  北市信義區將交管",
-            "url": "https://www.cna.com.tw/news/aloc/202611120114.aspx",
-            "publishedAt": "2026-11-12T04:21:33.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "環狀線板新站開發案開工　侯友宜：2030年完工",
-            "url": "https://www.cna.com.tw/news/aloc/202611120113.aspx",
-            "publishedAt": "2026-11-12T04:16:31.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "「洋流祭」11/14登場　北市二二八公園周邊交管",
-            "url": "https://www.cna.com.tw/news/aloc/202611120102.aspx",
-            "publishedAt": "2026-11-12T03:46:07.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "國光高中午餐遭控有異物　高市衛生局稽查追污染源",
-            "url": "https://www.cna.com.tw/news/aloc/202611120098.aspx",
-            "publishedAt": "2026-11-12T03:30:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
           }
         ]
       }
@@ -977,8 +969,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-12T07:00:09.733Z",
-      "attemptedAt": "2026-11-12T07:00:09.493Z",
+      "checkedAt": "2026-11-12T07:39:46.159Z",
+      "attemptedAt": "2026-11-12T07:39:45.618Z",
       "data": {
         "items": [
           {
@@ -1118,6 +1110,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-12T07:00:09.460Z"
+    "attemptedAt": "2026-11-12T07:39:45.570Z"
   }
 }
