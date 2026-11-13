@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T22:18:47.854Z",
+  "generatedAt": "2026-11-13T02:42:42.622Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-12T22:18:47.854Z",
-      "attemptedAt": "2026-11-12T22:18:46.844Z",
+      "checkedAt": "2026-11-13T02:42:42.137Z",
+      "attemptedAt": "2026-11-13T02:42:41.228Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-12T22:18:47.774Z",
-      "attemptedAt": "2026-11-12T22:18:46.883Z",
+      "checkedAt": "2026-11-13T02:42:42.622Z",
+      "attemptedAt": "2026-11-13T02:42:41.257Z",
       "data": {
         "items": []
       }
@@ -797,10 +797,28 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-12T22:18:47.407Z",
-      "attemptedAt": "2026-11-12T22:18:46.885Z",
+      "checkedAt": "2026-11-13T02:42:41.668Z",
+      "attemptedAt": "2026-11-13T02:42:41.258Z",
       "data": {
         "items": [
+          {
+            "title": "賞花泡湯　台中花毯節送溫泉泡湯券",
+            "url": "https://www.cna.com.tw/news/aloc/202611130051.aspx",
+            "publishedAt": "2026-11-13T02:26:35.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
+          {
+            "title": "政見發表會登場　李四川有信心、蘇巧慧已準備好",
+            "url": "https://www.cna.com.tw/news/aloc/202611130045.aspx",
+            "publishedAt": "2026-11-13T01:56:22.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "蔣萬安請假首日行程滿檔　晚間赴公館夜市尋求支持",
             "url": "https://www.cna.com.tw/news/aloc/202611120360.aspx",
@@ -924,16 +942,6 @@
             "counties": [
               "臺中市"
             ]
-          },
-          {
-            "title": "蔣萬安宣傳車停放爭議　北市義警大隊：個人行為已告誡",
-            "url": "https://www.cna.com.tw/news/aloc/202611120254.aspx",
-            "publishedAt": "2026-11-12T08:48:36.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -942,10 +950,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-12T22:18:47.410Z",
-      "attemptedAt": "2026-11-12T22:18:46.886Z",
+      "checkedAt": "2026-11-13T02:42:41.666Z",
+      "attemptedAt": "2026-11-13T02:42:41.258Z",
       "data": {
         "items": [
+          {
+            "title": "東北季風減弱各地回暖　吳德榮：14日午後降雨機會增",
+            "url": "https://www.cna.com.tw/news/ahel/202611130026.aspx",
+            "publishedAt": "2026-11-13T00:07:39.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115274期　頭獎1注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202611120370.aspx",
@@ -1063,14 +1079,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "技專統測簡章11月13日公告　116學年起可自選考科",
-            "url": "https://www.cna.com.tw/news/ahel/202611120247.aspx",
-            "publishedAt": "2026-11-12T08:29:21.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1078,6 +1086,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-12T22:18:46.843Z"
+    "attemptedAt": "2026-11-13T02:42:41.228Z"
   }
 }
