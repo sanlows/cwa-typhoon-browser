@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T20:39:30.461Z",
+  "generatedAt": "2026-11-14T22:56:00.482Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-14T20:39:29.244Z",
-      "attemptedAt": "2026-11-14T20:39:28.613Z",
+      "checkedAt": "2026-11-14T22:56:00.443Z",
+      "attemptedAt": "2026-11-14T22:55:59.517Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-14T20:39:30.461Z",
-      "attemptedAt": "2026-11-14T20:39:28.659Z",
+      "checkedAt": "2026-11-14T22:56:00.482Z",
+      "attemptedAt": "2026-11-14T22:55:59.563Z",
       "data": {
         "items": [
           {
-            "title": "11/15 04:23 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611150423",
-            "publishedAt": "2026-11-14T20:23:00.000Z",
+            "title": "11/15 06:40 發布解除大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611150640",
+            "publishedAt": "2026-11-14T22:40:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "11/15 00:20 發布大雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611150020",
-            "publishedAt": "2026-11-14T16:20:00.000Z",
+            "title": "11/15 04:23 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611150423",
+            "publishedAt": "2026-11-14T20:23:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-14T20:39:28.903Z",
-      "attemptedAt": "2026-11-14T20:39:28.661Z",
+      "checkedAt": "2026-11-14T22:56:00.111Z",
+      "attemptedAt": "2026-11-14T22:55:59.564Z",
       "data": {
         "items": [
           {
@@ -973,8 +973,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-14T20:39:28.887Z",
-      "attemptedAt": "2026-11-14T20:39:28.662Z",
+      "checkedAt": "2026-11-14T22:56:00.109Z",
+      "attemptedAt": "2026-11-14T22:55:59.566Z",
       "data": {
         "items": [
           {
@@ -1091,14 +1091,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "環團推「新核能迷局」限時免費看　盼民眾反思能源選擇",
-            "url": "https://www.cna.com.tw/news/ahel/202611140064.aspx",
-            "publishedAt": "2026-11-14T03:06:37.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1106,6 +1098,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-14T20:39:28.613Z"
+    "attemptedAt": "2026-11-14T22:55:59.517Z"
   }
 }
