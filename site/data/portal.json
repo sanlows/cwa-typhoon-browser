@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T09:31:27.712Z",
+  "generatedAt": "2026-11-14T13:25:53.185Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-14T09:31:27.712Z",
-      "attemptedAt": "2026-11-14T09:31:25.422Z",
+      "checkedAt": "2026-11-14T13:25:53.185Z",
+      "attemptedAt": "2026-11-14T13:25:51.314Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-14T09:31:27.131Z",
-      "attemptedAt": "2026-11-14T09:31:25.462Z",
+      "checkedAt": "2026-11-14T13:25:52.369Z",
+      "attemptedAt": "2026-11-14T13:25:51.337Z",
       "data": {
         "items": [
           {
-            "title": "11/14 16:40 發布大雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611141640",
-            "publishedAt": "2026-11-14T08:40:00.000Z",
+            "title": "11/14 21:10 發布大雷雨即時訊息",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W33.html?T=202611142110",
+            "publishedAt": "2026-11-14T13:10:35.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "11/14 18:55 發布豪雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611141855",
+            "publishedAt": "2026-11-14T10:55:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +822,140 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-14T09:31:26.912Z",
-      "attemptedAt": "2026-11-14T09:31:25.464Z",
+      "checkedAt": "2026-11-14T13:25:52.140Z",
+      "attemptedAt": "2026-11-14T13:25:51.338Z",
       "data": {
         "items": [
+          {
+            "title": "張善政造勢晚會　藍白合齊聚肯定政績呼籲投票",
+            "url": "https://www.cna.com.tw/news/aloc/202611140211.aspx",
+            "publishedAt": "2026-11-14T12:45:05.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "宣傳車未依規懸掛車牌遭罰　蔣萬安競辦：檢查不周",
+            "url": "https://www.cna.com.tw/news/aloc/202611140201.aspx",
+            "publishedAt": "2026-11-14T11:30:40.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "賴清德鼓勵劉建國團隊：雲林應該要贏　21日再次催票",
+            "url": "https://www.cna.com.tw/news/aloc/202611140194.aspx",
+            "publishedAt": "2026-11-14T11:01:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "雲林縣"
+            ]
+          },
+          {
+            "title": "網友稱在車廂交流洋流飄帶遭關切　北捷：不實指控",
+            "url": "https://www.cna.com.tw/news/aloc/202611140193.aspx",
+            "publishedAt": "2026-11-14T11:00:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "新北耶誕城童趣嘉年華　魔術馬戲邀親子同樂",
+            "url": "https://www.cna.com.tw/news/aloc/202611140190.aspx",
+            "publishedAt": "2026-11-14T10:43:16.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "克服聽障精進羽球競技　林佳勳獲頒獎助學金",
+            "url": "https://www.cna.com.tw/news/aloc/202611140186.aspx",
+            "publishedAt": "2026-11-14T10:29:07.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "新北遷移千件變電箱　輪椅嬰兒車通行更友善",
+            "url": "https://www.cna.com.tw/news/aloc/202611140185.aspx",
+            "publishedAt": "2026-11-14T10:27:05.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "張嘉郡斗六西市場拜票　承諾兼顧文資保存與市場升級",
+            "url": "https://www.cna.com.tw/news/aloc/202611140182.aspx",
+            "publishedAt": "2026-11-14T10:17:58.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "甲子慧心花開、施文彬傷心酒店　新北演唱志工回憶殺",
+            "url": "https://www.cna.com.tw/news/aloc/202611140179.aspx",
+            "publishedAt": "2026-11-14T10:11:52.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "台北市長選舉政見會　蔣萬安稱說到做到盼市民續支持",
+            "url": "https://www.cna.com.tw/news/aloc/202611140178.aspx",
+            "publishedAt": "2026-11-14T10:07:49.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "高雄市長政見會　候選人提委屈補償金、遷移小港機場",
+            "url": "https://www.cna.com.tw/news/aloc/202611140175.aspx",
+            "publishedAt": "2026-11-14T10:03:43.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "澎湖同心築滬共享豐富祈禱　為陳光復禱告早日康復",
+            "url": "https://www.cna.com.tw/news/aloc/202611140169.aspx",
+            "publishedAt": "2026-11-14T09:31:28.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "澎湖縣"
+            ]
+          },
+          {
+            "title": "新北青潭國小推新六育　舞獅創客多元學習獲認證",
+            "url": "https://www.cna.com.tw/news/aloc/202611140168.aspx",
+            "publishedAt": "2026-11-14T09:29:26.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "高雄市長選舉政見會　賴瑞隆批柯志恩未替高雄爭取建設",
+            "url": "https://www.cna.com.tw/news/aloc/202611140167.aspx",
+            "publishedAt": "2026-11-14T09:28:23.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
           {
             "title": "沈伯洋：抹黃開始出現　籲外界「停看聽」",
             "url": "https://www.cna.com.tw/news/aloc/202611140146.aspx",
@@ -843,157 +981,6 @@
             "counties": [
               "臺北市"
             ]
-          },
-          {
-            "title": "馬祖語國家語言生活節登場　趣味關卡讓民眾開口說",
-            "url": "https://www.cna.com.tw/news/aloc/202611140138.aspx",
-            "publishedAt": "2026-11-14T08:32:21.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "連江縣"
-            ]
-          },
-          {
-            "title": "鄭麗文陪魏平政彰化掃街　陳素月藤山步道問候鄉親",
-            "url": "https://www.cna.com.tw/news/aloc/202611140131.aspx",
-            "publishedAt": "2026-11-14T08:01:06.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "遭影射餐會涉賄選  魏嘉彥：例行交流活動與選舉無關",
-            "url": "https://www.cna.com.tw/news/aloc/202611140124.aspx",
-            "publishedAt": "2026-11-14T07:32:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "江啟臣合體柯文哲吃播　何欣純市場拜票爭取支持",
-            "url": "https://www.cna.com.tw/news/aloc/202611140123.aspx",
-            "publishedAt": "2026-11-14T07:32:48.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "雲林虎尾美人樹綻放  粉紅散策市集連辦3週末",
-            "url": "https://www.cna.com.tw/news/aloc/202611140113.aspx",
-            "publishedAt": "2026-11-14T06:47:26.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "雲林縣"
-            ]
-          },
-          {
-            "title": "花蓮農二代設有機加工廠　助小農提升產值",
-            "url": "https://www.cna.com.tw/news/aloc/202611140110.aspx",
-            "publishedAt": "2026-11-14T06:40:20.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "花蓮縣"
-            ]
-          },
-          {
-            "title": "南投市親子輪動場啟用　能玩滑板滑步車直排輪",
-            "url": "https://www.cna.com.tw/news/aloc/202611140106.aspx",
-            "publishedAt": "2026-11-14T06:26:11.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
-          },
-          {
-            "title": "澎縣府：重視身障者權益　打造友善平等生活環境",
-            "url": "https://www.cna.com.tw/news/aloc/202611140104.aspx",
-            "publishedAt": "2026-11-14T06:10:07.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "澎湖農漁局野放8綠蠵龜　盼海洋資源永續駐點",
-            "url": "https://www.cna.com.tw/news/aloc/202611140100.aspx",
-            "publishedAt": "2026-11-14T05:53:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "沈伯洋推競選廣告　聚焦肥皂箱象徵市民主體",
-            "url": "https://www.cna.com.tw/news/aloc/202611140095.aspx",
-            "publishedAt": "2026-11-14T05:19:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "台南第19例登革熱境外移入　自越南返國入境發病",
-            "url": "https://www.cna.com.tw/news/aloc/202611140090.aspx",
-            "publishedAt": "2026-11-14T04:56:36.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺南市"
-            ]
-          },
-          {
-            "title": "南投推社區照顧關懷據點　盼116年增加到150處",
-            "url": "https://www.cna.com.tw/news/aloc/202611140089.aspx",
-            "publishedAt": "2026-11-14T04:47:34.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
-          },
-          {
-            "title": "投票日倒數　蘇巧慧、李四川淡水八里掃街拚場",
-            "url": "https://www.cna.com.tw/news/aloc/202611140086.aspx",
-            "publishedAt": "2026-11-14T04:38:25.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "台北市長選舉政見會  蔣萬安：首場談市民減壓",
-            "url": "https://www.cna.com.tw/news/aloc/202611140081.aspx",
-            "publishedAt": "2026-11-14T04:28:14.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "高雄與關島簽MOU　再增國際教育交流",
-            "url": "https://www.cna.com.tw/news/aloc/202611140065.aspx",
-            "publishedAt": "2026-11-14T03:07:39.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "南投客運6670E進駐水湳轉運中心　串聯台中到日月潭",
-            "url": "https://www.cna.com.tw/news/aloc/202611140061.aspx",
-            "publishedAt": "2026-11-14T02:54:30.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市",
-              "南投縣"
-            ]
           }
         ]
       }
@@ -1002,10 +989,53 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-14T09:31:26.743Z",
-      "attemptedAt": "2026-11-14T09:31:25.465Z",
+      "checkedAt": "2026-11-14T13:25:52.141Z",
+      "attemptedAt": "2026-11-14T13:25:51.338Z",
       "data": {
         "items": [
+          {
+            "title": "今彩539第115276期開獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611140210.aspx",
+            "publishedAt": "2026-11-14T12:44:03.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "氣象署發布豪雨特報　高雄屏東有局部大雨機率",
+            "url": "https://www.cna.com.tw/news/ahel/202611140195.aspx",
+            "publishedAt": "2026-11-14T11:09:27.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "高雄市",
+              "屏東縣"
+            ]
+          },
+          {
+            "title": "肚留23公分疤痕 女團鹿熙抗癌十年破繭成蝶獲選抗癌鬥士",
+            "url": "https://www.cna.com.tw/news/ahel/202611140192.aspx",
+            "publishedAt": "2026-11-14T10:57:20.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "鋒面通過西半部防較大雨勢　下週2波東北季風低溫探15度",
+            "url": "https://www.cna.com.tw/news/ahel/202611140164.aspx",
+            "publishedAt": "2026-11-14T09:16:17.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "中油：16日起汽柴油價格維持不調整",
+            "url": "https://www.cna.com.tw/news/ahel/202611140163.aspx",
+            "publishedAt": "2026-11-14T09:13:15.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "中山醫大校慶　姜至剛獲頒傑出校友",
             "url": "https://www.cna.com.tw/news/ahel/202611140134.aspx",
@@ -1085,54 +1115,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "教部推原住民人才培育方案　高中到研究所一貫培育",
-            "url": "https://www.cna.com.tw/news/ahel/202611140023.aspx",
-            "publishedAt": "2026-11-14T00:48:07.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "午後各地轉雨　吳德榮：下週2波東北季風接力",
-            "url": "https://www.cna.com.tw/news/ahel/202611140017.aspx",
-            "publishedAt": "2026-11-14T00:21:54.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "今彩539第115275期　頭獎4注中獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611130322.aspx",
-            "publishedAt": "2026-11-13T14:06:34.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "大樂透第115105期　頭獎槓龜",
-            "url": "https://www.cna.com.tw/news/ahel/202611130321.aspx",
-            "publishedAt": "2026-11-13T14:03:32.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "大樂透第115105期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611130302.aspx",
-            "publishedAt": "2026-11-13T12:55:48.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "今彩539第115275期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611130299.aspx",
-            "publishedAt": "2026-11-13T12:43:42.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1140,6 +1122,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-14T09:31:25.422Z"
+    "attemptedAt": "2026-11-14T13:25:51.314Z"
   }
 }
