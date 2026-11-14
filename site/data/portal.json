@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T16:04:01.199Z",
+  "generatedAt": "2026-11-14T18:49:58.596Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-14T16:04:00.230Z",
-      "attemptedAt": "2026-11-14T16:03:59.147Z",
+      "checkedAt": "2026-11-14T18:49:57.951Z",
+      "attemptedAt": "2026-11-14T18:49:56.551Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-14T16:04:01.199Z",
-      "attemptedAt": "2026-11-14T16:03:59.187Z",
+      "checkedAt": "2026-11-14T18:49:58.596Z",
+      "attemptedAt": "2026-11-14T18:49:56.596Z",
       "data": {
         "items": [
           {
-            "title": "11/14 22:29 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611142229",
-            "publishedAt": "2026-11-14T14:29:00.000Z",
+            "title": "11/15 00:20 發布大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611150020",
+            "publishedAt": "2026-11-14T16:20:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
           },
           {
-            "title": "11/14 18:55 發布豪雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611141855",
-            "publishedAt": "2026-11-14T10:55:00.000Z",
+            "title": "11/14 22:29 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611142229",
+            "publishedAt": "2026-11-14T14:29:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +814,20 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-14T16:03:59.709Z",
-      "attemptedAt": "2026-11-14T16:03:59.188Z",
+      "checkedAt": "2026-11-14T18:49:57.450Z",
+      "attemptedAt": "2026-11-14T18:49:56.597Z",
       "data": {
         "items": [
+          {
+            "title": "民眾黨桃園造勢　張善政與會展現藍白合氣勢",
+            "url": "https://www.cna.com.tw/news/aloc/202611150002.aspx",
+            "publishedAt": "2026-11-14T16:00:49.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "桃園市"
+            ]
+          },
           {
             "title": "蘇巧慧新莊造勢撞斷牙　笑稱補助老人假牙很重要",
             "url": "https://www.cna.com.tw/news/aloc/202611140215.aspx",
@@ -955,14 +965,6 @@
             "counties": [
               "高雄市"
             ]
-          },
-          {
-            "title": "沈伯洋：抹黃開始出現　籲外界「停看聽」",
-            "url": "https://www.cna.com.tw/news/aloc/202611140146.aspx",
-            "publishedAt": "2026-11-14T08:54:39.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
           }
         ]
       }
@@ -971,8 +973,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-14T16:03:59.726Z",
-      "attemptedAt": "2026-11-14T16:03:59.190Z",
+      "checkedAt": "2026-11-14T18:49:57.427Z",
+      "attemptedAt": "2026-11-14T18:49:56.598Z",
       "data": {
         "items": [
           {
@@ -1104,6 +1106,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-14T16:03:59.146Z"
+    "attemptedAt": "2026-11-14T18:49:56.550Z"
   }
 }
