@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T00:15:08.314Z",
+  "generatedAt": "2026-11-15T02:33:00.192Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-15T00:15:07.899Z",
-      "attemptedAt": "2026-11-15T00:15:05.943Z",
+      "checkedAt": "2026-11-15T02:32:59.596Z",
+      "attemptedAt": "2026-11-15T02:32:58.695Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-15T00:15:08.314Z",
-      "attemptedAt": "2026-11-15T00:15:05.976Z",
+      "checkedAt": "2026-11-15T02:33:00.192Z",
+      "attemptedAt": "2026-11-15T02:32:58.726Z",
       "data": {
         "items": [
           {
@@ -814,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-15T00:15:07.241Z",
-      "attemptedAt": "2026-11-15T00:15:05.977Z",
+      "checkedAt": "2026-11-15T02:32:59.165Z",
+      "attemptedAt": "2026-11-15T02:32:58.727Z",
       "data": {
         "items": [
           {
@@ -973,10 +973,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-15T00:15:07.282Z",
-      "attemptedAt": "2026-11-15T00:15:05.978Z",
+      "checkedAt": "2026-11-15T02:32:59.166Z",
+      "attemptedAt": "2026-11-15T02:32:58.728Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：本週2波東北季風　19日起低溫探12度",
+            "url": "https://www.cna.com.tw/news/ahel/202611150013.aspx",
+            "publishedAt": "2026-11-15T00:25:28.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115276期　頭獎1注中獎",
             "url": "https://www.cna.com.tw/news/ahel/202611140222.aspx",
@@ -1075,22 +1083,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "思覺失調症與肥胖　國衛院研究揭基因負相關",
-            "url": "https://www.cna.com.tw/news/ahel/202611140070.aspx",
-            "publishedAt": "2026-11-14T03:29:50.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "全球留台傑出校友獎　友邦新聞局長等10人獲表揚",
-            "url": "https://www.cna.com.tw/news/ahel/202611140068.aspx",
-            "publishedAt": "2026-11-14T03:15:45.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1098,6 +1090,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-15T00:15:05.943Z"
+    "attemptedAt": "2026-11-15T02:32:58.695Z"
   }
 }
