@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T23:34:36.865Z",
+  "generatedAt": "2026-11-16T01:53:19.417Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-15T23:34:36.061Z",
-      "attemptedAt": "2026-11-15T23:34:34.815Z",
+      "checkedAt": "2026-11-16T01:53:19.363Z",
+      "attemptedAt": "2026-11-16T01:53:18.338Z",
       "data": {
         "counties": [
           {
@@ -787,18 +787,27 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-15T23:34:36.865Z",
-      "attemptedAt": "2026-11-15T23:34:34.845Z",
+      "checkedAt": "2026-11-16T01:53:19.417Z",
+      "attemptedAt": "2026-11-16T01:53:18.377Z",
       "data": {
-        "items": []
+        "items": [
+          {
+            "title": "11/16 07:50 發布第 080 號顯著有感地震報告",
+            "url": "https://www.cwa.gov.tw/V8/C/E/EQ/EQ115080-1116-074707.html?T=202611160750",
+            "publishedAt": "2026-11-15T23:50:02.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          }
+        ]
       }
     },
     "local": {
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-15T23:34:35.591Z",
-      "attemptedAt": "2026-11-15T23:34:34.846Z",
+      "checkedAt": "2026-11-16T01:53:18.925Z",
+      "attemptedAt": "2026-11-16T01:53:18.379Z",
       "data": {
         "items": [
           {
@@ -920,10 +929,28 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-15T23:34:35.584Z",
-      "attemptedAt": "2026-11-15T23:34:34.846Z",
+      "checkedAt": "2026-11-16T01:53:18.926Z",
+      "attemptedAt": "2026-11-16T01:53:18.380Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：19、20日再迎東北季風　清晨平地低溫11度",
+            "url": "https://www.cna.com.tw/news/ahel/202611160012.aspx",
+            "publishedAt": "2026-11-16T00:31:32.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "台南市地震規模4　最大震度3級",
+            "url": "https://www.cna.com.tw/news/ahel/202611160009.aspx",
+            "publishedAt": "2026-11-16T00:05:25.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "臺南市"
+            ]
+          },
           {
             "title": "金門歐亞水獺全年均可繁殖　學者籲繁殖熱區維持低干擾",
             "url": "https://www.cna.com.tw/news/ahel/202611150187.aspx",
@@ -1037,14 +1064,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "造勢晚會嗨過頭耳朵嗡嗡叫　中醫師教3穴位按摩護耳",
-            "url": "https://www.cna.com.tw/news/ahel/202611150025.aspx",
-            "publishedAt": "2026-11-15T02:03:56.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1052,6 +1071,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-15T23:34:34.815Z"
+    "attemptedAt": "2026-11-16T01:53:18.338Z"
   }
 }
