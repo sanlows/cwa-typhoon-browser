@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T20:56:47.416Z",
+  "generatedAt": "2026-11-17T02:53:09.590Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-16T20:56:47.416Z",
-      "attemptedAt": "2026-11-16T20:56:45.273Z",
+      "checkedAt": "2026-11-17T02:53:08.443Z",
+      "attemptedAt": "2026-11-17T02:53:07.468Z",
       "data": {
         "counties": [
           {
@@ -787,20 +787,37 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-16T20:56:47.251Z",
-      "attemptedAt": "2026-11-16T20:56:45.316Z",
+      "checkedAt": "2026-11-17T02:53:09.590Z",
+      "attemptedAt": "2026-11-17T02:53:07.491Z",
       "data": {
-        "items": []
+        "items": [
+          {
+            "title": "11/17 10:34 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611171034",
+            "publishedAt": "2026-11-17T02:34:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          }
+        ]
       }
     },
     "local": {
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-16T20:56:45.846Z",
-      "attemptedAt": "2026-11-16T20:56:45.317Z",
+      "checkedAt": "2026-11-17T02:53:08.014Z",
+      "attemptedAt": "2026-11-17T02:53:07.491Z",
       "data": {
         "items": [
+          {
+            "title": "花檢查獲「幽靈人口」案　壽豐某村長參選人交保",
+            "url": "https://www.cna.com.tw/news/aloc/202611170034.aspx",
+            "publishedAt": "2026-11-17T02:02:50.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "桃園市長選舉電視政見發表會11/17舉行　候選人全力準備",
             "url": "https://www.cna.com.tw/news/aloc/202611160279.aspx",
@@ -923,16 +940,6 @@
             "counties": [
               "高雄市"
             ]
-          },
-          {
-            "title": "南投信義鄉同富長照場館動土　提升原鄉老幼照顧",
-            "url": "https://www.cna.com.tw/news/aloc/202611160185.aspx",
-            "publishedAt": "2026-11-16T08:55:53.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
           }
         ]
       }
@@ -941,10 +948,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-16T20:56:45.840Z",
-      "attemptedAt": "2026-11-16T20:56:45.318Z",
+      "checkedAt": "2026-11-17T02:53:08.017Z",
+      "attemptedAt": "2026-11-17T02:53:07.492Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：東北季風19日起影響　清晨平地低溫11度",
+            "url": "https://www.cna.com.tw/news/ahel/202611170015.aspx",
+            "publishedAt": "2026-11-17T00:16:08.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "台灣傲視英國茶品競賽　奪「最佳紅茶」國際大獎",
             "url": "https://www.cna.com.tw/news/ahel/202611160301.aspx",
@@ -1069,16 +1084,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "秋冬泡湯旺季　北市10月抽驗水質合格率97％",
-            "url": "https://www.cna.com.tw/news/ahel/202611160137.aspx",
-            "publishedAt": "2026-11-16T06:51:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -1086,6 +1091,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-16T20:56:45.273Z"
+    "attemptedAt": "2026-11-17T02:53:07.467Z"
   }
 }
