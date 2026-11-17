@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T11:42:13.965Z",
+  "generatedAt": "2026-11-17T12:32:47.772Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-17T11:42:13.965Z",
-      "attemptedAt": "2026-11-17T11:42:12.326Z",
+      "checkedAt": "2026-11-17T12:32:47.395Z",
+      "attemptedAt": "2026-11-17T12:32:46.083Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-17T11:42:13.871Z",
-      "attemptedAt": "2026-11-17T11:42:12.366Z",
+      "checkedAt": "2026-11-17T12:32:47.772Z",
+      "attemptedAt": "2026-11-17T12:32:46.121Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,20 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-17T11:42:12.944Z",
-      "attemptedAt": "2026-11-17T11:42:12.367Z",
+      "checkedAt": "2026-11-17T12:32:47.058Z",
+      "attemptedAt": "2026-11-17T12:32:46.123Z",
       "data": {
         "items": [
+          {
+            "title": "選舉公報錯印選舉人資格　北市選委會道歉、更正公告",
+            "url": "https://www.cna.com.tw/news/aloc/202611170296.aspx",
+            "publishedAt": "2026-11-17T11:54:22.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
           {
             "title": "兩岸和平倡議話題　澎湖藍綠縣長候選人多不回應",
             "url": "https://www.cna.com.tw/news/aloc/202611170274.aspx",
@@ -958,36 +968,6 @@
               "嘉義市",
               "嘉義縣"
             ]
-          },
-          {
-            "title": "桃園香川以書會友　雙城圖書館紀念交流十週年",
-            "url": "https://www.cna.com.tw/news/aloc/202611170175.aspx",
-            "publishedAt": "2026-11-17T07:40:58.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "桃園市"
-            ]
-          },
-          {
-            "title": "基隆捷運主體工程動土　拚2033年完工八堵直達南港",
-            "url": "https://www.cna.com.tw/news/aloc/202611170172.aspx",
-            "publishedAt": "2026-11-17T07:31:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "基隆市"
-            ]
-          },
-          {
-            "title": "高雄第2處計程車司機服務中心啟用　可免費停車2小時",
-            "url": "https://www.cna.com.tw/news/aloc/202611170171.aspx",
-            "publishedAt": "2026-11-17T07:31:49.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
           }
         ]
       }
@@ -996,12 +976,20 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-17T11:42:12.953Z",
-      "attemptedAt": "2026-11-17T11:42:12.368Z",
+      "checkedAt": "2026-11-17T12:32:47.056Z",
+      "attemptedAt": "2026-11-17T12:32:46.124Z",
       "data": {
         "items": [
           {
-            "title": "上百輛小黃佔據勞動部前 抗議70歲不能開計程車",
+            "title": "免稅店桃機二航廈導入高階顯示技術　展示台灣科技實力",
+            "url": "https://www.cna.com.tw/news/ahel/202611170267.aspx",
+            "publishedAt": "2026-11-17T10:34:19.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "上百輛小黃占據勞動部前　抗議70歲不能開計程車",
             "url": "https://www.cna.com.tw/news/ahel/202611170262.aspx",
             "publishedAt": "2026-11-17T10:26:08.000Z",
             "source": "中央通訊社",
@@ -1121,22 +1109,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "CRPD報告審查展開　鄭麗君：人權立國是台灣努力目標",
-            "url": "https://www.cna.com.tw/news/ahel/202611170086.aspx",
-            "publishedAt": "2026-11-17T03:51:42.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "愛乾淨私密處卻反覆感染　醫揭「妹妹」太長厚藏危機",
-            "url": "https://www.cna.com.tw/news/ahel/202611170085.aspx",
-            "publishedAt": "2026-11-17T03:50:40.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1144,6 +1116,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-17T11:42:12.326Z"
+    "attemptedAt": "2026-11-17T12:32:46.083Z"
   }
 }
