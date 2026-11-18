@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T21:18:08.752Z",
+  "generatedAt": "2026-11-18T02:50:45.833Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-17T21:18:08.752Z",
-      "attemptedAt": "2026-11-17T21:18:06.623Z",
+      "checkedAt": "2026-11-18T02:50:45.833Z",
+      "attemptedAt": "2026-11-18T02:50:45.321Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-17T21:18:08.561Z",
-      "attemptedAt": "2026-11-17T21:18:06.668Z",
+      "checkedAt": "2026-11-18T02:50:45.760Z",
+      "attemptedAt": "2026-11-18T02:50:45.354Z",
       "data": {
         "items": [
           {
-            "title": "11/17 22:29 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611172229",
-            "publishedAt": "2026-11-17T14:29:00.000Z",
+            "title": "11/18 10:30 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611181030",
+            "publishedAt": "2026-11-18T02:30:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-17T21:18:07.716Z",
-      "attemptedAt": "2026-11-17T21:18:06.670Z",
+      "checkedAt": "2026-11-18T02:50:45.695Z",
+      "attemptedAt": "2026-11-18T02:50:45.355Z",
       "data": {
         "items": [
           {
@@ -957,10 +957,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-17T21:18:07.577Z",
-      "attemptedAt": "2026-11-17T21:18:06.671Z",
+      "checkedAt": "2026-11-18T02:50:45.510Z",
+      "attemptedAt": "2026-11-18T02:50:45.355Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：北部東半部午後轉雨降溫　20日清晨探11度",
+            "url": "https://www.cna.com.tw/news/ahel/202611180022.aspx",
+            "publishedAt": "2026-11-18T00:12:07.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115278期　頭獎槓龜",
             "url": "https://www.cna.com.tw/news/ahel/202611170330.aspx",
@@ -1079,6 +1087,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-17T21:18:06.622Z"
+    "attemptedAt": "2026-11-18T02:50:45.321Z"
   }
 }
