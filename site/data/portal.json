@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T02:50:45.833Z",
+  "generatedAt": "2026-11-18T02:57:41.693Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-18T02:50:45.833Z",
-      "attemptedAt": "2026-11-18T02:50:45.321Z",
+      "checkedAt": "2026-11-18T02:57:41.693Z",
+      "attemptedAt": "2026-11-18T02:57:39.103Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-18T02:50:45.760Z",
-      "attemptedAt": "2026-11-18T02:50:45.354Z",
+      "checkedAt": "2026-11-18T02:57:40.162Z",
+      "attemptedAt": "2026-11-18T02:57:39.133Z",
       "data": {
         "items": [
           {
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-18T02:50:45.695Z",
-      "attemptedAt": "2026-11-18T02:50:45.355Z",
+      "checkedAt": "2026-11-18T02:57:39.974Z",
+      "attemptedAt": "2026-11-18T02:57:39.134Z",
       "data": {
         "items": [
           {
@@ -957,10 +957,36 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-18T02:50:45.510Z",
-      "attemptedAt": "2026-11-18T02:50:45.355Z",
+      "checkedAt": "2026-11-18T02:57:39.973Z",
+      "attemptedAt": "2026-11-18T02:57:39.134Z",
       "data": {
         "items": [
+          {
+            "title": "因應春節旅運　台灣虎航期間限定飛高雄羽田包機",
+            "url": "https://www.cna.com.tw/news/ahel/202611180053.aspx",
+            "publishedAt": "2026-11-18T02:35:16.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "烏山頭水庫光電續約爭議　農業部：尊重地方政府",
+            "url": "https://www.cna.com.tw/news/ahel/202611180044.aspx",
+            "publishedAt": "2026-11-18T01:53:56.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "水庫設光電板　彭啓明：水質未受影響會嚴密監控",
+            "url": "https://www.cna.com.tw/news/ahel/202611180039.aspx",
+            "publishedAt": "2026-11-18T01:38:45.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "吳德榮：北部東半部午後轉雨降溫　20日清晨探11度",
             "url": "https://www.cna.com.tw/news/ahel/202611180022.aspx",
@@ -1056,30 +1082,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "產假延長移工也適用  仲介團體籲重啟源頭健檢",
-            "url": "https://www.cna.com.tw/news/ahel/202611170211.aspx",
-            "publishedAt": "2026-11-17T09:11:16.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "高鐵選舉疏運　北部3站27日傍晚自由座、對號座分設專屬閘門",
-            "url": "https://www.cna.com.tw/news/ahel/202611170200.aspx",
-            "publishedAt": "2026-11-17T08:42:52.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "近4成青少年認說了等於白說　兒盟籲尊重表意權",
-            "url": "https://www.cna.com.tw/news/ahel/202611170176.aspx",
-            "publishedAt": "2026-11-17T07:42:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1087,6 +1089,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-18T02:50:45.321Z"
+    "attemptedAt": "2026-11-18T02:57:39.103Z"
   }
 }
