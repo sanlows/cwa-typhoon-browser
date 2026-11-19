@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-19T09:26:30.525Z",
+  "generatedAt": "2026-11-19T09:27:23.793Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-19T09:26:30.424Z",
-      "attemptedAt": "2026-11-19T09:26:28.970Z",
+      "checkedAt": "2026-11-19T09:27:23.668Z",
+      "attemptedAt": "2026-11-19T09:27:22.940Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-19T09:26:30.525Z",
-      "attemptedAt": "2026-11-19T09:26:29.012Z",
+      "checkedAt": "2026-11-19T09:27:23.793Z",
+      "attemptedAt": "2026-11-19T09:27:22.965Z",
       "data": {
         "items": [
           {
@@ -814,8 +814,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-19T09:26:30.036Z",
-      "attemptedAt": "2026-11-19T09:26:29.014Z",
+      "checkedAt": "2026-11-19T09:27:23.282Z",
+      "attemptedAt": "2026-11-19T09:27:22.966Z",
       "data": {
         "items": [
           {
@@ -929,8 +929,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-19T09:26:30.034Z",
-      "attemptedAt": "2026-11-19T09:26:29.015Z",
+      "checkedAt": "2026-11-19T09:27:23.479Z",
+      "attemptedAt": "2026-11-19T09:27:22.967Z",
       "data": {
         "items": [
           {
@@ -1085,6 +1085,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-19T09:26:28.970Z"
+    "attemptedAt": "2026-11-19T09:27:22.940Z"
   }
 }
