@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T11:41:48.349Z",
+  "generatedAt": "2026-11-21T12:57:30.513Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-21T11:41:48.063Z",
-      "attemptedAt": "2026-11-21T11:41:46.406Z",
+      "checkedAt": "2026-11-21T12:57:30.513Z",
+      "attemptedAt": "2026-11-21T12:57:29.989Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-21T11:41:48.349Z",
-      "attemptedAt": "2026-11-21T11:41:46.449Z",
+      "checkedAt": "2026-11-21T12:57:30.406Z",
+      "attemptedAt": "2026-11-21T12:57:30.021Z",
       "data": {
         "items": [
           {
@@ -814,10 +814,30 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-21T11:41:47.486Z",
-      "attemptedAt": "2026-11-21T11:41:46.450Z",
+      "checkedAt": "2026-11-21T12:57:30.436Z",
+      "attemptedAt": "2026-11-21T12:57:30.022Z",
       "data": {
         "items": [
+          {
+            "title": "連江縣長盃羽球賽開打  藝人跨海參與奪歡樂組獎盃",
+            "url": "https://www.cna.com.tw/news/aloc/202611210198.aspx",
+            "publishedAt": "2026-11-21T12:12:10.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "連江縣"
+            ]
+          },
+          {
+            "title": "毛寶貝耶誕趴板橋登場　新北擁逾千處寵物友善場域",
+            "url": "https://www.cna.com.tw/news/aloc/202611210196.aspx",
+            "publishedAt": "2026-11-21T11:57:06.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
           {
             "title": "中醫大市醫辦家庭日　盼讓家屬彼此傳遞陪伴力量",
             "url": "https://www.cna.com.tw/news/aloc/202611210167.aspx",
@@ -883,48 +903,6 @@
             "counties": [
               "花蓮縣"
             ]
-          },
-          {
-            "title": "夏莉絲案　沈伯洋允當選首日組跨局處專案小組",
-            "url": "https://www.cna.com.tw/news/aloc/202611210111.aspx",
-            "publishedAt": "2026-11-21T06:44:56.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "蔣萬安發起「好水聯盟」　邀縣市長與候選人簽署公約",
-            "url": "https://www.cna.com.tw/news/aloc/202611210108.aspx",
-            "publishedAt": "2026-11-21T06:37:49.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "江啟臣台中烏日、沙鹿掃街　有勝選信心",
-            "url": "https://www.cna.com.tw/news/aloc/202611210105.aspx",
-            "publishedAt": "2026-11-21T06:09:42.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "張啓楷質疑輕軌政見跳票　王美惠：須完善規劃",
-            "url": "https://www.cna.com.tw/news/aloc/202611210101.aspx",
-            "publishedAt": "2026-11-21T05:58:33.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "止痛藥每月服用近百顆　醫：藥物過度使用頭痛",
-            "url": "https://www.cna.com.tw/news/ahel/202611210098.aspx",
-            "publishedAt": "2026-11-21T05:42:27.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
           }
         ]
       }
@@ -933,8 +911,8 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-21T11:41:47.632Z",
-      "attemptedAt": "2026-11-21T11:41:46.451Z",
+      "checkedAt": "2026-11-21T12:57:30.186Z",
+      "attemptedAt": "2026-11-21T12:57:30.023Z",
       "data": {
         "items": [
           {
@@ -1079,6 +1057,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-21T11:41:46.406Z"
+    "attemptedAt": "2026-11-21T12:57:29.989Z"
   }
 }
