@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T03:26:55.705Z",
+  "generatedAt": "2026-11-22T07:22:41.121Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-22T03:26:54.625Z",
-      "attemptedAt": "2026-11-22T03:26:53.397Z",
+      "checkedAt": "2026-11-22T07:22:40.728Z",
+      "attemptedAt": "2026-11-22T07:22:39.877Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-22T03:26:55.705Z",
-      "attemptedAt": "2026-11-22T03:26:53.430Z",
+      "checkedAt": "2026-11-22T07:22:41.121Z",
+      "attemptedAt": "2026-11-22T07:22:39.917Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,80 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-22T03:26:54.176Z",
-      "attemptedAt": "2026-11-22T03:26:53.431Z",
+      "checkedAt": "2026-11-22T07:22:40.495Z",
+      "attemptedAt": "2026-11-22T07:22:39.919Z",
       "data": {
         "items": [
+          {
+            "title": "BTS開唱吸引人潮　高捷21日單日運量衝史上第2高",
+            "url": "https://www.cna.com.tw/news/aloc/202611220088.aspx",
+            "publishedAt": "2026-11-22T06:16:48.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "彰化選前衝刺　魏平政、陳素月本命區拜票",
+            "url": "https://www.cna.com.tw/news/aloc/202611220084.aspx",
+            "publishedAt": "2026-11-22T05:44:39.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "彰化縣"
+            ]
+          },
+          {
+            "title": "台中捷運市政府站土地開發案開工　預計120年啟用",
+            "url": "https://www.cna.com.tw/news/aloc/202611220081.aspx",
+            "publishedAt": "2026-11-22T05:32:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
+          {
+            "title": "嘉邑行善團重建水上龍德橋　提前完工節省百萬",
+            "url": "https://www.cna.com.tw/news/aloc/202611220075.aspx",
+            "publishedAt": "2026-11-22T05:06:17.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "選舉最後階段　蘇巧慧：每一區都再衝刺",
+            "url": "https://www.cna.com.tw/news/aloc/202611220064.aspx",
+            "publishedAt": "2026-11-22T04:30:53.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "大雪山國家森林遊樂區林道黑熊現蹤　林道封閉至24日",
+            "url": "https://www.cna.com.tw/news/aloc/202611220063.aspx",
+            "publishedAt": "2026-11-22T04:28:51.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "藍白合藍營擔憂議員受影響　蔣萬安：目標是席次最大化",
+            "url": "https://www.cna.com.tw/news/aloc/202611220060.aspx",
+            "publishedAt": "2026-11-22T04:21:44.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "BTS應援活動　高雄港灣水舞展演加碼演出",
+            "url": "https://www.cna.com.tw/news/aloc/202611220039.aspx",
+            "publishedAt": "2026-11-22T02:59:59.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
           {
             "title": "沈伯洋掀「洋流」　多重漫畫角色個性展現熱血與溫暖",
             "url": "https://www.cna.com.tw/news/aloc/202611220019.aspx",
@@ -845,44 +915,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "連江縣長盃羽球賽開打  藝人跨海參與奪歡樂組獎盃",
-            "url": "https://www.cna.com.tw/news/aloc/202611210198.aspx",
-            "publishedAt": "2026-11-21T12:12:10.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "連江縣"
-            ]
-          },
-          {
-            "title": "毛寶貝耶誕趴板橋登場　新北擁逾千處寵物友善場域",
-            "url": "https://www.cna.com.tw/news/aloc/202611210196.aspx",
-            "publishedAt": "2026-11-21T11:57:06.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "中醫大市醫辦家庭日　盼讓家屬彼此傳遞陪伴力量",
-            "url": "https://www.cna.com.tw/news/aloc/202611210167.aspx",
-            "publishedAt": "2026-11-21T09:34:00.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "台中36醬嘉年華草悟道登場 推主題地圖虛實整合",
-            "url": "https://www.cna.com.tw/news/aloc/202611210148.aspx",
-            "publishedAt": "2026-11-21T09:08:19.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
           }
         ]
       }
@@ -891,10 +923,52 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-22T03:26:54.174Z",
-      "attemptedAt": "2026-11-22T03:26:53.432Z",
+      "checkedAt": "2026-11-22T07:22:40.493Z",
+      "attemptedAt": "2026-11-22T07:22:39.920Z",
       "data": {
         "items": [
+          {
+            "title": "「海龜式追星」巧遇BTS就捐款　衛福部教學查合法公益團體",
+            "url": "https://www.cna.com.tw/news/ahel/202611220095.aspx",
+            "publishedAt": "2026-11-22T06:56:03.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "台塑化：23日起汽柴油價格維持不變",
+            "url": "https://www.cna.com.tw/news/ahel/202611220086.aspx",
+            "publishedAt": "2026-11-22T05:48:43.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "彭啓明：焚化爐處理廚餘尚可負荷　轉型期約1年",
+            "url": "https://www.cna.com.tw/news/ahel/202611220053.aspx",
+            "publishedAt": "2026-11-22T03:49:28.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "背起行囊走祖先遷移路　花蓮瑞北國小推沉浸式族語學習",
+            "url": "https://www.cna.com.tw/news/ahel/202611220049.aspx",
+            "publishedAt": "2026-11-22T03:05:19.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "花蓮縣"
+            ]
+          },
+          {
+            "title": "小雪節氣　專家建議飲食調養溫補、溫和伸展運動",
+            "url": "https://www.cna.com.tw/news/ahel/202611220037.aspx",
+            "publishedAt": "2026-11-22T02:58:54.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "旅行社3年個資外洩12家　通報案件翻倍成長",
             "url": "https://www.cna.com.tw/news/ahel/202611220028.aspx",
@@ -1001,46 +1075,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "學生依賴AI有3大風險　學者籲教師要具辨識能力",
-            "url": "https://www.cna.com.tw/news/ahel/202611210115.aspx",
-            "publishedAt": "2026-11-21T07:04:05.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "號誌故障影響　台鐵大肚至追分間列車延誤",
-            "url": "https://www.cna.com.tw/news/ahel/202611210113.aspx",
-            "publishedAt": "2026-11-21T06:51:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣口腔癌死亡率超日韓　醫提醒頭頸癌三大警訊",
-            "url": "https://www.cna.com.tw/news/ahel/202611210110.aspx",
-            "publishedAt": "2026-11-21T06:40:53.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "紅眼列車疏運投票人潮工會提3訴求　高鐵：不會強迫加班",
-            "url": "https://www.cna.com.tw/news/ahel/202611210104.aspx",
-            "publishedAt": "2026-11-21T06:05:40.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "止痛藥每月服用近百顆　醫：藥物過度使用頭痛",
-            "url": "https://www.cna.com.tw/news/ahel/202611210098.aspx",
-            "publishedAt": "2026-11-21T05:42:27.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1048,6 +1082,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-22T03:26:53.396Z"
+    "attemptedAt": "2026-11-22T07:22:39.877Z"
   }
 }
