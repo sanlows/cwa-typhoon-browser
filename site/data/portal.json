@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T23:54:05.238Z",
+  "generatedAt": "2026-11-23T02:33:25.222Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-22T23:54:05.238Z",
-      "attemptedAt": "2026-11-22T23:54:04.731Z",
+      "checkedAt": "2026-11-23T02:33:24.817Z",
+      "attemptedAt": "2026-11-23T02:33:24.042Z",
       "data": {
         "counties": [
           {
@@ -787,14 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-22T23:54:05.213Z",
-      "attemptedAt": "2026-11-22T23:54:04.759Z",
+      "checkedAt": "2026-11-23T02:33:25.222Z",
+      "attemptedAt": "2026-11-23T02:33:24.086Z",
       "data": {
         "items": [
           {
-            "title": "11/23 04:26 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611230426",
-            "publishedAt": "2026-11-22T20:26:00.000Z",
+            "title": "11/23 10:23 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611231023",
+            "publishedAt": "2026-11-23T02:23:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,10 +806,18 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-22T23:54:04.923Z",
-      "attemptedAt": "2026-11-22T23:54:04.761Z",
+      "checkedAt": "2026-11-23T02:33:24.470Z",
+      "attemptedAt": "2026-11-23T02:33:24.087Z",
       "data": {
         "items": [
+          {
+            "title": "蘇巧慧：北北基桃未來會有最順暢溝通",
+            "url": "https://www.cna.com.tw/news/aloc/202611230028.aspx",
+            "publishedAt": "2026-11-23T01:23:31.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "藍營「三子」合體挺李四川　韓國瑜稱讚是公務員最閃亮名片",
             "url": "https://www.cna.com.tw/news/aloc/202611220198.aspx",
@@ -895,10 +903,21 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-22T23:54:04.922Z",
-      "attemptedAt": "2026-11-22T23:54:04.761Z",
+      "checkedAt": "2026-11-23T02:33:24.471Z",
+      "attemptedAt": "2026-11-23T02:33:24.088Z",
       "data": {
         "items": [
+          {
+            "title": "新竹關西清晨探10.9度　吳德榮：24日北、東部轉雨偏涼",
+            "url": "https://www.cna.com.tw/news/ahel/202611230018.aspx",
+            "publishedAt": "2026-11-23T00:37:09.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": [
+              "新竹市",
+              "新竹縣"
+            ]
+          },
           {
             "title": "亞太天主教大學運動會輔大開幕　20校逾700選手競技",
             "url": "https://www.cna.com.tw/news/ahel/202611220192.aspx",
@@ -1049,14 +1068,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "今彩539第115282期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611210203.aspx",
-            "publishedAt": "2026-11-21T12:43:21.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1064,6 +1075,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-22T23:54:04.731Z"
+    "attemptedAt": "2026-11-23T02:33:24.042Z"
   }
 }
