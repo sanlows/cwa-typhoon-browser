@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T22:52:58.976Z",
+  "generatedAt": "2026-11-24T01:52:18.520Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-23T22:52:58.843Z",
-      "attemptedAt": "2026-11-23T22:52:57.747Z",
+      "checkedAt": "2026-11-24T01:52:17.842Z",
+      "attemptedAt": "2026-11-24T01:52:16.783Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-23T22:52:58.976Z",
-      "attemptedAt": "2026-11-23T22:52:57.774Z",
+      "checkedAt": "2026-11-24T01:52:18.520Z",
+      "attemptedAt": "2026-11-24T01:52:16.816Z",
       "data": {
         "items": [
           {
@@ -806,8 +806,8 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-23T22:52:58.368Z",
-      "attemptedAt": "2026-11-23T22:52:57.775Z",
+      "checkedAt": "2026-11-24T01:52:17.337Z",
+      "attemptedAt": "2026-11-24T01:52:16.817Z",
       "data": {
         "items": [
           {
@@ -893,10 +893,26 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-23T22:52:58.367Z",
-      "attemptedAt": "2026-11-23T22:52:57.776Z",
+      "checkedAt": "2026-11-24T01:52:17.340Z",
+      "attemptedAt": "2026-11-24T01:52:16.818Z",
       "data": {
         "items": [
+          {
+            "title": "吳德榮：26日前北、東部有雨　投票日北舒適南微熱",
+            "url": "https://www.cna.com.tw/news/ahel/202611240027.aspx",
+            "publishedAt": "2026-11-24T00:30:47.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "台灣8校4企業赴印度攬才　串連升學與就業機會",
+            "url": "https://www.cna.com.tw/news/ahel/202611240025.aspx",
+            "publishedAt": "2026-11-24T00:08:42.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "今彩539第115283期　頭獎槓龜",
             "url": "https://www.cna.com.tw/news/ahel/202611230289.aspx",
@@ -1035,6 +1051,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-23T22:52:57.746Z"
+    "attemptedAt": "2026-11-24T01:52:16.783Z"
   }
 }
