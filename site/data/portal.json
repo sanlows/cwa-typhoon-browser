@@ -1,36 +1,26 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T06:54:26.945Z",
+  "generatedAt": "2026-11-24T11:41:15.131Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-24T06:54:26.833Z",
-      "attemptedAt": "2026-11-24T06:54:25.360Z",
+      "checkedAt": "2026-11-24T11:41:15.131Z",
+      "attemptedAt": "2026-11-24T11:41:14.629Z",
       "data": {
         "counties": [
           {
             "name": "嘉義縣",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 20,
-                "maxT": 24,
-                "pop": 20,
-                "comfort": "稍有寒意至舒適"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "多雲短暫雨",
-                "code": "8",
+                "condition": "多雲",
+                "code": "4",
                 "minT": 17,
                 "maxT": 20,
-                "pop": 30,
+                "pop": 20,
                 "comfort": "稍有寒意"
               },
               {
@@ -42,6 +32,16 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 19,
+                "maxT": 21,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
@@ -49,23 +49,13 @@
             "name": "新北市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 16,
-                "maxT": 18,
-                "pop": 100,
-                "comfort": "稍有寒意"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
                 "condition": "陰有雨",
                 "code": "14",
                 "minT": 16,
                 "maxT": 17,
-                "pop": 80,
+                "pop": 70,
                 "comfort": "稍有寒意"
               },
               {
@@ -75,7 +65,17 @@
                 "code": "11",
                 "minT": 17,
                 "maxT": 19,
-                "pop": 40,
+                "pop": 30,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 18,
+                "maxT": 19,
+                "pop": 30,
                 "comfort": "稍有寒意"
               }
             ]
@@ -84,23 +84,13 @@
             "name": "嘉義市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 20,
-                "maxT": 24,
-                "pop": 20,
-                "comfort": "稍有寒意至舒適"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "多雲時陰短暫雨",
-                "code": "9",
+                "condition": "多雲時陰",
+                "code": "5",
                 "minT": 16,
                 "maxT": 20,
-                "pop": 30,
+                "pop": 20,
                 "comfort": "稍有寒意"
               },
               {
@@ -112,6 +102,16 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 18,
+                "maxT": 21,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
@@ -119,23 +119,13 @@
             "name": "新竹縣",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 17,
-                "maxT": 18,
-                "pop": 80,
-                "comfort": "稍有寒意"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "陰有雨",
-                "code": "14",
+                "condition": "陰短暫雨",
+                "code": "11",
                 "minT": 17,
                 "maxT": 17,
-                "pop": 70,
+                "pop": 30,
                 "comfort": "稍有寒意"
               },
               {
@@ -144,8 +134,18 @@
                 "condition": "陰天",
                 "code": "7",
                 "minT": 17,
-                "maxT": 20,
+                "maxT": 21,
                 "pop": 20,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 17,
+                "maxT": 19,
+                "pop": 30,
                 "comfort": "稍有寒意"
               }
             ]
@@ -154,23 +154,13 @@
             "name": "新竹市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 17,
-                "maxT": 19,
-                "pop": 70,
-                "comfort": "稍有寒意"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "陰有雨",
-                "code": "14",
+                "condition": "陰短暫雨",
+                "code": "11",
                 "minT": 17,
                 "maxT": 18,
-                "pop": 70,
+                "pop": 30,
                 "comfort": "稍有寒意"
               },
               {
@@ -179,7 +169,17 @@
                 "condition": "陰天",
                 "code": "7",
                 "minT": 17,
-                "maxT": 20,
+                "maxT": 21,
+                "pop": 20,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲",
+                "code": "6",
+                "minT": 17,
+                "maxT": 19,
                 "pop": 20,
                 "comfort": "稍有寒意"
               }
@@ -189,33 +189,33 @@
             "name": "臺北市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 16,
-                "maxT": 18,
-                "pop": 90,
-                "comfort": "寒冷至稍有寒意"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
                 "condition": "陰有雨",
                 "code": "14",
                 "minT": 16,
                 "maxT": 16,
-                "pop": 80,
+                "pop": 70,
                 "comfort": "寒冷至稍有寒意"
               },
               {
                 "start": "2026-11-25 06:00:00",
                 "end": "2026-11-25 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
+                "condition": "陰天",
+                "code": "7",
                 "minT": 16,
+                "maxT": 20,
+                "pop": 20,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 19,
                 "maxT": 19,
-                "pop": 40,
+                "pop": 30,
                 "comfort": "稍有寒意"
               }
             ]
@@ -224,23 +224,13 @@
             "name": "臺南市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "多雲",
-                "code": "4",
-                "minT": 21,
-                "maxT": 25,
-                "pop": 20,
-                "comfort": "舒適"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "陰天",
-                "code": "7",
+                "condition": "陰短暫雨",
+                "code": "11",
                 "minT": 17,
                 "maxT": 21,
-                "pop": 20,
+                "pop": 30,
                 "comfort": "稍有寒意至舒適"
               },
               {
@@ -252,22 +242,22 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 19,
+                "maxT": 22,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "宜蘭縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 16,
-                "maxT": 19,
-                "pop": 70,
-                "comfort": "稍有寒意"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -287,6 +277,16 @@
                 "maxT": 18,
                 "pop": 90,
                 "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 17,
+                "maxT": 18,
+                "pop": 50,
+                "comfort": "稍有寒意"
               }
             ]
           },
@@ -294,23 +294,13 @@
             "name": "苗栗縣",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 16,
-                "maxT": 18,
-                "pop": 70,
-                "comfort": "寒冷至稍有寒意"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
-                "condition": "陰有雨",
-                "code": "14",
+                "condition": "陰天",
+                "code": "7",
                 "minT": 15,
                 "maxT": 16,
-                "pop": 70,
+                "pop": 20,
                 "comfort": "寒冷至稍有寒意"
               },
               {
@@ -319,25 +309,25 @@
                 "condition": "陰時多雲",
                 "code": "6",
                 "minT": 16,
-                "maxT": 21,
+                "maxT": 22,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 17,
+                "maxT": 19,
+                "pop": 30,
+                "comfort": "稍有寒意"
               }
             ]
           },
           {
             "name": "雲林縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 20,
-                "maxT": 23,
-                "pop": 20,
-                "comfort": "稍有寒意至舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -357,22 +347,22 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 18,
+                "maxT": 21,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "花蓮縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
-                "minT": 21,
-                "maxT": 24,
-                "pop": 30,
-                "comfort": "舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -390,6 +380,16 @@
                 "code": "7",
                 "minT": 18,
                 "maxT": 20,
+                "pop": 20,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲",
+                "code": "6",
+                "minT": 18,
+                "maxT": 19,
                 "pop": 20,
                 "comfort": "稍有寒意"
               }
@@ -399,16 +399,6 @@
             "name": "臺中市",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 20,
-                "maxT": 23,
-                "pop": 20,
-                "comfort": "稍有寒意至舒適"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
                 "condition": "多雲時陰",
@@ -427,22 +417,22 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 19,
+                "maxT": 22,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "臺東縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
-                "minT": 22,
-                "maxT": 26,
-                "pop": 60,
-                "comfort": "舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -462,22 +452,22 @@
                 "maxT": 23,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 19,
+                "maxT": 21,
+                "pop": 40,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "桃園市",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 16,
-                "maxT": 17,
-                "pop": 90,
-                "comfort": "稍有寒意"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -497,22 +487,22 @@
                 "maxT": 19,
                 "pop": 20,
                 "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰天",
+                "code": "7",
+                "minT": 18,
+                "maxT": 18,
+                "pop": 20,
+                "comfort": "稍有寒意"
               }
             ]
           },
           {
             "name": "南投縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 21,
-                "maxT": 24,
-                "pop": 20,
-                "comfort": "舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -532,22 +522,22 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰短暫雨",
+                "code": "9",
+                "minT": 19,
+                "maxT": 21,
+                "pop": 30,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "高雄市",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "多雲時陰",
-                "code": "5",
-                "minT": 25,
-                "maxT": 28,
-                "pop": 20,
-                "comfort": "舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -567,22 +557,22 @@
                 "maxT": 25,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 21,
+                "maxT": 24,
+                "pop": 30,
+                "comfort": "舒適"
               }
             ]
           },
           {
             "name": "金門縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
-                "minT": 16,
-                "maxT": 19,
-                "pop": 40,
-                "comfort": "寒冷至稍有寒意"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -602,6 +592,16 @@
                 "maxT": 19,
                 "pop": 20,
                 "comfort": "寒冷至稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲",
+                "code": "4",
+                "minT": 15,
+                "maxT": 16,
+                "pop": 20,
+                "comfort": "寒冷"
               }
             ]
           },
@@ -609,23 +609,13 @@
             "name": "屏東縣",
             "periods": [
               {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "多雲",
-                "code": "4",
-                "minT": 24,
-                "maxT": 28,
-                "pop": 20,
-                "comfort": "舒適"
-              },
-              {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
                 "condition": "陰短暫雨",
                 "code": "11",
                 "minT": 19,
                 "maxT": 24,
-                "pop": 40,
+                "pop": 30,
                 "comfort": "稍有寒意至舒適"
               },
               {
@@ -637,22 +627,22 @@
                 "maxT": 26,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 20,
+                "maxT": 23,
+                "pop": 30,
+                "comfort": "舒適"
               }
             ]
           },
           {
             "name": "基隆市",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰有雨",
-                "code": "14",
-                "minT": 17,
-                "maxT": 18,
-                "pop": 100,
-                "comfort": "稍有寒意"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -670,7 +660,17 @@
                 "code": "11",
                 "minT": 17,
                 "maxT": 19,
-                "pop": 50,
+                "pop": 60,
+                "comfort": "稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰時多雲短暫雨",
+                "code": "10",
+                "minT": 19,
+                "maxT": 19,
+                "pop": 40,
                 "comfort": "稍有寒意"
               }
             ]
@@ -678,16 +678,6 @@
           {
             "name": "澎湖縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
-                "minT": 20,
-                "maxT": 24,
-                "pop": 30,
-                "comfort": "稍有寒意至舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -707,22 +697,22 @@
                 "maxT": 22,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰",
+                "code": "5",
+                "minT": 20,
+                "maxT": 21,
+                "pop": 20,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "彰化縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰天",
-                "code": "7",
-                "minT": 20,
-                "maxT": 23,
-                "pop": 20,
-                "comfort": "稍有寒意至舒適"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -742,22 +732,22 @@
                 "maxT": 24,
                 "pop": 20,
                 "comfort": "稍有寒意至舒適"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "多雲時陰",
+                "code": "5",
+                "minT": 19,
+                "maxT": 21,
+                "pop": 20,
+                "comfort": "稍有寒意至舒適"
               }
             ]
           },
           {
             "name": "連江縣",
             "periods": [
-              {
-                "start": "2026-11-24 12:00:00",
-                "end": "2026-11-24 18:00:00",
-                "condition": "陰短暫雨",
-                "code": "11",
-                "minT": 16,
-                "maxT": 17,
-                "pop": 30,
-                "comfort": "稍有寒意"
-              },
               {
                 "start": "2026-11-24 18:00:00",
                 "end": "2026-11-25 06:00:00",
@@ -777,6 +767,16 @@
                 "maxT": 16,
                 "pop": 20,
                 "comfort": "寒冷至稍有寒意"
+              },
+              {
+                "start": "2026-11-25 18:00:00",
+                "end": "2026-11-26 06:00:00",
+                "condition": "陰短暫雨",
+                "code": "11",
+                "minT": 14,
+                "maxT": 15,
+                "pop": 50,
+                "comfort": "寒冷"
               }
             ]
           }
@@ -787,14 +787,22 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-24T06:54:26.945Z",
-      "attemptedAt": "2026-11-24T06:54:25.385Z",
+      "checkedAt": "2026-11-24T11:41:15.083Z",
+      "attemptedAt": "2026-11-24T11:41:14.657Z",
       "data": {
         "items": [
           {
-            "title": "11/24 10:31 發布陸上強風特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611241031",
-            "publishedAt": "2026-11-24T02:31:00.000Z",
+            "title": "11/24 16:31 發布陸上強風特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611241631",
+            "publishedAt": "2026-11-24T08:31:00.000Z",
+            "source": "中央氣象署",
+            "category": "官方發布／解除",
+            "counties": []
+          },
+          {
+            "title": "11/24 16:20 發布大雨特報",
+            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611241620",
+            "publishedAt": "2026-11-24T08:20:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -806,10 +814,95 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-24T06:54:26.025Z",
-      "attemptedAt": "2026-11-24T06:54:25.386Z",
+      "checkedAt": "2026-11-24T11:41:14.808Z",
+      "attemptedAt": "2026-11-24T11:41:14.658Z",
       "data": {
         "items": [
+          {
+            "title": "新竹關西仙草節12/12登場　花海市集結合親子體驗",
+            "url": "https://www.cna.com.tw/news/aloc/202611240220.aspx",
+            "publishedAt": "2026-11-24T09:22:49.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新竹市",
+              "新竹縣"
+            ]
+          },
+          {
+            "title": "彰化縣旅遊中心停車場動土  盼改善鹿港停車與淹水問題",
+            "url": "https://www.cna.com.tw/news/aloc/202611240213.aspx",
+            "publishedAt": "2026-11-24T09:03:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "彰化縣"
+            ]
+          },
+          {
+            "title": "冒雨赴中山大同車掃　蔣萬安：一步一腳印爭取認同",
+            "url": "https://www.cna.com.tw/news/aloc/202611240212.aspx",
+            "publishedAt": "2026-11-24T09:02:32.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "高雄增2例本土登革熱　前鎮男子3度就醫確診",
+            "url": "https://www.cna.com.tw/news/ahel/202611240204.aspx",
+            "publishedAt": "2026-11-24T08:44:14.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "沈伯洋傳統車掃前進大安文山　冒雨向市民打招呼提醒出門投票",
+            "url": "https://www.cna.com.tw/news/aloc/202611240196.aspx",
+            "publishedAt": "2026-11-24T08:31:57.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "南投環保局啟用空品監測車　快速部署助緊急應變",
+            "url": "https://www.cna.com.tw/news/aloc/202611240189.aspx",
+            "publishedAt": "2026-11-24T08:09:42.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "南投縣"
+            ]
+          },
+          {
+            "title": "新北首投族逾14萬人　投票日勿帶競選小物避免觸法",
+            "url": "https://www.cna.com.tw/news/aloc/202611240181.aspx",
+            "publishedAt": "2026-11-24T07:55:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "新北市"
+            ]
+          },
+          {
+            "title": "劉建國提中醫藥草產業廊帶　串聯雲嘉彰建台草藥專區",
+            "url": "https://www.cna.com.tw/news/aloc/202611240179.aspx",
+            "publishedAt": "2026-11-24T07:46:20.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "安藤忠雄設計「童書之森．台中」 主體工程完工",
+            "url": "https://www.cna.com.tw/news/aloc/202611240171.aspx",
+            "publishedAt": "2026-11-24T07:24:03.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺中市"
+            ]
+          },
           {
             "title": "張嘉郡崙背掃街　提6行動盼再造風華",
             "url": "https://www.cna.com.tw/news/aloc/202611240153.aspx",
@@ -853,144 +946,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "楊曜偕吳淑瑾掃街　允爭取預算建設澎湖",
-            "url": "https://www.cna.com.tw/news/aloc/202611240141.aspx",
-            "publishedAt": "2026-11-24T06:08:57.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "高市府聲樂合唱團年度音樂會　12/14衛武營登場",
-            "url": "https://www.cna.com.tw/news/aloc/202611240139.aspx",
-            "publishedAt": "2026-11-24T06:03:53.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "高雄市"
-            ]
-          },
-          {
-            "title": "台灣好行大鵬灣琉球線破百萬　旅客獲1年免費乘車券",
-            "url": "https://www.cna.com.tw/news/aloc/202611240138.aspx",
-            "publishedAt": "2026-11-24T06:02:51.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "南投歷史建築草鞋墩雅舍動工修復　重現林業風華",
-            "url": "https://www.cna.com.tw/news/aloc/202611240133.aspx",
-            "publishedAt": "2026-11-24T05:51:38.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "南投縣"
-            ]
-          },
-          {
-            "title": "新北鶯歌及樹林、三峽部分地區　12/1起停水30小時",
-            "url": "https://www.cna.com.tw/news/aloc/202611240125.aspx",
-            "publishedAt": "2026-11-24T05:33:20.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "游盈隆視察台中選務　盼28日午夜前完成開票作業",
-            "url": "https://www.cna.com.tw/news/aloc/202611240123.aspx",
-            "publishedAt": "2026-11-24T05:30:16.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
-          },
-          {
-            "title": "黃國昌陪新北小雞掃街　陳怡君有信心成立議會黨團",
-            "url": "https://www.cna.com.tw/news/aloc/202611240118.aspx",
-            "publishedAt": "2026-11-24T05:24:05.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "李四川汐止拜票　允串聯雙北科技產業、打造30分鐘生活圈",
-            "url": "https://www.cna.com.tw/news/aloc/202611240117.aspx",
-            "publishedAt": "2026-11-24T05:17:03.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "國民黨彰化黨部聲援謝典霖黃漢皇　檢：謹遵法律程序",
-            "url": "https://www.cna.com.tw/news/aloc/202611240112.aspx",
-            "publishedAt": "2026-11-24T05:03:52.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "彰化縣"
-            ]
-          },
-          {
-            "title": "新北表揚130名身障畫者　鼓勵藝術創作熱情",
-            "url": "https://www.cna.com.tw/news/aloc/202611240110.aspx",
-            "publishedAt": "2026-11-24T04:57:48.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "網友分享支持者離世前不忘拉票　沈伯洋：感受到民主重要性",
-            "url": "https://www.cna.com.tw/news/aloc/202611240108.aspx",
-            "publishedAt": "2026-11-24T04:50:44.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "澎湖與馬偕簽署合作意向書　提升離島兒童醫療照護",
-            "url": "https://www.cna.com.tw/news/aloc/202611240104.aspx",
-            "publishedAt": "2026-11-24T04:45:35.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "澎湖縣"
-            ]
-          },
-          {
-            "title": "教師團體追思陳情　陳其邁：校園霸凌交外部專家調查",
-            "url": "https://www.cna.com.tw/news/aloc/202611240099.aspx",
-            "publishedAt": "2026-11-24T04:22:24.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "鹿草聯外道路動土　劉世芳：帶動發展成安居選擇",
-            "url": "https://www.cna.com.tw/news/aloc/202611240092.aspx",
-            "publishedAt": "2026-11-24T04:07:09.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "蔣萬安與藍營議員候選人啟動車掃　3天跑6選區全力催票",
-            "url": "https://www.cna.com.tw/news/aloc/202611240078.aspx",
-            "publishedAt": "2026-11-24T03:45:39.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
           }
         ]
       }
@@ -999,165 +954,147 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-24T06:54:26.026Z",
-      "attemptedAt": "2026-11-24T06:54:25.387Z",
+      "checkedAt": "2026-11-24T11:41:15.022Z",
+      "attemptedAt": "2026-11-24T11:41:14.659Z",
       "data": {
         "items": [
           {
-            "title": "雇主協會遞移工政策問責書　籲行政院具體改革",
-            "url": "https://www.cna.com.tw/news/ahel/202611240149.aspx",
-            "publishedAt": "2026-11-24T06:38:15.000Z",
+            "title": "中研院攜手法國科研中心　擬設國際聯合研究實驗室",
+            "url": "https://www.cna.com.tw/news/ahel/202611240250.aspx",
+            "publishedAt": "2026-11-24T09:57:53.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "台南腎臟病男子每週排便1次　中西醫合併治療改善",
-            "url": "https://www.cna.com.tw/news/ahel/202611240143.aspx",
-            "publishedAt": "2026-11-24T06:11:02.000Z",
+            "title": "民法刪除兄弟姊妹特留分　世新大學辦模擬庭審",
+            "url": "https://www.cna.com.tw/news/ahel/202611240246.aspx",
+            "publishedAt": "2026-11-24T09:48:44.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "左流右新破800萬劑　COVID-19疫苗快用罄116年補貨",
+            "url": "https://www.cna.com.tw/news/ahel/202611240245.aspx",
+            "publishedAt": "2026-11-24T09:47:42.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "26日前全台有雨　投票日水氣減少北、東部偶雨",
+            "url": "https://www.cna.com.tw/news/ahel/202611240238.aspx",
+            "publishedAt": "2026-11-24T09:37:27.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "勞動部專案勞檢高科技廠房工程  開罰近800萬元",
+            "url": "https://www.cna.com.tw/news/ahel/202611240225.aspx",
+            "publishedAt": "2026-11-24T09:33:00.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "小兒疝氣忽大忽小別輕忽　醫：嚴重恐腸道壞死",
+            "url": "https://www.cna.com.tw/news/ahel/202611240216.aspx",
+            "publishedAt": "2026-11-24T09:11:40.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "東北季風影響　北北基大雨特報",
+            "url": "https://www.cna.com.tw/news/ahel/202611240211.aspx",
+            "publishedAt": "2026-11-24T09:02:30.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "淡江大橋清理伸縮縫急封機車道3小時　公路局致歉",
+            "url": "https://www.cna.com.tw/news/ahel/202611240208.aspx",
+            "publishedAt": "2026-11-24T08:58:23.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "環境部千張維修券2小時搶光　民團籲轉型服務券",
+            "url": "https://www.cna.com.tw/news/ahel/202611240205.aspx",
+            "publishedAt": "2026-11-24T08:47:16.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "高雄增2例本土登革熱　前鎮男子3度就醫確診",
+            "url": "https://www.cna.com.tw/news/ahel/202611240204.aspx",
+            "publishedAt": "2026-11-24T08:44:14.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": [
-              "臺南市"
+              "高雄市"
             ]
           },
           {
-            "title": "陳世凱：桃機第3航廈預計2027年12/25營運",
-            "url": "https://www.cna.com.tw/news/ahel/202611240136.aspx",
-            "publishedAt": "2026-11-24T05:57:44.000Z",
+            "title": "流感連9週下降　疾管署12月1日評估是否脫離流行",
+            "url": "https://www.cna.com.tw/news/ahel/202611240199.aspx",
+            "publishedAt": "2026-11-24T08:36:04.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "行憲紀念日連假　台鐵已售逾7.1萬張票",
-            "url": "https://www.cna.com.tw/news/ahel/202611240126.aspx",
-            "publishedAt": "2026-11-24T05:39:23.000Z",
+            "title": "推動友善森林經營  近95公頃林下經濟產品獲驗證",
+            "url": "https://www.cna.com.tw/news/ahel/202611240187.aspx",
+            "publishedAt": "2026-11-24T08:05:38.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "選舉疏運高鐵訂票較上屆增3成　交通部籲搭台鐵、客運分流",
-            "url": "https://www.cna.com.tw/news/ahel/202611240106.aspx",
-            "publishedAt": "2026-11-24T04:49:39.000Z",
+            "title": "憂出國網路流量不足　台旅客年浪費5120萬GB",
+            "url": "https://www.cna.com.tw/news/ahel/202611240183.aspx",
+            "publishedAt": "2026-11-24T08:02:29.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "教師產假、陪產假、育兒假比照勞工　預計116年上路",
-            "url": "https://www.cna.com.tw/news/ahel/202611240101.aspx",
-            "publishedAt": "2026-11-24T04:32:28.000Z",
+            "title": "2027國際固態電路研討會　台灣10篇論文入選",
+            "url": "https://www.cna.com.tw/news/ahel/202611240182.aspx",
+            "publishedAt": "2026-11-24T07:58:27.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "勞動部找黑嘉嘉當老師  鼓勵勞退自提",
-            "url": "https://www.cna.com.tw/news/ahel/202611240098.aspx",
-            "publishedAt": "2026-11-24T04:20:22.000Z",
+            "title": "民主剛果伊波拉疫情持續　邊境管制延長90天",
+            "url": "https://www.cna.com.tw/news/ahel/202611240173.aspx",
+            "publishedAt": "2026-11-24T07:35:07.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "教育部AI影像查證教案　推廣懷疑、觀察、查證3步驟",
-            "url": "https://www.cna.com.tw/news/ahel/202611240067.aspx",
-            "publishedAt": "2026-11-24T03:25:15.000Z",
+            "title": "2026九合一選舉疏運措施　陳世凱指示做好機場服務",
+            "url": "https://www.cna.com.tw/news/ahel/202611240167.aspx",
+            "publishedAt": "2026-11-24T07:16:54.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
           },
           {
-            "title": "烏魚汛期將屆　水試所每4至7日發布漁海況速報",
-            "url": "https://www.cna.com.tw/news/ahel/202611240061.aspx",
-            "publishedAt": "2026-11-24T03:13:02.000Z",
+            "title": "行憲紀念日疏運高鐵加開82班次列車　11/26開放訂票",
+            "url": "https://www.cna.com.tw/news/ahel/202611240163.aspx",
+            "publishedAt": "2026-11-24T07:03:45.000Z",
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "好市多紐西蘭草莓農藥超標　逾1140公斤邊境攔截",
-            "url": "https://www.cna.com.tw/news/ahel/202611240060.aspx",
-            "publishedAt": "2026-11-24T03:09:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "德鐵鎖定台灣科技與人才　籌備在台設亞太發展中心",
-            "url": "https://www.cna.com.tw/news/ahel/202611240047.aspx",
-            "publishedAt": "2026-11-24T02:12:31.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "吳德榮：26日前北、東部有雨　投票日北舒適南微熱",
-            "url": "https://www.cna.com.tw/news/ahel/202611240027.aspx",
-            "publishedAt": "2026-11-24T00:30:47.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "台灣8校4企業赴印度攬才　串連升學與就業機會",
-            "url": "https://www.cna.com.tw/news/ahel/202611240025.aspx",
-            "publishedAt": "2026-11-24T00:08:42.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "今彩539第115283期　頭獎槓龜",
-            "url": "https://www.cna.com.tw/news/ahel/202611230289.aspx",
-            "publishedAt": "2026-11-23T14:08:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "威力彩第115094期　頭獎槓龜",
-            "url": "https://www.cna.com.tw/news/ahel/202611230287.aspx",
-            "publishedAt": "2026-11-23T14:07:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "威力彩第115094期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611230273.aspx",
-            "publishedAt": "2026-11-23T12:52:28.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "壽司郎11/24起調漲21品項　平均漲幅19.7%",
-            "url": "https://www.cna.com.tw/news/ahel/202611230271.aspx",
-            "publishedAt": "2026-11-23T12:47:24.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "今彩539第115283期開獎",
-            "url": "https://www.cna.com.tw/news/ahel/202611230270.aspx",
-            "publishedAt": "2026-11-23T12:44:22.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "苗栗婦11顆肌瘤腹脹如孕20週　達文西手術拆彈保子宮",
-            "url": "https://www.cna.com.tw/news/ahel/202611230255.aspx",
-            "publishedAt": "2026-11-23T11:33:49.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "苗栗縣"
-            ]
           }
         ]
       }
@@ -1165,6 +1102,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-24T06:54:25.359Z"
+    "attemptedAt": "2026-11-24T11:41:14.629Z"
   }
 }
