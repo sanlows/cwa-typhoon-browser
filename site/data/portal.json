@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T02:59:52.878Z",
+  "generatedAt": "2026-11-25T04:32:43.946Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-25T02:59:52.878Z",
-      "attemptedAt": "2026-11-25T02:59:48.930Z",
+      "checkedAt": "2026-11-25T04:32:42.739Z",
+      "attemptedAt": "2026-11-25T04:32:41.903Z",
       "data": {
         "counties": [
           {
@@ -787,22 +787,14 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-25T02:59:49.390Z",
-      "attemptedAt": "2026-11-25T02:59:48.961Z",
+      "checkedAt": "2026-11-25T04:32:43.946Z",
+      "attemptedAt": "2026-11-25T04:32:41.945Z",
       "data": {
         "items": [
           {
             "title": "11/25 10:33 發布陸上強風特報",
             "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W25.html?T=202611251033",
             "publishedAt": "2026-11-25T02:33:00.000Z",
-            "source": "中央氣象署",
-            "category": "官方發布／解除",
-            "counties": []
-          },
-          {
-            "title": "11/25 03:50 發布解除大雨特報",
-            "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W26.html?T=202611250350",
-            "publishedAt": "2026-11-24T19:50:00.000Z",
             "source": "中央氣象署",
             "category": "官方發布／解除",
             "counties": []
@@ -814,10 +806,38 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-25T02:59:49.322Z",
-      "attemptedAt": "2026-11-25T02:59:48.962Z",
+      "checkedAt": "2026-11-25T04:32:42.117Z",
+      "attemptedAt": "2026-11-25T04:32:41.946Z",
       "data": {
         "items": [
+          {
+            "title": "高雄跨年市集集結210攤　羊年限定商品迎新年",
+            "url": "https://www.cna.com.tw/news/aloc/202611250057.aspx",
+            "publishedAt": "2026-11-25T03:03:03.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "高雄市"
+            ]
+          },
+          {
+            "title": "北市藍綠大車掃第2天　警籲人車配合交通疏導",
+            "url": "https://www.cna.com.tw/news/aloc/202611250049.aspx",
+            "publishedAt": "2026-11-25T02:48:46.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "武陵農場水杉轉金黃　賞景期估至12月中旬",
+            "url": "https://www.cna.com.tw/news/aloc/202611250040.aspx",
+            "publishedAt": "2026-11-25T02:05:26.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "澎湖一地址有多戶疑虛設戶籍  6人交保",
             "url": "https://www.cna.com.tw/news/aloc/202611240303.aspx",
@@ -912,34 +932,6 @@
             "counties": [
               "南投縣"
             ]
-          },
-          {
-            "title": "新北首投族逾14萬人　投票日勿帶競選小物避免觸法",
-            "url": "https://www.cna.com.tw/news/aloc/202611240181.aspx",
-            "publishedAt": "2026-11-24T07:55:25.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "劉建國提中醫藥草產業廊帶　串聯雲嘉彰建台草藥專區",
-            "url": "https://www.cna.com.tw/news/aloc/202611240179.aspx",
-            "publishedAt": "2026-11-24T07:46:20.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "安藤忠雄設計「童書之森．台中」 主體工程完工",
-            "url": "https://www.cna.com.tw/news/aloc/202611240171.aspx",
-            "publishedAt": "2026-11-24T07:24:03.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺中市"
-            ]
           }
         ]
       }
@@ -948,10 +940,58 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-25T02:59:49.312Z",
-      "attemptedAt": "2026-11-25T02:59:48.963Z",
+      "checkedAt": "2026-11-25T04:32:42.116Z",
+      "attemptedAt": "2026-11-25T04:32:41.947Z",
       "data": {
         "items": [
+          {
+            "title": "工會籲修聘僱人員給假辦法　喪假天數與公務員齊平",
+            "url": "https://www.cna.com.tw/news/ahel/202611250063.aspx",
+            "publishedAt": "2026-11-25T03:16:16.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "移除綠鬣蜥2年近50萬隻　南部核心入侵區目擊量下降",
+            "url": "https://www.cna.com.tw/news/ahel/202611250059.aspx",
+            "publishedAt": "2026-11-25T03:09:08.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "大學生課堂持刀走向教師　全教產：屬職場不法侵害",
+            "url": "https://www.cna.com.tw/news/ahel/202611250054.aspx",
+            "publishedAt": "2026-11-25T02:58:57.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "投票日前後　離島海運艙位仍有餘裕",
+            "url": "https://www.cna.com.tw/news/ahel/202611250051.aspx",
+            "publishedAt": "2026-11-25T02:50:50.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "台鐵時刻表12/29起微調影響81列次　週一至五通勤尖峰增1樹林七堵區間快車",
+            "url": "https://www.cna.com.tw/news/ahel/202611250039.aspx",
+            "publishedAt": "2026-11-25T01:57:24.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "白犀牛阿里郎順利抵韓　將參與配對繁育",
+            "url": "https://www.cna.com.tw/news/ahel/202611250037.aspx",
+            "publishedAt": "2026-11-25T01:53:20.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "吳德榮：26日前各地零星降雨　投票日西晴東偶雨",
             "url": "https://www.cna.com.tw/news/ahel/202611250019.aspx",
@@ -1015,46 +1055,6 @@
             "source": "中央通訊社",
             "category": "生活",
             "counties": []
-          },
-          {
-            "title": "民法刪除兄弟姊妹特留分　世新大學辦模擬庭審",
-            "url": "https://www.cna.com.tw/news/ahel/202611240246.aspx",
-            "publishedAt": "2026-11-24T09:48:44.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "左流右新破800萬劑　COVID-19疫苗快用罄116年補貨",
-            "url": "https://www.cna.com.tw/news/ahel/202611240245.aspx",
-            "publishedAt": "2026-11-24T09:47:42.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "26日前全台有雨　投票日水氣減少北、東部偶雨",
-            "url": "https://www.cna.com.tw/news/ahel/202611240238.aspx",
-            "publishedAt": "2026-11-24T09:37:27.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "勞動部專案勞檢高科技廠房工程  開罰近800萬元",
-            "url": "https://www.cna.com.tw/news/ahel/202611240225.aspx",
-            "publishedAt": "2026-11-24T09:33:00.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "小兒疝氣忽大忽小別輕忽　醫：嚴重恐腸道壞死",
-            "url": "https://www.cna.com.tw/news/ahel/202611240216.aspx",
-            "publishedAt": "2026-11-24T09:11:40.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1062,6 +1062,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-25T02:59:48.930Z"
+    "attemptedAt": "2026-11-25T04:32:41.903Z"
   }
 }
