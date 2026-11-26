@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T04:19:47.952Z",
+  "generatedAt": "2026-11-26T05:12:30.158Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-26T04:19:47.948Z",
-      "attemptedAt": "2026-11-26T04:19:47.291Z",
+      "checkedAt": "2026-11-26T05:12:29.999Z",
+      "attemptedAt": "2026-11-26T05:12:28.758Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-26T04:19:47.930Z",
-      "attemptedAt": "2026-11-26T04:19:47.320Z",
+      "checkedAt": "2026-11-26T05:12:30.158Z",
+      "attemptedAt": "2026-11-26T05:12:28.796Z",
       "data": {
         "items": []
       }
@@ -797,10 +797,54 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-26T04:19:47.434Z",
-      "attemptedAt": "2026-11-26T04:19:47.321Z",
+      "checkedAt": "2026-11-26T05:12:29.859Z",
+      "attemptedAt": "2026-11-26T05:12:28.797Z",
       "data": {
         "items": [
+          {
+            "title": "市民廣場無法借？北市府：依規定不得涉選舉",
+            "url": "https://www.cna.com.tw/news/aloc/202611260106.aspx",
+            "publishedAt": "2026-11-26T04:33:38.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "斥資3.1億元　台南市新營全民運動館竣工試運轉",
+            "url": "https://www.cna.com.tw/news/aloc/202611260086.aspx",
+            "publishedAt": "2026-11-26T03:56:55.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺南市"
+            ]
+          },
+          {
+            "title": "是否用27日市府路？沈伯洋：市民安全第一優先",
+            "url": "https://www.cna.com.tw/news/aloc/202611260078.aspx",
+            "publishedAt": "2026-11-26T03:33:37.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "蔣萬安：不希望任何陣營有遺憾　願讓27日市府路路權",
+            "url": "https://www.cna.com.tw/news/aloc/202611260064.aspx",
+            "publishedAt": "2026-11-26T03:25:08.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "協助國際人才留台發展　移民署攜手輔大開講解惑",
+            "url": "https://www.cna.com.tw/news/ahel/202611260062.aspx",
+            "publishedAt": "2026-11-26T03:20:04.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "陳瑩提對公務員4承諾　吳秀華喊話司法應堅守獨立",
             "url": "https://www.cna.com.tw/news/aloc/202611260044.aspx",
@@ -898,32 +942,6 @@
             "source": "中央通訊社",
             "category": "地方",
             "counties": []
-          },
-          {
-            "title": "新北護魚升級　科學監測潛水移除北勢溪371尾外來種",
-            "url": "https://www.cna.com.tw/news/ahel/202611250210.aspx",
-            "publishedAt": "2026-11-25T08:43:37.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "環團促「2028中火無煤」修法 台電：減排已見成效",
-            "url": "https://www.cna.com.tw/news/aloc/202611250204.aspx",
-            "publishedAt": "2026-11-25T08:27:24.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "鼓山登革熱群聚增3例　擴大採檢534人1人檢出陽性",
-            "url": "https://www.cna.com.tw/news/aloc/202611250199.aspx",
-            "publishedAt": "2026-11-25T08:22:13.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
           }
         ]
       }
@@ -932,10 +950,18 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-26T04:19:47.432Z",
-      "attemptedAt": "2026-11-26T04:19:47.321Z",
+      "checkedAt": "2026-11-26T05:12:29.687Z",
+      "attemptedAt": "2026-11-26T05:12:28.798Z",
       "data": {
         "items": [
+          {
+            "title": "房卡不再只是塑膠　國產木竹材走進飯店推減塑",
+            "url": "https://www.cna.com.tw/news/ahel/202611260082.aspx",
+            "publishedAt": "2026-11-26T03:43:46.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "高鐵寒假營隊　12/1開放報名",
             "url": "https://www.cna.com.tw/news/ahel/202611260067.aspx",
@@ -1057,16 +1083,6 @@
             "counties": [
               "臺南市"
             ]
-          },
-          {
-            "title": "高雄再新增5例本土登革熱　鼓山群聚擴及左營",
-            "url": "https://www.cna.com.tw/news/ahel/202611250234.aspx",
-            "publishedAt": "2026-11-25T09:21:29.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": [
-              "高雄市"
-            ]
           }
         ]
       }
@@ -1074,6 +1090,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-26T04:19:47.291Z"
+    "attemptedAt": "2026-11-26T05:12:28.757Z"
   }
 }
