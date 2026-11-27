@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T15:30:30.347Z",
+  "generatedAt": "2026-11-27T18:16:56.279Z",
   "sources": {
     "forecast": {
       "label": "中央氣象署 · 36 小時縣市預報",
       "url": "https://opendata.cwa.gov.tw/dataset/forecast/F-C0032-001",
       "status": "ok",
-      "checkedAt": "2026-11-27T15:30:30.347Z",
-      "attemptedAt": "2026-11-27T15:30:29.826Z",
+      "checkedAt": "2026-11-27T18:16:56.279Z",
+      "attemptedAt": "2026-11-27T18:16:54.035Z",
       "data": {
         "counties": [
           {
@@ -787,8 +787,8 @@
       "label": "中央氣象署 · 警報發布與解除",
       "url": "https://www.cwa.gov.tw/V8/C/P/Warning/W21.html",
       "status": "ok",
-      "checkedAt": "2026-11-27T15:30:30.132Z",
-      "attemptedAt": "2026-11-27T15:30:29.855Z",
+      "checkedAt": "2026-11-27T18:16:55.547Z",
+      "attemptedAt": "2026-11-27T18:16:54.075Z",
       "data": {
         "items": [
           {
@@ -806,10 +806,55 @@
       "label": "中央通訊社 · 地方新聞",
       "url": "https://feeds.feedburner.com/rsscna/local",
       "status": "ok",
-      "checkedAt": "2026-11-27T15:30:30.203Z",
-      "attemptedAt": "2026-11-27T15:30:29.856Z",
+      "checkedAt": "2026-11-27T18:16:55.553Z",
+      "attemptedAt": "2026-11-27T18:16:54.077Z",
       "data": {
         "items": [
+          {
+            "title": "沈伯洋選前之夜改線上直播　賴清德、賈永婕同台力挺",
+            "url": "https://www.cna.com.tw/news/aloc/202611270283.aspx",
+            "publishedAt": "2026-11-27T14:46:10.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "何欣純選前之夜  蕭副總統、卓榮泰站台相挺",
+            "url": "https://www.cna.com.tw/news/aloc/202611270274.aspx",
+            "publishedAt": "2026-11-27T14:13:50.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
+          {
+            "title": "選前之夜籲光榮台北　蔣萬安：絕不能讓4年努力歸零",
+            "url": "https://www.cna.com.tw/news/aloc/202611270273.aspx",
+            "publishedAt": "2026-11-27T14:10:48.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "臺北市"
+            ]
+          },
+          {
+            "title": "嘉義市噴水池圓環選前之夜　王美惠、張啓楷造勢拚場",
+            "url": "https://www.cna.com.tw/news/aloc/202611270267.aspx",
+            "publishedAt": "2026-11-27T13:46:34.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": [
+              "嘉義市",
+              "嘉義縣"
+            ]
+          },
+          {
+            "title": "韓國瑜、盧秀燕力挺　江啟臣選前之夜造勢拚勝選",
+            "url": "https://www.cna.com.tw/news/aloc/202611270264.aspx",
+            "publishedAt": "2026-11-27T13:27:25.000Z",
+            "source": "中央通訊社",
+            "category": "地方",
+            "counties": []
+          },
           {
             "title": "蕭副總統、卓榮泰挺陳素月　鄭麗文陪魏平政拜票",
             "url": "https://www.cna.com.tw/news/aloc/202611270251.aspx",
@@ -885,80 +930,6 @@
             "counties": [
               "臺北市"
             ]
-          },
-          {
-            "title": "黃國昌陪謝國樑掃街　籲投票挺善良力量",
-            "url": "https://www.cna.com.tw/news/aloc/202611270175.aspx",
-            "publishedAt": "2026-11-27T08:52:10.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "網傳藍營支持者揚言攻擊沈伯洋　蔣萬安競辦譴責：已報警",
-            "url": "https://www.cna.com.tw/news/aloc/202611270174.aspx",
-            "publishedAt": "2026-11-27T08:52:07.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "遺書揭拘禁黑幕　新北譴責護理之家刻意隱瞞",
-            "url": "https://www.cna.com.tw/news/aloc/202611270173.aspx",
-            "publishedAt": "2026-11-27T08:51:05.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "新北市"
-            ]
-          },
-          {
-            "title": "九合一大選投票日將近　馬祖返鄉人潮陸續湧現",
-            "url": "https://www.cna.com.tw/news/aloc/202611270160.aspx",
-            "publishedAt": "2026-11-27T08:34:37.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "連江縣"
-            ]
-          },
-          {
-            "title": "休假消防員路見危急伸援　接力CPR救回OHCA男",
-            "url": "https://www.cna.com.tw/news/aloc/202611270137.aspx",
-            "publishedAt": "2026-11-27T07:27:47.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": []
-          },
-          {
-            "title": "金門烏坵投票專船因天候取消　逾300名選民無法投票",
-            "url": "https://www.cna.com.tw/news/aloc/202611270134.aspx",
-            "publishedAt": "2026-11-27T07:11:41.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "金門縣"
-            ]
-          },
-          {
-            "title": "北市動物園外候車亭  換裝25種Q版動物大頭圖亮相",
-            "url": "https://www.cna.com.tw/news/aloc/202611270130.aspx",
-            "publishedAt": "2026-11-27T07:04:32.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
-          },
-          {
-            "title": "蔣萬安凱道選前之夜  北市警加強分時分段交管",
-            "url": "https://www.cna.com.tw/news/aloc/202611270119.aspx",
-            "publishedAt": "2026-11-27T06:35:08.000Z",
-            "source": "中央通訊社",
-            "category": "地方",
-            "counties": [
-              "臺北市"
-            ]
           }
         ]
       }
@@ -967,10 +938,26 @@
       "label": "中央通訊社 · 生活新聞",
       "url": "https://feeds.feedburner.com/rsscna/lifehealth",
       "status": "ok",
-      "checkedAt": "2026-11-27T15:30:30.013Z",
-      "attemptedAt": "2026-11-27T15:30:29.857Z",
+      "checkedAt": "2026-11-27T18:16:55.503Z",
+      "attemptedAt": "2026-11-27T18:16:54.078Z",
       "data": {
         "items": [
+          {
+            "title": "今彩539第115287期　頭獎1注中獎",
+            "url": "https://www.cna.com.tw/news/ahel/202611270272.aspx",
+            "publishedAt": "2026-11-27T14:05:45.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
+          {
+            "title": "大樂透第115109期　頭獎槓龜",
+            "url": "https://www.cna.com.tw/news/ahel/202611270271.aspx",
+            "publishedAt": "2026-11-27T14:04:43.000Z",
+            "source": "中央通訊社",
+            "category": "生活",
+            "counties": []
+          },
           {
             "title": "大樂透第115109期開獎",
             "url": "https://www.cna.com.tw/news/ahel/202611270253.aspx",
@@ -1126,22 +1113,6 @@
             "counties": [
               "臺北市"
             ]
-          },
-          {
-            "title": "選前之夜防溫差與激動　醫籲三高族群護心",
-            "url": "https://www.cna.com.tw/news/ahel/202611270065.aspx",
-            "publishedAt": "2026-11-27T03:53:08.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
-          },
-          {
-            "title": "九合一大選11/28投票　勞動部：具投票權勞工放假1日",
-            "url": "https://www.cna.com.tw/news/ahel/202611270063.aspx",
-            "publishedAt": "2026-11-27T03:49:04.000Z",
-            "source": "中央通訊社",
-            "category": "生活",
-            "counties": []
           }
         ]
       }
@@ -1149,6 +1120,6 @@
   },
   "cycloneAttempt": {
     "status": "ok",
-    "attemptedAt": "2026-11-27T15:30:29.826Z"
+    "attemptedAt": "2026-11-27T18:16:54.035Z"
   }
 }
